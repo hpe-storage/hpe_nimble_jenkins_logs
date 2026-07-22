@@ -1,0 +1,315 @@
+Triggered by Gerrit: https://review.opendev.org/c/openstack/cinder/+/994910
+Obtained ISCSI/Jenkinsfile from git https://github.hpe.com/vijay-jatti/nimble-jenkins-ci.git
+[8mha:////4Btr8w393nncEwnaC+GaxU/ph5Z6P/nmO7cINeJtyuHzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FBSiz7TX8HhjPKDSrn2ipeyI+F2ZgS67y62yfW2PnRZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor on ‘[8mha:////4JzPiRYWYzge9DlwWrq4+tMXVGKlZw9NcWGLaHTpipp9AAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgZl/eT83ILSktQi/ZTUsuKSxORsVSOXPKCTQVRmblJOqj4A4c/+mtgAAAA=[0mdevstack-node-nimble’
+Running on [8mha:////4JzPiRYWYzge9DlwWrq4+tMXVGKlZw9NcWGLaHTpipp9AAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgZl/eT83ILSktQi/ZTUsuKSxORsVSOXPKCTQVRmblJOqj4A4c/+mtgAAAA=[0mdevstack-node-nimble in /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI
+[8mha:////4OsP6mHnK3Mp645RX+9/KZtiufD/rRB75TwmbWImLCrfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4M7Vk2BIsnsk6+qh5BOdB2w8uMlxaBiB9wgfvKmW4yBeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $SAN_PASSWORD or $SAN_LOGIN or $OPENSTACK_UI_PASSWORD or $SAN_IP
+[8mha:////4C+bVDEwafR1k72ro+D75tPH9DcVXnh8/f5zucTAxGLzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4COr9HhgD/w04ciZfgDX5jlmB9mrEjEMu3mgzVbHVYlQAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ date +%Y-%m-%d %H:%M:%S
+[8mha:////4FlWfQhJbnavty9q6uKwjzCWk5IyGu1/nZw+csfaxJssAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SHSnQjiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/XNDXAwAAAAA==[0m[Pipeline] withEnv
+[8mha:////4Fdi2SxdImLaIxj+K37NaLgqH9YhNzcmhz5SSZEuZeYJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4C+Bnip0+a8zB2daFyhh8S2h2+eZK2EFmiepfUCTNS6tAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] timestamps
+[8mha:////4Lq1ifz+EwPFnPysq6EhRKXgfMPBnW5Ki0VPJQOhOJLhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4D3XLYaJA42D26oMSyiG1+sD44EzZCGBMSfwHCNmitbeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4NzPZX4fG43iqH1pb7mEGd4ubC2pAVuyZi/X6hl3pU2YAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (CI Pipeline)
+[8mha:////4BeYLUHkMWzv9DYSdcqc4Nsvbmd/4l62r6bpENzRy61uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] timeout
+[2026-07-22T22:52:29.018Z] Timeout set to expire in 2 hr 0 min
+[8mha:////4PskGxZlz620IDGVZjkiyLLQct6RKWaIZsDTS1WPt9sOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4GE73Z9uyHca7iJ66x6EXaM+AGx+9fiYCk3K3YFB84JsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4NeHfhgQTUn1WehLhuIfMRJwKZbskLBW+Us/EaTuVQ8fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Prepare Node)
+[8mha:////4P7YaZdh5EIdfdoa8CNnIbSiZjJ9+pNrnm1IU38V9sFmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] cleanWs
+[2026-07-22T22:52:29.141Z] [WS-CLEANUP] Deleting project workspace...
+[2026-07-22T22:52:29.141Z] [WS-CLEANUP] Deferred wipeout is used...
+[2026-07-22T22:52:29.151Z] [WS-CLEANUP] done
+[8mha:////4NH8iCzf7bpV+2Ri2rVdSQsOCT/mWZ3/OT0LXoM9yXE8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] sh
+[2026-07-22T22:52:29.477Z] + set -eux
+[2026-07-22T22:52:29.477Z] + id -u stack
+[2026-07-22T22:52:29.477Z] + echo stack ALL=(ALL) NOPASSWD:ALL
+[2026-07-22T22:52:29.477Z] + sudo tee /etc/sudoers.d/stack
+[2026-07-22T22:52:29.740Z] stack ALL=(ALL) NOPASSWD:ALL
+[2026-07-22T22:52:29.740Z] + BACKUP_DIR=/opt/stack/env-backup
+[2026-07-22T22:52:29.740Z] + sudo rm -rf /etc/environment
+[2026-07-22T22:52:29.740Z] + sudo rm -rf /etc/resolv.conf
+[2026-07-22T22:52:29.740Z] + sudo rm -rf /etc/needrestart/needrestart.conf
+[2026-07-22T22:52:29.740Z] + sudo wget --no-proxy -O /etc/needrestart/needrestart.conf http://10.132.239.244/nimble/needrestart.conf
+[2026-07-22T22:52:30.004Z] --2026-07-22 22:53:13--  http://10.132.239.244/nimble/needrestart.conf
+[2026-07-22T22:52:30.004Z] Connecting to 10.132.239.244:80... connected.
+[2026-07-22T22:52:30.004Z] HTTP request sent, awaiting response... 200 OK
+[2026-07-22T22:52:30.004Z] Length: 6011 (5.9K)
+[2026-07-22T22:52:30.004Z] Saving to: ‘/etc/needrestart/needrestart.conf’
+[2026-07-22T22:52:30.004Z] 
+[2026-07-22T22:52:30.004Z]      0K .....                                                 100% 72.9M=0s
+[2026-07-22T22:52:30.004Z] 
+[2026-07-22T22:52:30.004Z] 2026-07-22 22:53:13 (72.9 MB/s) - ‘/etc/needrestart/needrestart.conf’ saved [6011/6011]
+[2026-07-22T22:52:30.004Z] 
+[2026-07-22T22:52:30.004Z] + sudo wget --no-proxy -O /etc/apt/apt.conf http://10.132.239.244/nimble/apt.conf
+[2026-07-22T22:52:30.004Z] --2026-07-22 22:53:13--  http://10.132.239.244/nimble/apt.conf
+[2026-07-22T22:52:30.004Z] Connecting to 10.132.239.244:80... connected.
+[2026-07-22T22:52:30.004Z] HTTP request sent, awaiting response... 200 OK
+[2026-07-22T22:52:30.004Z] Length: 338
+[2026-07-22T22:52:30.004Z] Saving to: ‘/etc/apt/apt.conf’
+[2026-07-22T22:52:30.004Z] 
+[2026-07-22T22:52:30.004Z]      0K                                                       100% 18.7M=0s
+[2026-07-22T22:52:30.004Z] 
+[2026-07-22T22:52:30.004Z] 2026-07-22 22:53:13 (18.7 MB/s) - ‘/etc/apt/apt.conf’ saved [338/338]
+[2026-07-22T22:52:30.004Z] 
+[2026-07-22T22:52:30.004Z] + sudo wget --no-proxy -O /etc/resolv.conf http://10.132.239.244/nimble/resolv.conf
+[2026-07-22T22:52:30.005Z] --2026-07-22 22:53:13--  http://10.132.239.244/nimble/resolv.conf
+[2026-07-22T22:52:30.005Z] Connecting to 10.132.239.244:80... connected.
+[2026-07-22T22:52:30.005Z] HTTP request sent, awaiting response... 200 OK
+[2026-07-22T22:52:30.005Z] Length: 228
+[2026-07-22T22:52:30.005Z] Saving to: ‘/etc/resolv.conf’
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z]      0K                                                       100% 12.2M=0s
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z] 2026-07-22 22:53:13 (12.2 MB/s) - ‘/etc/resolv.conf’ saved [228/228]
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z] + sudo wget --no-proxy -O /etc/environment http://10.132.239.244/nimble/environment
+[2026-07-22T22:52:30.005Z] --2026-07-22 22:53:13--  http://10.132.239.244/nimble/environment
+[2026-07-22T22:52:30.005Z] Connecting to 10.132.239.244:80... connected.
+[2026-07-22T22:52:30.005Z] HTTP request sent, awaiting response... 200 OK
+[2026-07-22T22:52:30.005Z] Length: 806
+[2026-07-22T22:52:30.005Z] Saving to: ‘/etc/environment’
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z]      0K                                                       100% 43.6M=0s
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z] 2026-07-22 22:53:13 (43.6 MB/s) - ‘/etc/environment’ saved [806/806]
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z] + sudo wget --no-proxy -O /etc/sudoers.d/ubuntu http://10.132.239.244/nimble/ubuntu
+[2026-07-22T22:52:30.005Z] --2026-07-22 22:53:13--  http://10.132.239.244/nimble/ubuntu
+[2026-07-22T22:52:30.005Z] Connecting to 10.132.239.244:80... connected.
+[2026-07-22T22:52:30.005Z] HTTP request sent, awaiting response... 200 OK
+[2026-07-22T22:52:30.005Z] Length: 32
+[2026-07-22T22:52:30.005Z] Saving to: ‘/etc/sudoers.d/ubuntu’
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z]      0K                                                       100% 1.74M=0s
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z] 2026-07-22 22:53:13 (1.74 MB/s) - ‘/etc/sudoers.d/ubuntu’ saved [32/32]
+[2026-07-22T22:52:30.005Z] 
+[2026-07-22T22:52:30.005Z] + sudo wget --no-proxy -O /etc/sudoers.d/stack http://10.132.239.244/nimble/stack
+[2026-07-22T22:52:30.274Z] --2026-07-22 22:53:13--  http://10.132.239.244/nimble/stack
+[2026-07-22T22:52:30.274Z] Connecting to 10.132.239.244:80... connected.
+[2026-07-22T22:52:30.274Z] HTTP request sent, awaiting response... 200 OK
+[2026-07-22T22:52:30.274Z] Length: 30
+[2026-07-22T22:52:30.274Z] Saving to: ‘/etc/sudoers.d/stack’
+[2026-07-22T22:52:30.274Z] 
+[2026-07-22T22:52:30.274Z]      0K                                                       100% 1.54M=0s
+[2026-07-22T22:52:30.274Z] 
+[2026-07-22T22:52:30.274Z] 2026-07-22 22:53:13 (1.54 MB/s) - ‘/etc/sudoers.d/stack’ saved [30/30]
+[2026-07-22T22:52:30.274Z] 
+[2026-07-22T22:52:30.274Z] + hostname -I
+[2026-07-22T22:52:30.274Z] + awk {print $1}
+[2026-07-22T22:52:30.274Z] + HOST_IP=10.132.239.242
+[2026-07-22T22:52:30.274Z] + hostname
+[2026-07-22T22:52:30.274Z] + HN=ubuntu
+[2026-07-22T22:52:30.274Z] + hostname -f
+[2026-07-22T22:52:30.274Z] + FQDN=localhost
+[2026-07-22T22:52:30.274Z] + . /etc/environment
+[2026-07-22T22:52:30.274Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[2026-07-22T22:52:30.274Z] + export http_proxy=http://10.120.61.146:80
+[2026-07-22T22:52:30.274Z] + export https_proxy=http://10.120.61.146:443
+[2026-07-22T22:52:30.275Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.275Z] + export HTTP_PROXY=http://10.120.61.146:80
+[2026-07-22T22:52:30.275Z] + export HTTPS_PROXY=http://10.120.61.146:443
+[2026-07-22T22:52:30.275Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
+[2026-07-22T22:52:30.275Z] + NEW_NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.275Z] + sudo sed -i /^[[:space:]]*no_proxy=/Id; /^[[:space:]]*NO_PROXY=/Id /etc/environment
+[2026-07-22T22:52:30.275Z] + echo no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.275Z] + sudo tee -a /etc/environment
+[2026-07-22T22:52:30.276Z] no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.276Z] + echo NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.276Z] + sudo tee -a /etc/environment
+[2026-07-22T22:52:30.276Z] NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.543Z] + . /etc/environment
+[2026-07-22T22:52:30.543Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[2026-07-22T22:52:30.543Z] + export http_proxy=http://10.120.61.146:80
+[2026-07-22T22:52:30.543Z] + export https_proxy=http://10.120.61.146:443
+[2026-07-22T22:52:30.544Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.544Z] + export HTTP_PROXY=http://10.120.61.146:80
+[2026-07-22T22:52:30.544Z] + export HTTPS_PROXY=http://10.120.61.146:443
+[2026-07-22T22:52:30.544Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
+[2026-07-22T22:52:30.544Z] + no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.544Z] + NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-07-22T22:52:30.544Z] + sudo mkdir -p /opt/stack
+[2026-07-22T22:52:30.544Z] + sudo chown stack:stack /opt/stack
+[2026-07-22T22:52:30.545Z] + sudo mkdir -p /opt/stack/logs
+[2026-07-22T22:52:30.545Z] + sudo chown stack:stack /opt/stack/logs
+[2026-07-22T22:52:30.545Z] + sudo pip uninstall hpe-storage-flowkit-py -y --break-system-packages
+[2026-07-22T22:52:34.804Z] Found existing installation: hpe_storage_flowkit_py 0.9.3
+[2026-07-22T22:52:34.804Z] Uninstalling hpe_storage_flowkit_py-0.9.3:
+[2026-07-22T22:52:34.804Z]   Successfully uninstalled hpe_storage_flowkit_py-0.9.3
+[2026-07-22T22:52:35.067Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[2026-07-22T22:52:35.067Z] + echo Installing latest hpe-storage-flowkit-py...
+[2026-07-22T22:52:35.067Z] Installing latest hpe-storage-flowkit-py...
+[2026-07-22T22:52:35.067Z] + sudo pip install hpe-storage-flowkit-py --break-system-packages
+[2026-07-22T22:52:37.637Z] Collecting hpe-storage-flowkit-py
+[2026-07-22T22:52:37.637Z]   Using cached hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl.metadata (5.7 kB)
+[2026-07-22T22:52:37.637Z] Using cached hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl (251 kB)
+[2026-07-22T22:52:39.028Z] Installing collected packages: hpe-storage-flowkit-py
+[2026-07-22T22:52:39.307Z] Successfully installed hpe-storage-flowkit-py-0.9.3
+[2026-07-22T22:52:39.308Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[8mha:////4H43pvPJTlc2p5DC1irvdX0xoNe2SsIXUgTRdltixJfcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGHKGa5vgAAAA==[0m[Pipeline] }
+[8mha:////4PJY3e0708+WzzFsY+9tZRYrYc0JNxYPDF/+48lOFs6cAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AG0yz0FvgAAAA==[0m[Pipeline] // stage
+[8mha:////4E+IrNtOTbqv1CVAZCVXemDVyzZngCsQSWaX77ZSa9gvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFwZZsawgAAAA==[0m[Pipeline] stage
+[8mha:////4MOtjK8giZ65gjdkKN7UyRUFGoem1d/wGghxsj1Hf7XhAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Checkout Repositories)
+[8mha:////4MMJutD1i2bb04Rw7AFCGC9N+YqaTIyhJtVZM2cRvKeiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
+[2026-07-22T22:52:39.770Z] + set -eux
+[2026-07-22T22:52:39.770Z] + cd /opt/stack
+[2026-07-22T22:52:39.770Z] + sudo -u stack git clone https://github.com/openstack/devstack
+[2026-07-22T22:52:39.770Z] Cloning into 'devstack'...
+[2026-07-22T22:52:49.804Z] + sudo -u stack chmod 777 /opt/stack/devstack/tools/outfilter.py
+[2026-07-22T22:52:49.804Z] + cd devstack
+[8mha:////4BSK3/XEf/IDhMDTMd4SPEA+VspCj9ZEhahyUKmuiWR9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4JOnK8KZEYpPgI+0xUU0il/gAmXjOv0F0+kCfvrzRHwXAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // stage
+[8mha:////4Gi7XqZSrdXbyqlkkCMWPnzFPsS9u2cVakgfwyLwIL+MAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm/D9FZKwgAAAA==[0m[Pipeline] stage
+[8mha:////4KVq2huWkhANqg3BMcLVjaaKjNairVvGACnWjmiQy5QAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Validate Cherry-pick)
+[8mha:////4Dur/vfIT5s4t9dngkNLmyoQ/ZVQBE7qlsNZsCCuu+5aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
+[2026-07-22T22:52:50.301Z] + set -eux
+[2026-07-22T22:52:50.301Z] + mktemp -d
+[2026-07-22T22:52:50.301Z] + TMP_DIR=/tmp/tmp.JOMM0B0viz
+[2026-07-22T22:52:50.301Z] + trap rm -rf /tmp/tmp.JOMM0B0viz EXIT
+[2026-07-22T22:52:50.301Z] + git clone http://github.com/openstack/cinder.git /tmp/tmp.JOMM0B0viz/cinder
+[2026-07-22T22:52:50.301Z] Cloning into '/tmp/tmp.JOMM0B0viz/cinder'...
+[2026-07-22T22:52:50.875Z] warning: redirecting to https://github.com/openstack/cinder.git/
+[2026-07-22T22:53:37.696Z] + cd /tmp/tmp.JOMM0B0viz/cinder
+[2026-07-22T22:53:37.696Z] + git config user.name hp-storage-blr-ci
+[2026-07-22T22:53:37.696Z] + git config user.email hp.cinder.blr.ci@groups.ext.hpe.com
+[2026-07-22T22:53:37.697Z] + PATCH_REF=refs/changes/10/994910/2
+[2026-07-22T22:53:37.697Z] + git fetch https://review.opendev.org/openstack/cinder refs/changes/10/994910/2
+[2026-07-22T22:53:37.697Z] From https://review.opendev.org/openstack/cinder
+[2026-07-22T22:53:37.697Z]  * branch                refs/changes/10/994910/2 -> FETCH_HEAD
+[2026-07-22T22:53:37.697Z] + git cherry-pick FETCH_HEAD
+[2026-07-22T22:53:37.697Z] Auto-merging cinder/tests/unit/volume/test_volume_migration.py
+[2026-07-22T22:53:37.697Z] CONFLICT (content): Merge conflict in cinder/tests/unit/volume/test_volume_migration.py
+[2026-07-22T22:53:37.697Z] Auto-merging cinder/volume/driver.py
+[2026-07-22T22:53:37.697Z] Auto-merging cinder/volume/manager.py
+[2026-07-22T22:53:37.697Z] CONFLICT (content): Merge conflict in cinder/volume/manager.py
+[2026-07-22T22:53:37.697Z] error: could not apply 2b6e70431... WIP: volume: add driver hook for snapshot retype data copy
+[2026-07-22T22:53:37.697Z] hint: After resolving the conflicts, mark them with
+[2026-07-22T22:53:37.697Z] hint: "git add/rm <pathspec>", then run
+[2026-07-22T22:53:37.697Z] hint: "git cherry-pick --continue".
+[2026-07-22T22:53:37.697Z] hint: You can instead skip this commit with "git cherry-pick --skip".
+[2026-07-22T22:53:37.697Z] hint: To abort and get back to the state before "git cherry-pick",
+[2026-07-22T22:53:37.697Z] hint: run "git cherry-pick --abort".
+[2026-07-22T22:53:37.697Z] + rm -rf /tmp/tmp.JOMM0B0viz
+[8mha:////4ITYdKCY13aT9869P/CmwPZvghzkluxNnOV9FJzyKOqEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4L6i+Ux/Ihlt3DY1YedVTEUHz4dPA89B5xtlj2V59ubvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ph5scYqpuWPWjiFCTupFeomLeUwKihPfp+eIt9Vcl7wAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQHEbuy8wgAAAA==[0m[Pipeline] stage
+[8mha:////4FxwGILGSDv5mXmsW/R+c4tVuHb+HxthZJYBt3W0rt/zAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Prepare local.conf)
+Stage "Prepare local.conf" skipped due to earlier failure(s)
+[8mha:////4OpKYwTFXpjKqyWPAmwWU0f1E/4Zp7YhdAEb1sRARalZAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] getContext
+[8mha:////4E0kXtbu7jRQVWmm07yIiptTPhWlDOHGhJECw78Q49gQAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4L0jvRfHGAWSkBd/KbiL346+6vRyLKA3YfSEv9eD5eSmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NuMS6o0YBarUU8coUI7X60cNp7UKCgQTq4vUX63FP0ZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCCEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm93/yHswgAAAA==[0m[Pipeline] stage
+[8mha:////4LnPeLSAkm+r32nIPeRJYFYKuWMXsJU/x0kbcEX0ox9HAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (Deploy DevStack)
+Stage "Deploy DevStack" skipped due to earlier failure(s)
+[8mha:////4DgnRLCs5slAtYjEE4I1jCEAFuk6b8Q3sRNPFWoO5QycAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] getContext
+[8mha:////4CEW7TIuTx/31h6mKeYygz/lPUlGJypdxFh19YbJepbKAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4BMb7YxHP1JcTx9daVn2ZA83f736jF4emEfsjeCcvpxQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // stage
+[8mha:////4AfYSX48u/SQijDNHzE0r4eC5DZzd4nVpCWWC75zaOAmAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQFKUEt5wgAAAA==[0m[Pipeline] stage
+[8mha:////4P1J7KY/SNwcKkLIk7DdhTLsgWX3E6w73hb1Q3OEBmXEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Cherry-pick Cinder Patch)
+Stage "Cherry-pick Cinder Patch" skipped due to earlier failure(s)
+[8mha:////4MUA+M46WSos3NVGnyF8/pXUNjHYyFonIQ2HWzD8e8cjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] getContext
+[8mha:////4ItKjSotyMzQG1agzl4HrkU64sXbtKh1Oe7cGncd4GrLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BlK8YfC+AAAA[0m[Pipeline] }
+[8mha:////4PPKmOEfqJIPzYC+E4aEkAokPCMy1LpSxYKk6eT23zbNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFq/vIBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BQxEUGyAMsmGHBiVLjlM+PnW9KlihRdI24RWIoRosnBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSCAG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm/5wYYpwgAAAA==[0m[Pipeline] stage
+[8mha:////4Bw1MkPP/XvqTdnGiz4+Ba0o6A9nx0Sd1/tgaBEzS3MfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] { (Prepare cinder.conf)
+Stage "Prepare cinder.conf" skipped due to earlier failure(s)
+[8mha:////4IOkugxNmekVYWsARSgTYaoRIwqUTDfHc5tKEblOOQH1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] getContext
+[8mha:////4OMnUhhTyWXcvmmQDfZAH2ezwbpVRwDDExMyV4QLdGt/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4Jdrv0otZ5vAQJjXbEFSSXpafygnoIfv85krA2WzyjzUAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // stage
+[8mha:////4JTlJe4IjaE1YxtJMYjsFCsjnFS5v2jybQADURf2X2NBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIHVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdma/edZvQH+WzzfwgAAAA==[0m[Pipeline] stage
+[8mha:////4Bom66UtBnbZyGu+cXig5mGhSWBkrRqT7D5IlNWzj+d3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] { (Setup Volume Types)
+Stage "Setup Volume Types" skipped due to earlier failure(s)
+[8mha:////4BwebQxfQNyFQwznSkyJv1bTfB0qXPyH5tc+q8dbiFlpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBiwS7Xe+AAAA[0m[Pipeline] getContext
+[8mha:////4AY/6ZaFqPQ6DWNP5qfYzQEqn6rivGEUcaG4VQkf2RlXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoFSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BqeGDU++AAAA[0m[Pipeline] }
+[8mha:////4KZY/ZYVO4B57sTK/5OabuxzyVIpTVij8DMwU6IchLgDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGfxJ6+vgAAAA==[0m[Pipeline] // stage
+[8mha:////4OgT7slfCJLvPqJED41CmS1rjoZUCbaCZjSgwyV5FETYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDBUDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsnW7D/P6g1NyvGPwgAAAA==[0m[Pipeline] stage
+[8mha:////4IJMZYJ7LP4kzbpYp7G/wQN1pSIl3eKPA6gA5rg1IOJdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (Wait for Cinder Services)
+Stage "Wait for Cinder Services" skipped due to earlier failure(s)
+[8mha:////4JYBVql8ZAmwzys1Qzu3zC7puxhf9EJ8fUVV+84VzrPPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] getContext
+[8mha:////4HOlesA/qggV/MKCGw3dpXvV03x/nwuo6znuEoq1B+o2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8B1Pq5vgAAAA==[0m[Pipeline] }
+[8mha:////4ENkigZbSfpd3xn9JojERcOKTZKzGRBaGbe6FBOCotl4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw81GhnivgAAAA==[0m[Pipeline] // stage
+[8mha:////4GOj5vVMjqFo8ci3rl+FcUgINB7P3UW7WKPKs+ZJY9KJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXbbz/P6g1jQdTuwgAAAA==[0m[Pipeline] stage
+[8mha:////4Ar0WuebtWHH8Qw+XWw4saaFrupsdMBjligdD8tx3kCZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] { (Run Smoke Tests)
+Stage "Run Smoke Tests" skipped due to earlier failure(s)
+[8mha:////4DeqEXzQHMAdShfUk+fcpdmmRBSpIr/BiB4Q0TpVwZ5VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5arJPu+AAAA[0m[Pipeline] getContext
+[8mha:////4Gnd05lvLosHPy4OQNx5iI78KhrMo0f3sXFOaBR4kMSnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/nPyFW+AAAA[0m[Pipeline] }
+[8mha:////4H9WNqP0j2KUt+KILAOW9x51tzv6ZW80MC5vEKjH3DSLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUaRBVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N8GNW6S+AAAA[0m[Pipeline] // stage
+[8mha:////4AnADUpWtHm9sTr3lepQrZFlb6Gtd7U/bZ//kECr9HHAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7T/P6g3Q0Bm+wgAAAA==[0m[Pipeline] stage
+[8mha:////4ASLWm1as49qxDyPAVKgA8a6TKNtGvcW9Ut/yruwTc5zAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] { (Run Tempest Tests)
+Stage "Run Tempest Tests" skipped due to earlier failure(s)
+[8mha:////4JUrAsty6Dm3w5NC3eQFNytOzoo0To59dFh0z8eo4FxLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] getContext
+[8mha:////4HTCRH4+a69LeeYbxV+y+WC+gQBNLe56gQJudFGPs0lvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF2jKA0vgAAAA==[0m[Pipeline] }
+[8mha:////4EW1OHmziX/usSJiOUd9xIOeV6alHqZC6G0vuwmOI/zpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFCQkNvvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CVXeijStg3yxR/n20Qp235dcBueinwzYZdx/e/B2EsmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8AB8eYSL4AAAA=[0m[Pipeline] }
+[8mha:////4DjgPPrIT66CAWMp1x2UvOAKJngPvURObTIxfB08UYy3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8ANCTD9L4AAAA=[0m[Pipeline] // timeout
+[8mha:////4JUJRjXsUF+uvuL1iQCOFy3D4HLeL8qjddZNOpkvoD04AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+13X0AL4Gid74AAAA=[0m[Pipeline] }
+[8mha:////4Dn/I8uS5sUvN6eocbxLJ1q1zIG5hxq+jaTckanI1bwqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+13X0AHGL5y74AAAA=[0m[Pipeline] // stage
+[8mha:////4OGYMnVtHFs2tGTmz8NXUBRr4S8XU3vSKGNYHxDabe3WAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUXWBATF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmz73edZvQFDe+tjwgAAAA==[0m[Pipeline] stage
+[8mha:////4Oy/lzxsB0RQ+U1qyKElxFawfm7CjswMZir/P9GAuGUHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4H/ToEZAsB268pNV5PeCoEHyh+QNzH/KT1680fMeRhQDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] timeout
+[2026-07-22T22:53:39.218Z] Timeout set to expire in 30 min
+[8mha:////4Np5p9AJPI89MU+wfB5hgdJADtiwmhsIr7UBSzqYKNoOAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+81LNBsIAAAA=[0m[Pipeline] {
+[8mha:////4LJdgXCMSftLAHfOXsa0d8AMx11wqwyXsXA1WLJXFVqIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPkgcDP2+AAAA[0m[Pipeline] sh
+[2026-07-22T22:53:39.558Z] + set -ex
+[2026-07-22T22:53:39.558Z] + ARTDIR=/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs
+[2026-07-22T22:53:39.559Z] + mkdir -p /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc
+[2026-07-22T22:53:39.559Z] + echo Build start time recorded is : 2026-07-22 22:53:11
+[2026-07-22T22:53:39.559Z] Build start time recorded is : 2026-07-22 22:53:11
+[2026-07-22T22:53:39.559Z] + sudo journalctl -u devstack@c-api.service --since 2026-07-22 22:53:11
+[2026-07-22T22:53:44.864Z] + sudo journalctl -u devstack@c-sch.service --since 2026-07-22 22:53:11
+[2026-07-22T22:53:48.183Z] + sudo journalctl -u devstack@c-vol.service --since 2026-07-22 22:53:11
+[2026-07-22T22:53:50.109Z] + sudo journalctl -u devstack@dstat.service --since 2026-07-22 22:53:11
+[2026-07-22T22:53:54.326Z] + sudo journalctl -u devstack@g-api.service --since 2026-07-22 22:53:11
+[2026-07-22T22:53:55.721Z] + sudo journalctl -u devstack@g-reg.service --since 2026-07-22 22:53:11
+[2026-07-22T22:53:57.118Z] + sudo journalctl -u devstack@keystone.service --since 2026-07-22 22:53:11
+[2026-07-22T22:54:00.448Z] + sudo journalctl -u devstack@q-agt.service --since 2026-07-22 22:53:11
+[2026-07-22T22:54:01.394Z] + sudo journalctl -u devstack@q-dhcp.service --since 2026-07-22 22:53:11
+[2026-07-22T22:54:02.345Z] + sudo journalctl -u devstack@q-l3.service --since 2026-07-22 22:53:11
+[2026-07-22T22:54:03.737Z] + sudo journalctl -u devstack@q-meta.service --since 2026-07-22 22:53:11
+[2026-07-22T22:54:04.686Z] + sudo journalctl -u devstack@q-svc.service --since 2026-07-22 22:53:11
+[2026-07-22T22:54:06.082Z] + sudo journalctl -u devstack@etcd.service --since 2026-07-22 22:53:11
+[2026-07-22T22:54:07.026Z] + sudo cp -r /etc/cinder /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-07-22T22:54:07.026Z] cp: cannot stat '/etc/cinder': No such file or directory
+[2026-07-22T22:54:07.026Z] + true
+[2026-07-22T22:54:07.027Z] + sudo cp -r /etc/glance /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-07-22T22:54:07.027Z] cp: cannot stat '/etc/glance': No such file or directory
+[2026-07-22T22:54:07.027Z] + true
+[2026-07-22T22:54:07.027Z] + sudo cp -r /etc/keystone /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-07-22T22:54:07.027Z] cp: cannot stat '/etc/keystone': No such file or directory
+[2026-07-22T22:54:07.027Z] + true
+[2026-07-22T22:54:07.027Z] + sudo cp -r /etc/neutron /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-07-22T22:54:07.289Z] cp: cannot stat '/etc/neutron': No such file or directory
+[2026-07-22T22:54:07.289Z] + true
+[2026-07-22T22:54:07.289Z] + sudo cp /opt/stack/tempest/etc/tempest.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest.conf
+[2026-07-22T22:54:07.289Z] cp: cannot stat '/opt/stack/tempest/etc/tempest.conf': No such file or directory
+[2026-07-22T22:54:07.289Z] + true
+[2026-07-22T22:54:07.289Z] + sudo cp /opt/stack/logs/tempest_results.log /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest_log.log
+[2026-07-22T22:54:07.289Z] cp: cannot stat '/opt/stack/logs/tempest_results.log': No such file or directory
+[2026-07-22T22:54:07.289Z] + true
+[2026-07-22T22:54:07.289Z] + [ -d /opt/stack/logs ]
+[2026-07-22T22:54:07.289Z] + sudo cp -r /opt/stack/logs /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs
+[2026-07-22T22:54:07.289Z] + sudo cp /opt/stack/devstack/local.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs/
+[2026-07-22T22:54:07.289Z] cp: cannot stat '/opt/stack/devstack/local.conf': No such file or directory
+[2026-07-22T22:54:07.289Z] + true
+[2026-07-22T22:54:07.290Z] + sudo find /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs -type f -exec sed -i -e s/****/******/g -e s/hpinvent/******/g -e s/admin/******/g {} +
+[2026-07-22T22:54:07.290Z] + id -u
+[2026-07-22T22:54:07.290Z] + id -g
+[2026-07-22T22:54:07.290Z] + sudo chown -R 0:0 /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts
+[8mha:////4NoEpvMEJju6iVSuh0lDRJj6/e6j4vMvHu4R0cZKgS3NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHtLqhnvgAAAA==[0m[Pipeline] }
+[8mha:////4FCCZAGYbSkpij8xkOTJPDkKuZeolTeao7eX6KcxGpcbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0RAJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g/VbDuWvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4CyXN7RHmk3M/g4q5hzH1i9e+6m04D3P+gNviK1f6MP5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpKIKEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2Ccq6znXY+w/WNB6GvgAAAA==[0m[Pipeline] archiveArtifacts
+[2026-07-22T22:54:07.658Z] Archiving artifacts
+[8mha:////4Dnz+FUZUrpEsH1hG96KmxxbkY5DDpCVgetGz+VFoCNTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QSoSYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwRl02Tb7z7P6g0CxePfwgAAAA==[0m[Pipeline] script
+[8mha:////4KUgaAU5pj9oTQTx2CXZxCtJpmNOvxhahPDYZzidAiZGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] {
+[8mha:////4IJzQZGln/Ks61OS/nKpldy4U0uspqCpNYn1iZWR9SsrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7lC07jCAAAA[0m[Pipeline] node
+[2026-07-22T22:54:07.765Z] Running on [8mha:////4KgI8C9NtTFTiWJMi4Ya/M/IeZNpbjj2a3+sgFQdvHWSAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI
+[8mha:////4BwbCnBNWL7Wb86WDfkhMpJmQEgr4TsFKPdnol7tTI6TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] {
+[8mha:////4DMLtEShJKJ4tGLtpDxcBNBLhjQpMVUgeniXbHYCTEjNAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pBJiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPCJq12sIAAAA=[0m[Pipeline] timeout
+[2026-07-22T22:54:07.839Z] Timeout set to expire in 15 min
