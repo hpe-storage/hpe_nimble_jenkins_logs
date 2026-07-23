@@ -1,0 +1,618 @@
+
+File System Summary
+===================
+
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              1.6G  1.9M  1.6G   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   98G   18G   75G  20% /
+tmpfs                              7.9G  4.0K  7.9G   1% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+tmpfs                              7.9G     0  7.9G   0% /run/qemu
+/dev/sda2                          2.0G  200M  1.6G  11% /boot
+tmpfs                              1.6G   16K  1.6G   1% /run/user/0
+tmpfs                              512M     0  512M   0% /opt/stack/data/etcd
+
+
+Process Listing
+===============
+
+ps axo user,ppid,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,args
+---------------------------------------------------------------
+
+USER        PPID     PID %CPU %MEM    VSZ   RSS TT       STAT  STARTED     TIME COMMAND
+root           0       1  0.2  0.0  23256 14560 ?        Ss     Jul 09 00:57:35 /sbin/init
+root           0       2  0.0  0.0      0     0 ?        S      Jul 09 00:00:01 [kthreadd]
+root           2       3  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [pool_workqueue_release]
+root           2       4  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-rcu_g]
+root           2       5  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-rcu_p]
+root           2       6  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-slub_]
+root           2       7  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-netns]
+root           2      12  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-mm_pe]
+root           2      13  0.0  0.0      0     0 ?        I      Jul 09 00:00:00 [rcu_tasks_kthread]
+root           2      14  0.0  0.0      0     0 ?        I      Jul 09 00:00:00 [rcu_tasks_rude_kthread]
+root           2      15  0.0  0.0      0     0 ?        I      Jul 09 00:00:00 [rcu_tasks_trace_kthread]
+root           2      16  0.0  0.0      0     0 ?        S      Jul 09 00:00:26 [ksoftirqd/0]
+root           2      17  0.0  0.0      0     0 ?        I      Jul 09 00:08:55 [rcu_preempt]
+root           2      18  0.0  0.0      0     0 ?        S      Jul 09 00:00:11 [migration/0]
+root           2      19  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [idle_inject/0]
+root           2      20  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [cpuhp/0]
+root           2      21  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [cpuhp/1]
+root           2      22  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [idle_inject/1]
+root           2      23  0.0  0.0      0     0 ?        S      Jul 09 00:00:11 [migration/1]
+root           2      24  0.0  0.0      0     0 ?        S      Jul 09 00:00:25 [ksoftirqd/1]
+root           2      27  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [cpuhp/2]
+root           2      28  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [idle_inject/2]
+root           2      29  0.0  0.0      0     0 ?        S      Jul 09 00:00:11 [migration/2]
+root           2      30  0.0  0.0      0     0 ?        S      Jul 09 00:00:26 [ksoftirqd/2]
+root           2      33  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [cpuhp/3]
+root           2      34  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [idle_inject/3]
+root           2      35  0.0  0.0      0     0 ?        S      Jul 09 00:00:11 [migration/3]
+root           2      36  0.0  0.0      0     0 ?        S      Jul 09 00:00:23 [ksoftirqd/3]
+root           2      38  0.0  0.0      0     0 ?        I<     Jul 09 00:00:32 [kworker/3:0H-kblockd]
+root           2      43  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [kdevtmpfs]
+root           2      44  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-inet_]
+root           2      45  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [kauditd]
+root           2      46  0.0  0.0      0     0 ?        S      Jul 09 00:00:02 [khungtaskd]
+root           2      47  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [oom_reaper]
+root           2      49  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-write]
+root           2      51  0.0  0.0      0     0 ?        S      Jul 09 00:01:03 [kcompactd0]
+root           2      52  0.0  0.0      0     0 ?        SN     Jul 09 00:00:00 [ksmd]
+root           2      54  0.0  0.0      0     0 ?        SN     Jul 09 00:00:00 [khugepaged]
+root           2      55  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-kinte]
+root           2      56  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-kbloc]
+root           2      57  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-blkcg]
+root           2      58  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/9-acpi]
+root           2      60  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-tpm_d]
+root           2      61  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-ata_s]
+root           2      62  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-md]
+root           2      63  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-md_bi]
+root           2      64  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-edac-]
+root           2      65  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-devfr]
+root           2      66  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [watchdogd]
+root           2      68  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-quota]
+root           2      70  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [kswapd0]
+root           2      71  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [ecryptfs-kthread]
+root           2      72  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-kthro]
+root           2      73  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/24-pciehp]
+root           2      74  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/25-pciehp]
+root           2      75  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/26-pciehp]
+root           2      76  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/27-pciehp]
+root           2      77  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/28-pciehp]
+root           2      78  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/29-pciehp]
+root           2      79  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/30-pciehp]
+root           2      80  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/31-pciehp]
+root           2      81  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/32-pciehp]
+root           2      82  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/33-pciehp]
+root           2      83  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/34-pciehp]
+root           2      84  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/35-pciehp]
+root           2      85  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/36-pciehp]
+root           2      86  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/37-pciehp]
+root           2      87  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/38-pciehp]
+root           2      88  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/39-pciehp]
+root           2      89  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/40-pciehp]
+root           2      90  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/41-pciehp]
+root           2      91  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/42-pciehp]
+root           2      92  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/43-pciehp]
+root           2      93  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/44-pciehp]
+root           2      94  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/45-pciehp]
+root           2      95  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/46-pciehp]
+root           2      96  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/47-pciehp]
+root           2      97  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/48-pciehp]
+root           2      98  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/49-pciehp]
+root           2      99  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/50-pciehp]
+root           2     100  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/51-pciehp]
+root           2     101  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/52-pciehp]
+root           2     102  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/53-pciehp]
+root           2     103  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/54-pciehp]
+root           2     104  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/55-pciehp]
+root           2     105  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-acpi_]
+root           2     107  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_0]
+root           2     108  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     109  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_1]
+root           2     110  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     113  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-mld]
+root           2     114  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-ipv6_]
+root           2     126  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-kstrp]
+root           2     128  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/u13:0]
+root           2     129  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/u14:0]
+root           2     130  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/u15:0]
+root           2     131  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/u16:0]
+root           2     132  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/u17:0]
+root           2     137  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-crypt]
+root           2     147  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-charg]
+root           2     175  0.0  0.0      0     0 ?        I<     Jul 09 00:00:01 [kworker/3:1H-kblockd]
+root           2     198  0.0  0.0      0     0 ?        I<     Jul 09 00:00:01 [kworker/0:1H-kblockd]
+root           2     203  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_2]
+root           2     204  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     205  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-vmw_p]
+root           2     227  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_3]
+root           2     229  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     230  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_4]
+root           2     231  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     232  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_5]
+root           2     233  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     234  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_6]
+root           2     235  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     236  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_7]
+root           2     237  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     238  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_8]
+root           2     239  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     241  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_9]
+root           2     242  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     243  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_10]
+root           2     244  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     245  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_11]
+root           2     246  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     247  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_12]
+root           2     248  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     249  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_13]
+root           2     250  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     251  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_14]
+root           2     252  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     254  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_15]
+root           2     255  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     256  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_16]
+root           2     257  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     258  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_17]
+root           2     259  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     260  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_18]
+root           2     261  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     262  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_19]
+root           2     263  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     264  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_20]
+root           2     265  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     266  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_21]
+root           2     267  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     268  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_22]
+root           2     269  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     270  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_23]
+root           2     271  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     272  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_24]
+root           2     273  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     274  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_25]
+root           2     275  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     276  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_26]
+root           2     277  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     278  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_27]
+root           2     279  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     280  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_28]
+root           2     281  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     282  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_29]
+root           2     283  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     284  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_30]
+root           2     285  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     286  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_31]
+root           2     287  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     288  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [scsi_eh_32]
+root           2     289  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-scsi_]
+root           2     324  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-kdmfl]
+root           2     332  0.0  0.0      0     0 ?        I<     Jul 09 00:00:37 [kworker/2:2H-kblockd]
+root           2     364  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-raid5]
+root           2     407  0.0  0.0      0     0 ?        S      Jul 09 00:08:09 [jbd2/dm-0-8]
+root           2     408  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-ext4-]
+root           2     505  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-nvme-]
+root           2     506  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-nvme-]
+root           2     507  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-nvme-]
+root           2     508  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-nvme-]
+root           2     513  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-kmpat]
+root           2     515  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-kmpat]
+root           1     517  0.0  0.1 354652 27584 ?        SLsl   Jul 09 00:02:57 /sbin/multipathd -d -s
+root           1     526  0.0  0.0  30168  9020 ?        Ss     Jul 09 00:00:17 /usr/lib/systemd/systemd-udevd
+root           2     560  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [psimon]
+root           2     647  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [jbd2/sda2-8]
+root           2     648  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-ext4-]
+systemd+       1     670  0.0  0.0  22032  9984 ?        Ss     Jul 09 00:00:29 /usr/lib/systemd/systemd-networkd
+root           2     778  0.0  0.0      0     0 ?        S      Jul 09 00:00:10 [irq/63-vmw_vmci]
+root           2     782  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/64-vmw_vmci]
+root           2     843  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-cfg80]
+systemd+       1     845  0.0  0.0  21340 13148 ?        Ss     Jul 09 00:00:03 /usr/lib/systemd/systemd-resolved
+systemd+       1     851  0.0  0.0  91376  8288 ?        Ssl    Jul 09 00:00:10 /usr/lib/systemd/systemd-timesyncd
+root           2     852  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [irq/16-vmwgfx]
+root           2     853  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-ttm]
+message+       1    1009  0.0  0.0  10596  6088 ?        Ss     Jul 09 00:09:01 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd        1    1063  0.0  0.0 308164  8040 ?        Ssl    Jul 09 00:00:43 /usr/lib/polkit-1/polkitd --no-debug
+root           1    1115  0.0  0.0  18208  9076 ?        Ss     Jul 09 00:02:39 /usr/lib/systemd/systemd-logind
+root           1    1124  0.0  0.0  17748  8060 ?        Ss     Jul 09 00:02:32 /usr/lib/systemd/systemd-machined
+root           1    1125  0.0  0.0 469076 14072 ?        Ssl    Jul 09 00:00:09 /usr/libexec/udisks2/udisksd
+root           1    1132  0.0  0.0  71296 15268 ?        Ss     Jul 09 00:00:00 /usr/sbin/virtlockd
+syslog         1    1184  0.0  0.0 222508  7240 ?        Ssl    Jul 09 00:04:19 /usr/sbin/rsyslogd -n -iNONE
+root           1    1306  0.0  0.0 392028 12860 ?        Ssl    Jul 09 00:00:00 /usr/sbin/ModemManager
+root           1    1407  0.0  0.0   7988  3084 ?        S      Jul 09 00:01:15 /bin/bash /usr/sbin/ksmtuned
+root           1    1482  0.0  0.1 109692 23232 ?        Ssl    Jul 09 00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           1    1562  0.0  0.0   6824  2912 ?        Ss     Jul 09 00:00:05 /usr/sbin/cron -f -P
+root           1    1652  0.0  0.0   6812  4684 tty1     Ss     Jul 09 00:00:00 /bin/login -p --
+root           2    1664  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-targe]
+root           2    1665  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-targe]
+root           2    1666  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-xcopy]
+pcp            1    1724  0.0  0.0  15016  7796 ?        Ss     Jul 09 00:01:23 /usr/lib/pcp/bin/pmcd -A
+root        1724    1728  0.0  0.0  14788  5740 ?        S      Jul 09 00:00:00 /var/lib/pcp/pmdas/root/pmdaroot
+root        1728    1729  0.0  0.0  15556  7444 ?        S      Jul 09 00:08:12 /var/lib/pcp/pmdas/proc/pmdaproc -d 3
+root        1728    1730  0.0  0.0  14020  5500 ?        S      Jul 09 00:00:08 /var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+root        1728    1731  0.1  0.0  15008  7148 ?        S      Jul 09 00:35:10 /var/lib/pcp/pmdas/linux/pmdalinux
+root        1728    1739  0.0  0.0  14080  5740 ?        S      Jul 09 00:00:03 /var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+pcp            1    1812  0.0  0.0  15564  9380 ?        Ssl    Jul 09 00:06:27 /usr/lib/pcp/bin/pmproxy -F -A
+libvirt+       1    2427  0.0  0.0  11484  2296 ?        S      Jul 09 00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+root        2427    2428  0.0  0.0  11484  1300 ?        S      Jul 09 00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+pcp            1    2461  0.0  0.0  14568  7032 ?        S      Jul 09 00:00:05 /usr/bin/pmie -b -m pmie_check -F -P -l /var/log/pcp/pmie/ubuntu/pmie.log -c config.default
+pcp            1    2470  0.0  0.0  13848  4844 ?        Ss     Jul 09 00:00:00 /usr/lib/pcp/bin/pmpause
+pcp            1    2542  0.0  0.0  16988  8984 ?        S      Jul 09 00:00:51 /usr/lib/pcp/bin/pmlogger -N -P -d "/var/log/pcp/pmlogger/LOCALHOSTNAME" -r -T24h10m -c config.default -v 100mb -mreexec %Y%m%d.%H.%M
+pcp            1    2678  0.0  0.0  13848  4820 ?        Ss     Jul 09 00:00:00 /usr/lib/pcp/bin/pmpause
+root           1    3359  0.0  0.0  20108 11192 ?        Ss     Jul 09 00:00:02 /usr/lib/systemd/systemd --user
+root        3359    3360  0.0  0.0  21160  3512 ?        S      Jul 09 00:00:00 (sd-pam)
+root           2    3367  0.0  0.0      0     0 ?        S      Jul 09 00:00:00 [psimon]
+root        1652    3374  0.0  0.0  10372  7484 tty1     S+     Jul 09 00:00:00 -bash
+root           1    4962  0.0  0.0  15888 11740 ?        Ss     Jul 09 00:12:36 sshd: root@notty
+root        4962    5021  0.6  0.9 7843204 151800 ?      Ssl    Jul 09 02:21:40 java -jar remoting.jar -workDir /home/ci_user/jenkins -jar-cache /home/ci_user/jenkins/remoting/jarCache
+root           2    5169  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-tls-s]
+stack          1    7978  0.0  0.0  20012 12544 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-053129
+stack          1    7987  0.0  0.0  20012 12468 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-053129.summary.2026-07-09-053129
+root           2   43701  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-iscsi]
+stack          1   59221  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+root           1   79257  0.0  0.0 314004  9040 ?        Ssl    Jul 09 00:00:00 /usr/libexec/upowerd
+stack          1   81965  0.0  0.0  20012 12544 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-062618
+stack          1   81974  0.0  0.0  20012 12520 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-062618.summary.2026-07-09-062618
+stack          1  133717  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+stack          1  154484  0.0  0.0  20012 12520 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-064844
+stack          1  154493  0.0  0.0  20012 12440 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-064844.summary.2026-07-09-064844
+stack          1  206158  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+stack          1  226989  0.0  0.0  20012 12552 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-070901
+stack          1  226998  0.0  0.0  20012 12476 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-070901.summary.2026-07-09-070901
+stack          1  277872  0.0  0.0   5692  1916 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+root           1  292482  0.0  0.0  53468 12192 ?        Ss   15:06:45 00:00:00 /usr/bin/VGAuthService
+root           1  292483  0.1  0.0 316188 10132 ?        Ssl  15:06:45 00:02:03 /usr/bin/vmtoolsd
+root           1  292488  0.0  0.0  12024  8328 ?        Ss   15:06:45 00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+stack          1  299514  0.0  0.0  20012 12540 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-072927
+stack          1  299523  0.0  0.0  20012 12484 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-072927.summary.2026-07-09-072927
+stack          1  350703  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+stack          1  403393  0.0  0.0  20012 12556 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-092746
+stack          1  403402  0.0  0.0  20012 12472 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-092746.summary.2026-07-09-092746
+stack          1  456294  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+root           2  476447  0.0  0.0      0     0 ?        I    16:13:59 00:00:36 [kworker/u8:2-ipv6_addrconf]
+stack          1  477528  0.0  0.0  20012 12528 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-095429
+stack          1  477537  0.0  0.0  20012 12484 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-095429.summary.2026-07-09-095429
+stack          1  529685  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+stack          1  550349  0.0  0.0  20012 12564 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-101409
+stack          1  550358  0.0  0.0  20012 12476 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-101409.summary.2026-07-09-101409
+stack          1  596015  0.0  0.0   5692  1916 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+stack          1  646240  0.0  0.0  20012 12532 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-104216
+stack          1  646249  0.0  0.0  20012 12492 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-104216.summary.2026-07-09-104216
+stack          1  691730  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+root           2  721782  0.0  0.0      0     0 ?        I<   18:50:32 00:00:06 [kworker/1:2H-kblockd]
+stack          1  736417  0.0  0.0  20012 12548 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-113722
+stack          1  736426  0.0  0.0  20012 12488 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-113722.summary.2026-07-09-113722
+stack          1  781322  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+stack          1  802143  0.0  0.0  20012 12584 ?        S      Jul 09 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-09-115926
+stack          1  802152  0.0  0.0  20012 12492 ?        S      Jul 09 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-09-115926.summary.2026-07-09-115926
+stack          1  846905  0.0  0.0   5692  1912 ?        S      Jul 09 00:00:00 cat /opt/stack/async/install_tempest.fifo
+stack          1  906356  0.0  0.0  20072 12588 ?        S    22:13:16 00:00:04 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-22-221316
+stack          1  906365  0.0  0.0  20012 12488 ?        S    22:13:16 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-22-221316.summary.2026-07-22-221316
+root           2  934372  0.0  0.0      0     0 ?        I<     Jul 09 00:00:00 [kworker/R-dio/d]
+stack          1  959216  0.0  0.0   5692  1912 ?        S    22:32:29 00:00:00 cat /opt/stack/async/install_tempest.fifo
+stack          1 1014791  0.0  0.0   5696  1916 ?        S    22:45:24 00:00:00 cat /opt/stack/async/create_flavors.fifo
+root           2 1018430  0.0  0.0      0     0 ?        I<   22:49:06 00:00:01 [kworker/1:0H-kblockd]
+root           2 1470222  0.0  0.0      0     0 ?        I<   01:07:24 00:00:00 [kworker/2:0H]
+root           2 1805789  0.0  0.0      0     0 ?        I<     Jul 09 00:00:20 [kworker/0:2H-kblockd]
+root           1 2024600  0.0  0.1 464820 28644 ?        Ssl  06:08:07 00:00:01 /usr/libexec/fwupd/fwupd
+root      292488 2026551  0.0  0.0  15244 11008 ?        Ss   06:15:55 00:00:00 sshd: root@pts/0
+root     2026551 2026751  0.0  0.0   9976  6952 pts/0    Ss   06:15:58 00:00:00 -bash
+root     2026751 2026832  0.0  0.0   9532  4748 pts/0    S    06:16:01 00:00:00 su - stack
+stack    2026832 2026833  0.0  0.0   9972  6992 pts/0    S+   06:16:01 00:00:00 -bash
+root           1 2067098  0.0  0.0  13812  1972 ?        Ss   06:38:24 00:00:00 /usr/sbin/iscsid
+root           1 2067099  0.0  0.0  14196 14180 ?        S<Ls 06:38:24 00:00:00 /usr/sbin/iscsid
+root           1 2073748  0.0  0.0  71300 15588 ?        Ss   06:39:09 00:00:00 /usr/sbin/virtlogd
+root           1 2112530  0.0  0.0  12616  4604 ?        Ss   06:49:38 00:00:00 /usr/bin/rsync --daemon --no-detach
+root           2 2141721  0.0  0.0      0     0 ?        I    06:55:32 00:00:03 [kworker/u8:1-ext4-rsv-conversion]
+root           2 2172749  0.0  0.0      0     0 ?        I    07:22:01 00:00:00 [kworker/u9:4-events_unbound]
+root           2 2173686  0.0  0.0      0     0 ?        I    07:33:32 00:00:00 [kworker/u12:2-writeback]
+root           2 2174417  0.0  0.0      0     0 ?        I    07:55:09 00:00:00 [kworker/2:0-events]
+root           2 2174732  0.0  0.0      0     0 ?        I    08:00:06 00:00:00 [kworker/0:1-mm_percpu_wq]
+root           2 2174895  0.0  0.0      0     0 ?        I    08:21:50 00:00:01 [kworker/u10:3-events_power_efficient]
+root           2 2175730  0.0  0.0      0     0 ?        I    08:27:30 00:00:00 [kworker/u12:3-flush-252:0]
+root           2 2175774  0.0  0.0      0     0 ?        I    08:28:04 00:00:00 [kworker/u9:2-events_power_efficient]
+root           2 2175882  0.0  0.0      0     0 ?        I    08:28:07 00:00:00 [kworker/1:2-mm_percpu_wq]
+root           2 2176000  0.0  0.0      0     0 ?        I    08:28:47 00:00:01 [kworker/u11:0-writeback]
+root           2 2180243  0.0  0.0      0     0 ?        I    08:30:03 00:00:00 [kworker/3:0-mm_percpu_wq]
+root           2 2184367  0.0  0.0      0     0 ?        I    08:30:53 00:00:01 [kworker/u10:2-writeback]
+root           2 2191324  0.0  0.0      0     0 ?        I    08:34:25 00:00:00 [kworker/2:1-cgroup_free]
+root           2 2198360  0.0  0.0      0     0 ?        I    08:35:18 00:00:00 [kworker/u9:0-events_power_efficient]
+root           2 2199267  0.0  0.0      0     0 ?        I    08:35:26 00:00:00 [kworker/u11:2-events_unbound]
+root           1 2219668  0.0  0.0  96880 12560 ?        Ss   08:41:11 00:00:00 /usr/sbin/haproxy -Ws -f /etc/haproxy/haproxy.cfg -p /run/haproxy.pid -S /run/haproxy-master.sock
+haproxy  2219668 2219713  0.0  0.0 246156  7144 ?        Sl   08:41:11 00:00:00 /usr/sbin/haproxy -Ws -f /etc/haproxy/haproxy.cfg -p /run/haproxy.pid -S /run/haproxy-master.sock
+root           2 2220847  0.0  0.0      0     0 ?        I    08:41:21 00:00:00 [kworker/3:1]
+root           2 2222291  0.0  0.0      0     0 ?        I    08:42:08 00:00:00 [kworker/u12:0-events_power_efficient]
+root           1 2222393  0.0  0.0   2804   988 ?        S    08:43:22 00:00:00 sh -c (cp '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/script.sh' '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/script.sh.copy'; { while [ -d '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d' -a \! -f '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-result.txt' ]; do touch '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-log.txt'; sleep 3; done } & jsc=durable-d034a394ce41122232e9169ec033644d1744e5de6a7036c90021b1ff954f087e; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/script.sh.copy' > '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-log.txt' 2>&1; echo $? > '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-result.txt.tmp'; mv '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-result.txt.tmp' '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-result.txt'; wait) >&- 2>&- &
+root     2222393 2222395  0.0  0.0   2804   932 ?        S    08:43:22 00:00:00 sh -c (cp '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/script.sh' '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/script.sh.copy'; { while [ -d '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d' -a \! -f '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-result.txt' ]; do touch '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-log.txt'; sleep 3; done } & jsc=durable-d034a394ce41122232e9169ec033644d1744e5de6a7036c90021b1ff954f087e; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/script.sh.copy' > '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-log.txt' 2>&1; echo $? > '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-result.txt.tmp'; mv '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-result.txt.tmp' '/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/jenkins-result.txt'; wait) >&- 2>&- &
+root     2222393 2222396  0.0  0.0   2804  1928 ?        S    08:43:22 00:00:00 sh -xe /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI@tmp/durable-c716e38d/script.sh.copy
+root     2222396 2222402  0.0  0.0  16920  7296 ?        S    08:43:22 00:00:00 sudo -u stack bash -c                          set -e                         . /etc/environment                         export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY                         HOST_IP=$(hostname -I | cut -d" " -f1)                         export no_proxy="${no_proxy:+${no_proxy},}localhost,127.0.0.1,${HOST_IP}"                         export NO_PROXY="$no_proxy"                         export TERM=xterm-256color                         cd /opt/stack/devstack && ./stack.sh                     
+stack    2222402 2222403  0.0  0.0   7340  3656 ?        S    08:43:22 00:00:00 bash -c                          set -e                         . /etc/environment                         export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY                         HOST_IP=$(hostname -I | cut -d" " -f1)                         export no_proxy="${no_proxy:+${no_proxy},}localhost,127.0.0.1,${HOST_IP}"                         export NO_PROXY="$no_proxy"                         export TERM=xterm-256color                         cd /opt/stack/devstack && ./stack.sh                     
+stack    2222403 2222407  3.6  0.0  14216 10692 ?        S    08:43:22 00:00:27 bash ./stack.sh
+stack    2222407 2225045  0.2  0.0  19948 12564 ?        S    08:43:38 00:00:01 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-23-084338
+stack    2222407 2225054  0.0  0.0  20012 12488 ?        S    08:43:38 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-23-084338.summary.2026-07-23-084338
+root           2 2225730  0.0  0.0      0     0 ?        I    08:43:52 00:00:00 [kworker/1:1]
+root           1 2231038  0.1  0.4 220032 66388 ?        S<s  08:45:23 00:00:01 /usr/lib/systemd/systemd-journald
+root           2 2231906  0.0  0.0      0     0 ?        I    08:46:18 00:00:00 [kworker/u10:0-events_power_efficient]
+root           2 2231907  0.0  0.0      0     0 ?        I    08:46:18 00:00:00 [kworker/u9:1-flush-252:0]
+epmd           1 2232398  0.0  0.0   7160  3316 ?        Ss   08:46:30 00:00:00 /usr/bin/epmd -systemd
+root           2 2232480  0.0  0.0      0     0 ?        I    08:46:37 00:00:00 [kworker/u11:3-writeback]
+rabbitmq       1 2232515  2.9  0.7 2636784 128944 ?      Ssl  08:46:38 00:00:16 /usr/lib/erlang/erts-13.2.2.5/bin/beam.smp -W w -MBas ageffcbf -MHas ageffcbf -MBlmbcs 512 -MHlmbcs 512 -MMmcs 30 -pc unicode -P 1048576 -t 5000000 -stbt db -zdbbl 128000 -sbwt none -sbwtdcpu none -sbwtdio none -- -root /usr/lib/erlang -bindir /usr/lib/erlang/erts-13.2.2.5/bin -progname erl -- -home /var/lib/rabbitmq -- -pa  -noshell -noinput -s rabbit boot -boot start_sasl -syslog logger [] -syslog syslog_error_logger false -kernel prevent_overlapping_partitions false -enable-feature maybe_expr
+rabbitmq 2232515 2232525  0.0  0.0   2688  1744 ?        Ss   08:46:38 00:00:00 erl_child_setup 65536
+rabbitmq 2232525 2232585  0.0  0.0   3652  1908 ?        Ss   08:46:40 00:00:00 /usr/lib/erlang/erts-13.2.2.5/bin/inet_gethost 4
+rabbitmq 2232585 2232586  0.0  0.0   3652  1504 ?        S    08:46:40 00:00:00 /usr/lib/erlang/erts-13.2.2.5/bin/inet_gethost 4
+rabbitmq 2232525 2232598  0.0  0.0   2800  1848 ?        Ss   08:46:51 00:00:00 /bin/sh -s rabbit_disk_monitor
+root           2 2233836  0.0  0.0      0     0 ?        S    08:47:41 00:00:00 [psimon]
+mysql          1 2233851  1.4  2.4 2310736 394932 ?      Ssl  08:47:41 00:00:07 /usr/sbin/mysqld
+root           2 2238109  0.0  0.0      0     0 ?        I    08:50:06 00:00:00 [kworker/0:0-cgroup_free]
+root           2 2247752  0.0  0.0      0     0 ?        I    08:52:52 00:00:00 [kworker/u11:1]
+root           2 2247758  0.0  0.0      0     0 ?        I    08:52:52 00:00:00 [kworker/2:2]
+root           2 2251881  0.0  0.0      0     0 ?        I    08:54:40 00:00:00 [kworker/u10:1-events_freezable_power_]
+root        1407 2254968  0.0  0.0   5684  2108 ?        S    08:55:29 00:00:00 sleep 60
+root           2 2256248  0.0  0.0      0     0 ?        I    08:55:38 00:00:00 [kworker/0:2]
+root           1 2256251  0.1  0.0  17820  7520 ?        Ss   08:55:38 00:00:00 /usr/sbin/apache2 -k start
+www-data 2256251 2256254  0.9  0.0 2012968 16016 ?       Sl   08:55:38 00:00:00 /usr/sbin/apache2 -k start
+www-data 2256251 2256255  0.7  0.0 2012964 16004 ?       Sl   08:55:38 00:00:00 /usr/sbin/apache2 -k start
+root     2222395 2257850  0.0  0.0   5688  2108 ?        S    08:55:48 00:00:00 sleep 3
+stack    2222407 2257960 71.4  0.0  21748 14288 ?        S    08:55:50 00:00:00 /opt/stack/data/venv/bin/python3 /opt/stack/devstack/tools/worlddump.py -d /opt/stack/logs
+stack    2257960 2257965  0.0  0.0   2800  1848 ?        S    08:55:50 00:00:00 /bin/sh -c ps axo user,ppid,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,args
+stack    2257965 2257966  800  0.0  11016  4760 ?        R    08:55:50 00:00:00 ps axo user,ppid,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,args
+stack          1 2532238  0.0  0.0  19948 12584 ?        S      Jul 10 00:00:02 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-10-062430
+stack          1 2532247  0.0  0.0  20012 12476 ?        S      Jul 10 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-10-062430.summary.2026-07-10-062430
+stack          1 2578208  0.0  0.0   5692  1916 ?        S      Jul 10 00:00:00 cat /opt/stack/async/install_tempest.fifo
+root           2 3701316  0.0  0.0      0     0 ?        I<     Jul 14 00:00:00 [kworker/R-xfsal]
+root           2 3701317  0.0  0.0      0     0 ?        I<     Jul 14 00:00:00 [kworker/R-xfs_m]
+
+
+Network Dump
+============
+
+bridge link
+-----------
+
+
+ip link show type bridge
+------------------------
+
+6: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN mode DEFAULT group default qlen 1000
+    link/ether 52:54:00:72:06:28 brd ff:ff:ff:ff:ff:ff
+
+ip neigh
+--------
+
+10.132.239.244 dev ens192 lladdr 00:50:56:9f:94:e0 REACHABLE 
+10.132.239.1 dev ens192 lladdr 00:00:00:00:00:60 DELAY 
+10.132.239.2 dev ens192 lladdr 08:f1:ea:60:88:00 STALE 
+10.132.239.3 dev ens192 lladdr 08:f1:ea:60:48:00 STALE 
+10.132.239.108 dev ens192 lladdr 00:50:56:9a:08:a8 STALE 
+
+ip addr
+-------
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: ens192: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:50:56:a8:3f:7c brd ff:ff:ff:ff:ff:ff
+    altname enp11s0
+    inet 10.132.239.242/24 brd 10.132.239.255 scope global ens192
+       valid_lft forever preferred_lft forever
+    inet6 fe80::250:56ff:fea8:3f7c/64 scope link 
+       valid_lft forever preferred_lft forever
+6: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether 52:54:00:72:06:28 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.122.1/24 brd 192.168.122.255 scope global virbr0
+       valid_lft forever preferred_lft forever
+
+ip route
+--------
+
+default via 10.132.239.1 dev ens192 proto static 
+10.132.239.0/24 dev ens192 proto kernel scope link src 10.132.239.242 
+192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1 linkdown 
+
+ip -6 route
+-----------
+
+fe80::/64 dev ens192 proto kernel metric 256 pref medium
+
+ip netns
+--------
+
+
+
+Open vSwitch Dump
+=================
+
+sudo ovs-vsctl show
+-------------------
+
+*** Failed to run 'sudo ovs-vsctl show': Command 'sudo ovs-vsctl show' returned non-zero exit status 1.
+
+IP Tables Dump
+==============
+
+sudo iptables --line-numbers -L -nv -t filter
+---------------------------------------------
+
+Chain INPUT (policy ACCEPT 65M packets, 78G bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+1      65M   78G LIBVIRT_INP  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy ACCEPT 20 packets, 12629 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+1       20 12629 LIBVIRT_FWX  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+2       20 12629 LIBVIRT_FWI  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+3       20 12629 LIBVIRT_FWO  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 43M packets, 14G bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+1      43M   14G LIBVIRT_OUT  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain LIBVIRT_FWI (1 references)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        0     0 ACCEPT     0    --  *      virbr0  0.0.0.0/0            192.168.122.0/24     ctstate RELATED,ESTABLISHED
+2        0     0 REJECT     0    --  *      virbr0  0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain LIBVIRT_FWO (1 references)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        0     0 ACCEPT     0    --  virbr0 *       192.168.122.0/24     0.0.0.0/0           
+2        0     0 REJECT     0    --  virbr0 *       0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain LIBVIRT_FWX (1 references)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        0     0 ACCEPT     0    --  virbr0 virbr0  0.0.0.0/0            0.0.0.0/0           
+
+Chain LIBVIRT_INP (1 references)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        0     0 ACCEPT     17   --  virbr0 *       0.0.0.0/0            0.0.0.0/0            udp dpt:53
+2        0     0 ACCEPT     6    --  virbr0 *       0.0.0.0/0            0.0.0.0/0            tcp dpt:53
+3        0     0 ACCEPT     17   --  virbr0 *       0.0.0.0/0            0.0.0.0/0            udp dpt:67
+4        0     0 ACCEPT     6    --  virbr0 *       0.0.0.0/0            0.0.0.0/0            tcp dpt:67
+
+Chain LIBVIRT_OUT (1 references)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        0     0 ACCEPT     17   --  *      virbr0  0.0.0.0/0            0.0.0.0/0            udp dpt:53
+2        0     0 ACCEPT     6    --  *      virbr0  0.0.0.0/0            0.0.0.0/0            tcp dpt:53
+3        0     0 ACCEPT     17   --  *      virbr0  0.0.0.0/0            0.0.0.0/0            udp dpt:68
+4        0     0 ACCEPT     6    --  *      virbr0  0.0.0.0/0            0.0.0.0/0            tcp dpt:68
+
+sudo iptables --line-numbers -L -nv -t nat
+------------------------------------------
+
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 698K packets, 42M bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+1     698K   42M LIBVIRT_PRT  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+2        0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+3        0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+4        0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+5        0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+6        0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+7        0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+8        0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+9        0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+10       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+11       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+12       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+13       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+14       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+15       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+16       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+17       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+18       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+19       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+20       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+21       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+22       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+23       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+24       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+25       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+26       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+27       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+28       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+29       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+30       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+31       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+32       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+33       0     0 MASQUERADE  0    --  *      ens192  172.24.4.0/24        0.0.0.0/0           
+
+Chain LIBVIRT_PRT (1 references)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        0     0 RETURN     0    --  *      *       192.168.122.0/24     224.0.0.0/24        
+2        0     0 RETURN     0    --  *      *       192.168.122.0/24     255.255.255.255     
+3        0     0 MASQUERADE  6    --  *      *       192.168.122.0/24    !192.168.122.0/24     masq ports: 1024-65535
+4        0     0 MASQUERADE  17   --  *      *       192.168.122.0/24    !192.168.122.0/24     masq ports: 1024-65535
+5        0     0 MASQUERADE  0    --  *      *       192.168.122.0/24    !192.168.122.0/24    
+
+sudo iptables --line-numbers -L -nv -t mangle
+---------------------------------------------
+
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 43M packets, 14G bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+1      43M   14G LIBVIRT_PRT  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain LIBVIRT_PRT (1 references)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        0     0 CHECKSUM   17   --  *      virbr0  0.0.0.0/0            0.0.0.0/0            udp dpt:68 CHECKSUM fill
+
+
+EB Tables Dump
+==============
+
+sudo ebtables -t filter -L
+--------------------------
+
+Bridge table: filter
+
+Bridge chain: INPUT, entries: 0, policy: ACCEPT
+
+Bridge chain: FORWARD, entries: 0, policy: ACCEPT
+
+Bridge chain: OUTPUT, entries: 0, policy: ACCEPT
+
+sudo ebtables -t nat -L
+-----------------------
+
+Bridge table: nat
+
+Bridge chain: PREROUTING, entries: 0, policy: ACCEPT
+
+Bridge chain: OUTPUT, entries: 0, policy: ACCEPT
+
+Bridge chain: POSTROUTING, entries: 0, policy: ACCEPT
+
+
+Compute consoles
+================
+
+
+nova-compute Guru Meditation Report
+===================================
+
+Skipping as nova-compute does not appear to be running
+
+neutron-dhcp-agent Guru Meditation Report
+=========================================
+
+Skipping as neutron-dhcp-agent does not appear to be running
+
+neutron-l3-agent Guru Meditation Report
+=======================================
+
+Skipping as neutron-l3-agent does not appear to be running
+
+neutron-metadata-agent Guru Meditation Report
+=============================================
+
+Skipping as neutron-metadata-agent does not appear to be running
+
+neutron-openvswitch-agent Guru Meditation Report
+================================================
+
+Skipping as neutron-openvswitch-agent does not appear to be running
+
+cinder-volume Guru Meditation Report
+====================================
+
+Skipping as cinder-volume does not appear to be running
