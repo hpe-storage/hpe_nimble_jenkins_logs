@@ -18,182 +18,182 @@ Masking supported pattern matches of $SAN_PASSWORD or $SAN_LOGIN or $OPENSTACK_U
 [8mha:////4D3XLYaJA42D26oMSyiG1+sD44EzZCGBMSfwHCNmitbeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
 [8mha:////4NzPZX4fG43iqH1pb7mEGd4ubC2pAVuyZi/X6hl3pU2YAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (CI Pipeline)
 [8mha:////4BeYLUHkMWzv9DYSdcqc4Nsvbmd/4l62r6bpENzRy61uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] timeout
-[2026-07-27T04:35:05.278Z] Timeout set to expire in 2 hr 0 min
+[2026-08-01T13:16:51.907Z] Timeout set to expire in 2 hr 0 min
 [8mha:////4PskGxZlz620IDGVZjkiyLLQct6RKWaIZsDTS1WPt9sOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
 [8mha:////4GE73Z9uyHca7iJ66x6EXaM+AGx+9fiYCk3K3YFB84JsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
 [8mha:////4NeHfhgQTUn1WehLhuIfMRJwKZbskLBW+Us/EaTuVQ8fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Prepare Node)
 [8mha:////4P7YaZdh5EIdfdoa8CNnIbSiZjJ9+pNrnm1IU38V9sFmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] cleanWs
-[2026-07-27T04:35:05.415Z] [WS-CLEANUP] Deleting project workspace...
-[2026-07-27T04:35:05.415Z] [WS-CLEANUP] Deferred wipeout is used...
-[2026-07-27T04:35:05.449Z] [WS-CLEANUP] done
+[2026-08-01T13:16:52.044Z] [WS-CLEANUP] Deleting project workspace...
+[2026-08-01T13:16:52.044Z] [WS-CLEANUP] Deferred wipeout is used...
+[2026-08-01T13:16:52.066Z] [WS-CLEANUP] done
 [8mha:////4NH8iCzf7bpV+2Ri2rVdSQsOCT/mWZ3/OT0LXoM9yXE8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] sh
-[2026-07-27T04:35:05.766Z] + set -eux
-[2026-07-27T04:35:05.767Z] + id -u stack
-[2026-07-27T04:35:05.767Z] + echo stack ALL=(ALL) NOPASSWD:ALL
-[2026-07-27T04:35:05.767Z] + sudo tee /etc/sudoers.d/stack
-[2026-07-27T04:35:06.345Z] stack ALL=(ALL) NOPASSWD:ALL
-[2026-07-27T04:35:06.345Z] + BACKUP_DIR=/opt/stack/env-backup
-[2026-07-27T04:35:06.345Z] + sudo rm -rf /etc/environment
-[2026-07-27T04:35:06.345Z] + sudo rm -rf /etc/resolv.conf
-[2026-07-27T04:35:06.345Z] + sudo rm -rf /etc/needrestart/needrestart.conf
-[2026-07-27T04:35:06.612Z] + sudo wget --no-proxy -O /etc/needrestart/needrestart.conf http://10.132.239.244/nimble/needrestart.conf
-[2026-07-27T04:35:06.612Z] --2026-07-27 04:35:23--  http://10.132.239.244/nimble/needrestart.conf
-[2026-07-27T04:35:06.612Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-27T04:35:06.612Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-27T04:35:06.612Z] Length: 6011 (5.9K)
-[2026-07-27T04:35:06.612Z] Saving to: ‘/etc/needrestart/needrestart.conf’
-[2026-07-27T04:35:06.612Z] 
-[2026-07-27T04:35:06.612Z]      0K .....                                                 100% 76.0M=0s
-[2026-07-27T04:35:06.612Z] 
-[2026-07-27T04:35:06.612Z] 2026-07-27 04:35:23 (76.0 MB/s) - ‘/etc/needrestart/needrestart.conf’ saved [6011/6011]
-[2026-07-27T04:35:06.612Z] 
-[2026-07-27T04:35:06.612Z] + sudo wget --no-proxy -O /etc/apt/apt.conf http://10.132.239.244/nimble/apt.conf
-[2026-07-27T04:35:06.613Z] --2026-07-27 04:35:23--  http://10.132.239.244/nimble/apt.conf
-[2026-07-27T04:35:06.613Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-27T04:35:06.613Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-27T04:35:06.613Z] Length: 338
-[2026-07-27T04:35:06.613Z] Saving to: ‘/etc/apt/apt.conf’
-[2026-07-27T04:35:06.613Z] 
-[2026-07-27T04:35:06.613Z]      0K                                                       100% 17.7M=0s
-[2026-07-27T04:35:06.613Z] 
-[2026-07-27T04:35:06.613Z] 2026-07-27 04:35:23 (17.7 MB/s) - ‘/etc/apt/apt.conf’ saved [338/338]
-[2026-07-27T04:35:06.613Z] 
-[2026-07-27T04:35:06.613Z] + sudo wget --no-proxy -O /etc/resolv.conf http://10.132.239.244/nimble/resolv.conf
-[2026-07-27T04:35:06.877Z] --2026-07-27 04:35:23--  http://10.132.239.244/nimble/resolv.conf
-[2026-07-27T04:35:06.877Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-27T04:35:06.877Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-27T04:35:06.878Z] Length: 228
-[2026-07-27T04:35:06.878Z] Saving to: ‘/etc/resolv.conf’
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z]      0K                                                       100% 11.7M=0s
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z] 2026-07-27 04:35:23 (11.7 MB/s) - ‘/etc/resolv.conf’ saved [228/228]
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z] + sudo wget --no-proxy -O /etc/environment http://10.132.239.244/nimble/environment
-[2026-07-27T04:35:06.878Z] --2026-07-27 04:35:23--  http://10.132.239.244/nimble/environment
-[2026-07-27T04:35:06.878Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-27T04:35:06.878Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-27T04:35:06.878Z] Length: 806
-[2026-07-27T04:35:06.878Z] Saving to: ‘/etc/environment’
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z]      0K                                                       100% 42.9M=0s
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z] 2026-07-27 04:35:23 (42.9 MB/s) - ‘/etc/environment’ saved [806/806]
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z] + sudo wget --no-proxy -O /etc/sudoers.d/ubuntu http://10.132.239.244/nimble/ubuntu
-[2026-07-27T04:35:06.878Z] --2026-07-27 04:35:23--  http://10.132.239.244/nimble/ubuntu
-[2026-07-27T04:35:06.878Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-27T04:35:06.878Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-27T04:35:06.878Z] Length: 32
-[2026-07-27T04:35:06.878Z] Saving to: ‘/etc/sudoers.d/ubuntu’
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z]      0K                                                       100% 1.73M=0s
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z] 2026-07-27 04:35:23 (1.73 MB/s) - ‘/etc/sudoers.d/ubuntu’ saved [32/32]
-[2026-07-27T04:35:06.878Z] 
-[2026-07-27T04:35:06.878Z] + sudo wget --no-proxy -O /etc/sudoers.d/stack http://10.132.239.244/nimble/stack
-[2026-07-27T04:35:06.879Z] --2026-07-27 04:35:23--  http://10.132.239.244/nimble/stack
-[2026-07-27T04:35:06.879Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-27T04:35:06.879Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-27T04:35:06.879Z] Length: 30
-[2026-07-27T04:35:06.879Z] Saving to: ‘/etc/sudoers.d/stack’
-[2026-07-27T04:35:06.879Z] 
-[2026-07-27T04:35:06.879Z]      0K                                                       100%  690K=0s
-[2026-07-27T04:35:06.879Z] 
-[2026-07-27T04:35:06.879Z] 2026-07-27 04:35:23 (690 KB/s) - ‘/etc/sudoers.d/stack’ saved [30/30]
-[2026-07-27T04:35:06.879Z] 
-[2026-07-27T04:35:06.879Z] + hostname -I
-[2026-07-27T04:35:06.879Z] + awk {print $1}
-[2026-07-27T04:35:06.879Z] + HOST_IP=10.132.239.242
-[2026-07-27T04:35:06.879Z] + hostname
-[2026-07-27T04:35:07.146Z] + HN=ubuntu
-[2026-07-27T04:35:07.146Z] + hostname -f
-[2026-07-27T04:35:07.146Z] + FQDN=localhost
-[2026-07-27T04:35:07.146Z] + . /etc/environment
-[2026-07-27T04:35:07.146Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-[2026-07-27T04:35:07.146Z] + export http_proxy=http://10.120.61.146:80
-[2026-07-27T04:35:07.146Z] + export https_proxy=http://10.120.61.146:443
-[2026-07-27T04:35:07.146Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.146Z] + export HTTP_PROXY=http://10.120.61.146:80
-[2026-07-27T04:35:07.146Z] + export HTTPS_PROXY=http://10.120.61.146:443
-[2026-07-27T04:35:07.146Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
-[2026-07-27T04:35:07.147Z] + NEW_NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.147Z] + sudo sed -i /^[[:space:]]*no_proxy=/Id; /^[[:space:]]*NO_PROXY=/Id /etc/environment
-[2026-07-27T04:35:07.147Z] + echo no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.147Z] + sudo tee -a /etc/environment
-[2026-07-27T04:35:07.147Z] no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.148Z] + echo NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.148Z] + sudo tee -a /etc/environment
-[2026-07-27T04:35:07.148Z] NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.148Z] + . /etc/environment
-[2026-07-27T04:35:07.148Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-[2026-07-27T04:35:07.148Z] + export http_proxy=http://10.120.61.146:80
-[2026-07-27T04:35:07.148Z] + export https_proxy=http://10.120.61.146:443
-[2026-07-27T04:35:07.148Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.148Z] + export HTTP_PROXY=http://10.120.61.146:80
-[2026-07-27T04:35:07.148Z] + export HTTPS_PROXY=http://10.120.61.146:443
-[2026-07-27T04:35:07.149Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
-[2026-07-27T04:35:07.149Z] + no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.149Z] + NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-27T04:35:07.149Z] + sudo mkdir -p /opt/stack
-[2026-07-27T04:35:07.149Z] + sudo chown stack:stack /opt/stack
-[2026-07-27T04:35:07.149Z] + sudo mkdir -p /opt/stack/logs
-[2026-07-27T04:35:07.149Z] + sudo chown stack:stack /opt/stack/logs
-[2026-07-27T04:35:07.416Z] + sudo pip uninstall hpe-storage-flowkit-py -y --break-system-packages
-[2026-07-27T04:35:11.650Z] Found existing installation: hpe_storage_flowkit_py 0.9.3
-[2026-07-27T04:35:11.650Z] Uninstalling hpe_storage_flowkit_py-0.9.3:
-[2026-07-27T04:35:11.650Z]   Successfully uninstalled hpe_storage_flowkit_py-0.9.3
-[2026-07-27T04:35:11.650Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-[2026-07-27T04:35:11.915Z] + echo Installing latest hpe-storage-flowkit-py...
-[2026-07-27T04:35:11.915Z] Installing latest hpe-storage-flowkit-py...
-[2026-07-27T04:35:11.915Z] + sudo pip install hpe-storage-flowkit-py --break-system-packages
-[2026-07-27T04:35:14.480Z] Collecting hpe-storage-flowkit-py
-[2026-07-27T04:35:14.480Z]   Using cached hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl.metadata (5.7 kB)
-[2026-07-27T04:35:14.480Z] Using cached hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl (251 kB)
-[2026-07-27T04:35:15.427Z] Installing collected packages: hpe-storage-flowkit-py
-[2026-07-27T04:35:15.690Z] Successfully installed hpe-storage-flowkit-py-0.9.3
-[2026-07-27T04:35:15.690Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[2026-08-01T13:16:52.385Z] + set -eux
+[2026-08-01T13:16:52.385Z] + id -u stack
+[2026-08-01T13:16:52.385Z] + echo stack ALL=(ALL) NOPASSWD:ALL
+[2026-08-01T13:16:52.385Z] + sudo tee /etc/sudoers.d/stack
+[2026-08-01T13:16:52.648Z] stack ALL=(ALL) NOPASSWD:ALL
+[2026-08-01T13:16:52.648Z] + BACKUP_DIR=/opt/stack/env-backup
+[2026-08-01T13:16:52.648Z] + sudo rm -rf /etc/environment
+[2026-08-01T13:16:52.648Z] + sudo rm -rf /etc/resolv.conf
+[2026-08-01T13:16:52.648Z] + sudo rm -rf /etc/needrestart/needrestart.conf
+[2026-08-01T13:16:52.649Z] + sudo wget --no-proxy -O /etc/needrestart/needrestart.conf http://10.132.239.244/nimble/needrestart.conf
+[2026-08-01T13:16:52.913Z] --2026-08-01 13:17:08--  http://10.132.239.244/nimble/needrestart.conf
+[2026-08-01T13:16:52.913Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-01T13:16:52.913Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-01T13:16:52.913Z] Length: 6011 (5.9K)
+[2026-08-01T13:16:52.913Z] Saving to: ‘/etc/needrestart/needrestart.conf’
+[2026-08-01T13:16:52.913Z] 
+[2026-08-01T13:16:52.913Z]      0K .....                                                 100% 53.8M=0s
+[2026-08-01T13:16:52.913Z] 
+[2026-08-01T13:16:52.913Z] 2026-08-01 13:17:08 (53.8 MB/s) - ‘/etc/needrestart/needrestart.conf’ saved [6011/6011]
+[2026-08-01T13:16:52.913Z] 
+[2026-08-01T13:16:52.913Z] + sudo wget --no-proxy -O /etc/apt/apt.conf http://10.132.239.244/nimble/apt.conf
+[2026-08-01T13:16:52.913Z] --2026-08-01 13:17:08--  http://10.132.239.244/nimble/apt.conf
+[2026-08-01T13:16:52.913Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-01T13:16:52.913Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-01T13:16:52.913Z] Length: 338
+[2026-08-01T13:16:52.913Z] Saving to: ‘/etc/apt/apt.conf’
+[2026-08-01T13:16:52.913Z] 
+[2026-08-01T13:16:52.913Z]      0K                                                       100% 18.5M=0s
+[2026-08-01T13:16:52.913Z] 
+[2026-08-01T13:16:52.913Z] 2026-08-01 13:17:08 (18.5 MB/s) - ‘/etc/apt/apt.conf’ saved [338/338]
+[2026-08-01T13:16:52.913Z] 
+[2026-08-01T13:16:52.913Z] + sudo wget --no-proxy -O /etc/resolv.conf http://10.132.239.244/nimble/resolv.conf
+[2026-08-01T13:16:52.913Z] --2026-08-01 13:17:08--  http://10.132.239.244/nimble/resolv.conf
+[2026-08-01T13:16:52.914Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-01T13:16:52.914Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-01T13:16:52.914Z] Length: 228
+[2026-08-01T13:16:52.914Z] Saving to: ‘/etc/resolv.conf’
+[2026-08-01T13:16:52.914Z] 
+[2026-08-01T13:16:52.914Z]      0K                                                       100% 9.65M=0s
+[2026-08-01T13:16:52.914Z] 
+[2026-08-01T13:16:52.914Z] 2026-08-01 13:17:08 (9.65 MB/s) - ‘/etc/resolv.conf’ saved [228/228]
+[2026-08-01T13:16:52.914Z] 
+[2026-08-01T13:16:52.914Z] + sudo wget --no-proxy -O /etc/environment http://10.132.239.244/nimble/environment
+[2026-08-01T13:16:52.914Z] --2026-08-01 13:17:08--  http://10.132.239.244/nimble/environment
+[2026-08-01T13:16:52.914Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-01T13:16:52.914Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-01T13:16:52.914Z] Length: 806
+[2026-08-01T13:16:52.914Z] Saving to: ‘/etc/environment’
+[2026-08-01T13:16:52.914Z] 
+[2026-08-01T13:16:52.914Z]      0K                                                       100% 41.9M=0s
+[2026-08-01T13:16:52.914Z] 
+[2026-08-01T13:16:52.914Z] 2026-08-01 13:17:08 (41.9 MB/s) - ‘/etc/environment’ saved [806/806]
+[2026-08-01T13:16:52.914Z] 
+[2026-08-01T13:16:52.914Z] + sudo wget --no-proxy -O /etc/sudoers.d/ubuntu http://10.132.239.244/nimble/ubuntu
+[2026-08-01T13:16:53.181Z] --2026-08-01 13:17:08--  http://10.132.239.244/nimble/ubuntu
+[2026-08-01T13:16:53.181Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-01T13:16:53.181Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-01T13:16:53.181Z] Length: 32
+[2026-08-01T13:16:53.181Z] Saving to: ‘/etc/sudoers.d/ubuntu’
+[2026-08-01T13:16:53.181Z] 
+[2026-08-01T13:16:53.181Z]      0K                                                       100% 1.81M=0s
+[2026-08-01T13:16:53.181Z] 
+[2026-08-01T13:16:53.181Z] 2026-08-01 13:17:08 (1.81 MB/s) - ‘/etc/sudoers.d/ubuntu’ saved [32/32]
+[2026-08-01T13:16:53.181Z] 
+[2026-08-01T13:16:53.181Z] + sudo wget --no-proxy -O /etc/sudoers.d/stack http://10.132.239.244/nimble/stack
+[2026-08-01T13:16:53.181Z] --2026-08-01 13:17:08--  http://10.132.239.244/nimble/stack
+[2026-08-01T13:16:53.181Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-01T13:16:53.181Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-01T13:16:53.181Z] Length: 30
+[2026-08-01T13:16:53.181Z] Saving to: ‘/etc/sudoers.d/stack’
+[2026-08-01T13:16:53.181Z] 
+[2026-08-01T13:16:53.181Z]      0K                                                       100% 1.65M=0s
+[2026-08-01T13:16:53.181Z] 
+[2026-08-01T13:16:53.181Z] 2026-08-01 13:17:08 (1.65 MB/s) - ‘/etc/sudoers.d/stack’ saved [30/30]
+[2026-08-01T13:16:53.181Z] 
+[2026-08-01T13:16:53.181Z] + hostname -I
+[2026-08-01T13:16:53.181Z] + awk {print $1}
+[2026-08-01T13:16:53.181Z] + HOST_IP=10.132.239.242
+[2026-08-01T13:16:53.181Z] + hostname
+[2026-08-01T13:16:53.181Z] + HN=ubuntu
+[2026-08-01T13:16:53.181Z] + hostname -f
+[2026-08-01T13:16:53.181Z] + FQDN=localhost
+[2026-08-01T13:16:53.181Z] + . /etc/environment
+[2026-08-01T13:16:53.182Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[2026-08-01T13:16:53.182Z] + export http_proxy=http://10.120.61.146:80
+[2026-08-01T13:16:53.182Z] + export https_proxy=http://10.120.61.146:443
+[2026-08-01T13:16:53.182Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.182Z] + export HTTP_PROXY=http://10.120.61.146:80
+[2026-08-01T13:16:53.182Z] + export HTTPS_PROXY=http://10.120.61.146:443
+[2026-08-01T13:16:53.182Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
+[2026-08-01T13:16:53.182Z] + NEW_NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.182Z] + sudo sed -i /^[[:space:]]*no_proxy=/Id; /^[[:space:]]*NO_PROXY=/Id /etc/environment
+[2026-08-01T13:16:53.445Z] + echo no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.445Z] + sudo tee -a /etc/environment
+[2026-08-01T13:16:53.445Z] no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.446Z] + echo NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.446Z] + sudo tee -a /etc/environment
+[2026-08-01T13:16:53.446Z] NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.446Z] + . /etc/environment
+[2026-08-01T13:16:53.446Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[2026-08-01T13:16:53.446Z] + export http_proxy=http://10.120.61.146:80
+[2026-08-01T13:16:53.446Z] + export https_proxy=http://10.120.61.146:443
+[2026-08-01T13:16:53.446Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.446Z] + export HTTP_PROXY=http://10.120.61.146:80
+[2026-08-01T13:16:53.447Z] + export HTTPS_PROXY=http://10.120.61.146:443
+[2026-08-01T13:16:53.447Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
+[2026-08-01T13:16:53.447Z] + no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.447Z] + NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-01T13:16:53.447Z] + sudo mkdir -p /opt/stack
+[2026-08-01T13:16:53.447Z] + sudo chown stack:stack /opt/stack
+[2026-08-01T13:16:53.447Z] + sudo mkdir -p /opt/stack/logs
+[2026-08-01T13:16:53.447Z] + sudo chown stack:stack /opt/stack/logs
+[2026-08-01T13:16:53.447Z] + sudo pip uninstall hpe-storage-flowkit-py -y --break-system-packages
+[2026-08-01T13:16:58.755Z] Found existing installation: hpe_storage_flowkit_py 0.9.3
+[2026-08-01T13:16:58.755Z] Uninstalling hpe_storage_flowkit_py-0.9.3:
+[2026-08-01T13:16:58.755Z]   Successfully uninstalled hpe_storage_flowkit_py-0.9.3
+[2026-08-01T13:16:58.755Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[2026-08-01T13:16:58.755Z] + echo Installing latest hpe-storage-flowkit-py...
+[2026-08-01T13:16:58.755Z] Installing latest hpe-storage-flowkit-py...
+[2026-08-01T13:16:58.755Z] + sudo pip install hpe-storage-flowkit-py --break-system-packages
+[2026-08-01T13:17:01.320Z] Collecting hpe-storage-flowkit-py
+[2026-08-01T13:17:01.320Z]   Using cached hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl.metadata (5.7 kB)
+[2026-08-01T13:17:01.320Z] Using cached hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl (251 kB)
+[2026-08-01T13:17:02.715Z] Installing collected packages: hpe-storage-flowkit-py
+[2026-08-01T13:17:02.980Z] Successfully installed hpe-storage-flowkit-py-0.9.3
+[2026-08-01T13:17:02.980Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
 [8mha:////4H43pvPJTlc2p5DC1irvdX0xoNe2SsIXUgTRdltixJfcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGHKGa5vgAAAA==[0m[Pipeline] }
 [8mha:////4PJY3e0708+WzzFsY+9tZRYrYc0JNxYPDF/+48lOFs6cAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AG0yz0FvgAAAA==[0m[Pipeline] // stage
 [8mha:////4E+IrNtOTbqv1CVAZCVXemDVyzZngCsQSWaX77ZSa9gvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFwZZsawgAAAA==[0m[Pipeline] stage
 [8mha:////4MOtjK8giZ65gjdkKN7UyRUFGoem1d/wGghxsj1Hf7XhAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Checkout Repositories)
 [8mha:////4MMJutD1i2bb04Rw7AFCGC9N+YqaTIyhJtVZM2cRvKeiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
-[2026-07-27T04:35:16.174Z] + set -eux
-[2026-07-27T04:35:16.174Z] + cd /opt/stack
-[2026-07-27T04:35:16.174Z] + sudo -u stack git clone https://github.com/openstack/devstack
-[2026-07-27T04:35:16.474Z] Cloning into 'devstack'...
-[2026-07-27T04:35:24.654Z] + sudo -u stack chmod 777 /opt/stack/devstack/tools/outfilter.py
-[2026-07-27T04:35:24.654Z] + cd devstack
+[2026-08-01T13:17:03.701Z] + set -eux
+[2026-08-01T13:17:03.701Z] + cd /opt/stack
+[2026-08-01T13:17:03.701Z] + sudo -u stack git clone https://github.com/openstack/devstack
+[2026-08-01T13:17:03.701Z] Cloning into 'devstack'...
+[2026-08-01T13:17:13.758Z] + sudo -u stack chmod 777 /opt/stack/devstack/tools/outfilter.py
+[2026-08-01T13:17:13.758Z] + cd devstack
 [8mha:////4BSK3/XEf/IDhMDTMd4SPEA+VspCj9ZEhahyUKmuiWR9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
 [8mha:////4JOnK8KZEYpPgI+0xUU0il/gAmXjOv0F0+kCfvrzRHwXAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // stage
 [8mha:////4Gi7XqZSrdXbyqlkkCMWPnzFPsS9u2cVakgfwyLwIL+MAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm/D9FZKwgAAAA==[0m[Pipeline] stage
 [8mha:////4KVq2huWkhANqg3BMcLVjaaKjNairVvGACnWjmiQy5QAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Validate Cherry-pick)
 [8mha:////4Dur/vfIT5s4t9dngkNLmyoQ/ZVQBE7qlsNZsCCuu+5aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
-[2026-07-27T04:35:25.225Z] + set -eux
-[2026-07-27T04:35:25.225Z] + mktemp -d
-[2026-07-27T04:35:25.225Z] + TMP_DIR=/tmp/tmp.YbUhHk9Okt
-[2026-07-27T04:35:25.225Z] + trap rm -rf /tmp/tmp.YbUhHk9Okt EXIT
-[2026-07-27T04:35:25.225Z] + git clone http://github.com/openstack/cinder.git /tmp/tmp.YbUhHk9Okt/cinder
-[2026-07-27T04:35:25.225Z] Cloning into '/tmp/tmp.YbUhHk9Okt/cinder'...
-[2026-07-27T04:35:25.802Z] warning: redirecting to https://github.com/openstack/cinder.git/
-[2026-07-27T04:36:12.640Z] + cd /tmp/tmp.YbUhHk9Okt/cinder
-[2026-07-27T04:36:12.640Z] + git config user.name hp-storage-blr-ci
-[2026-07-27T04:36:12.640Z] + git config user.email hp.cinder.blr.ci@groups.ext.hpe.com
-[2026-07-27T04:36:12.640Z] + PATCH_REF=refs/changes/24/995924/5
-[2026-07-27T04:36:12.640Z] + git fetch https://review.opendev.org/openstack/cinder refs/changes/24/995924/5
-[2026-07-27T04:36:14.033Z] From https://review.opendev.org/openstack/cinder
-[2026-07-27T04:36:14.033Z]  * branch                refs/changes/24/995924/5 -> FETCH_HEAD
-[2026-07-27T04:36:14.296Z] + git cherry-pick FETCH_HEAD
-[2026-07-27T04:36:14.559Z] Auto-merging cinder/tests/unit/volume/drivers/test_rbd.py
-[2026-07-27T04:36:14.559Z] CONFLICT (content): Merge conflict in cinder/tests/unit/volume/drivers/test_rbd.py
-[2026-07-27T04:36:15.135Z] error: could not apply 7855a6985... RBD: Preserve snapshots during volume reimage
-[2026-07-27T04:36:15.135Z] hint: After resolving the conflicts, mark them with
-[2026-07-27T04:36:15.135Z] hint: "git add/rm <pathspec>", then run
-[2026-07-27T04:36:15.135Z] hint: "git cherry-pick --continue".
-[2026-07-27T04:36:15.135Z] hint: You can instead skip this commit with "git cherry-pick --skip".
-[2026-07-27T04:36:15.135Z] hint: To abort and get back to the state before "git cherry-pick",
-[2026-07-27T04:36:15.135Z] hint: run "git cherry-pick --abort".
-[2026-07-27T04:36:15.135Z] + rm -rf /tmp/tmp.YbUhHk9Okt
+[2026-08-01T13:17:14.364Z] + set -eux
+[2026-08-01T13:17:14.364Z] + mktemp -d
+[2026-08-01T13:17:14.364Z] + TMP_DIR=/tmp/tmp.xoLqwr6CxE
+[2026-08-01T13:17:14.364Z] + trap rm -rf /tmp/tmp.xoLqwr6CxE EXIT
+[2026-08-01T13:17:14.364Z] + git clone http://github.com/openstack/cinder.git /tmp/tmp.xoLqwr6CxE/cinder
+[2026-08-01T13:17:14.364Z] Cloning into '/tmp/tmp.xoLqwr6CxE/cinder'...
+[2026-08-01T13:17:14.945Z] warning: redirecting to https://github.com/openstack/cinder.git/
+[2026-08-01T13:18:11.607Z] + cd /tmp/tmp.xoLqwr6CxE/cinder
+[2026-08-01T13:18:11.607Z] + git config user.name hp-storage-blr-ci
+[2026-08-01T13:18:11.607Z] + git config user.email hp.cinder.blr.ci@groups.ext.hpe.com
+[2026-08-01T13:18:11.607Z] + PATCH_REF=refs/changes/24/995924/6
+[2026-08-01T13:18:11.607Z] + git fetch https://review.opendev.org/openstack/cinder refs/changes/24/995924/6
+[2026-08-01T13:18:11.607Z] From https://review.opendev.org/openstack/cinder
+[2026-08-01T13:18:11.607Z]  * branch                refs/changes/24/995924/6 -> FETCH_HEAD
+[2026-08-01T13:18:11.607Z] + git cherry-pick FETCH_HEAD
+[2026-08-01T13:18:11.607Z] Auto-merging cinder/tests/unit/volume/drivers/test_rbd.py
+[2026-08-01T13:18:11.607Z] CONFLICT (content): Merge conflict in cinder/tests/unit/volume/drivers/test_rbd.py
+[2026-08-01T13:18:11.607Z] error: could not apply 28a6295f0... RBD: Preserve snapshots during volume reimage
+[2026-08-01T13:18:11.607Z] hint: After resolving the conflicts, mark them with
+[2026-08-01T13:18:11.607Z] hint: "git add/rm <pathspec>", then run
+[2026-08-01T13:18:11.607Z] hint: "git cherry-pick --continue".
+[2026-08-01T13:18:11.607Z] hint: You can instead skip this commit with "git cherry-pick --skip".
+[2026-08-01T13:18:11.607Z] hint: To abort and get back to the state before "git cherry-pick",
+[2026-08-01T13:18:11.607Z] hint: run "git cherry-pick --abort".
+[2026-08-01T13:18:11.607Z] + rm -rf /tmp/tmp.xoLqwr6CxE
 [8mha:////4ITYdKCY13aT9869P/CmwPZvghzkluxNnOV9FJzyKOqEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
 [8mha:////4L6i+Ux/Ihlt3DY1YedVTEUHz4dPA89B5xtlj2V59ubvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // stage
 [8mha:////4Ph5scYqpuWPWjiFCTupFeomLeUwKihPfp+eIt9Vcl7wAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQHEbuy8wgAAAA==[0m[Pipeline] stage
@@ -251,62 +251,62 @@ Stage "Run Tempest Tests" skipped due to earlier failure(s)
 [8mha:////4OGYMnVtHFs2tGTmz8NXUBRr4S8XU3vSKGNYHxDabe3WAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUXWBATF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmz73edZvQFDe+tjwgAAAA==[0m[Pipeline] stage
 [8mha:////4Oy/lzxsB0RQ+U1qyKElxFawfm7CjswMZir/P9GAuGUHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
 [8mha:////4H/ToEZAsB268pNV5PeCoEHyh+QNzH/KT1680fMeRhQDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] timeout
-[2026-07-27T04:36:16.925Z] Timeout set to expire in 30 min
+[2026-08-01T13:18:13.228Z] Timeout set to expire in 30 min
 [8mha:////4Np5p9AJPI89MU+wfB5hgdJADtiwmhsIr7UBSzqYKNoOAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+81LNBsIAAAA=[0m[Pipeline] {
 [8mha:////4LJdgXCMSftLAHfOXsa0d8AMx11wqwyXsXA1WLJXFVqIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPkgcDP2+AAAA[0m[Pipeline] sh
-[2026-07-27T04:36:17.273Z] + set -ex
-[2026-07-27T04:36:17.273Z] + ARTDIR=/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs
-[2026-07-27T04:36:17.273Z] + mkdir -p /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc
-[2026-07-27T04:36:17.273Z] + echo Build start time recorded is : 2026-07-27 04:35:21
-[2026-07-27T04:36:17.273Z] Build start time recorded is : 2026-07-27 04:35:21
-[2026-07-27T04:36:17.273Z] + sudo journalctl -u devstack@c-api.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:22.589Z] + sudo journalctl -u devstack@c-sch.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:25.905Z] + sudo journalctl -u devstack@c-vol.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:29.220Z] + sudo journalctl -u devstack@dstat.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:32.538Z] + sudo journalctl -u devstack@g-api.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:34.466Z] + sudo journalctl -u devstack@g-reg.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:37.026Z] + sudo journalctl -u devstack@keystone.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:40.339Z] + sudo journalctl -u devstack@q-agt.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:41.734Z] + sudo journalctl -u devstack@q-dhcp.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:42.683Z] + sudo journalctl -u devstack@q-l3.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:44.078Z] + sudo journalctl -u devstack@q-meta.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:45.474Z] + sudo journalctl -u devstack@q-svc.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:46.423Z] + sudo journalctl -u devstack@etcd.service --since 2026-07-27 04:35:21
-[2026-07-27T04:36:48.359Z] + sudo cp -r /etc/cinder /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
-[2026-07-27T04:36:48.359Z] cp: cannot stat '/etc/cinder': No such file or directory
-[2026-07-27T04:36:48.359Z] + true
-[2026-07-27T04:36:48.359Z] + sudo cp -r /etc/glance /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
-[2026-07-27T04:36:48.359Z] cp: cannot stat '/etc/glance': No such file or directory
-[2026-07-27T04:36:48.359Z] + true
-[2026-07-27T04:36:48.359Z] + sudo cp -r /etc/keystone /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
-[2026-07-27T04:36:48.359Z] cp: cannot stat '/etc/keystone': No such file or directory
-[2026-07-27T04:36:48.359Z] + true
-[2026-07-27T04:36:48.359Z] + sudo cp -r /etc/neutron /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
-[2026-07-27T04:36:48.359Z] cp: cannot stat '/etc/neutron': No such file or directory
-[2026-07-27T04:36:48.359Z] + true
-[2026-07-27T04:36:48.360Z] + sudo cp /opt/stack/tempest/etc/tempest.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest.conf
-[2026-07-27T04:36:48.360Z] cp: cannot stat '/opt/stack/tempest/etc/tempest.conf': No such file or directory
-[2026-07-27T04:36:48.360Z] + true
-[2026-07-27T04:36:48.360Z] + sudo cp /opt/stack/logs/tempest_results.log /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest_log.log
-[2026-07-27T04:36:48.360Z] cp: cannot stat '/opt/stack/logs/tempest_results.log': No such file or directory
-[2026-07-27T04:36:48.360Z] + true
-[2026-07-27T04:36:48.360Z] + [ -d /opt/stack/logs ]
-[2026-07-27T04:36:48.360Z] + sudo cp -r /opt/stack/logs /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs
-[2026-07-27T04:36:48.360Z] + sudo cp /opt/stack/devstack/local.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs/
-[2026-07-27T04:36:48.360Z] cp: cannot stat '/opt/stack/devstack/local.conf': No such file or directory
-[2026-07-27T04:36:48.360Z] + true
-[2026-07-27T04:36:48.360Z] + sudo find /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs -type f -exec sed -i -e s/****/******/g -e s/hpinvent/******/g -e s/admin/******/g {} +
-[2026-07-27T04:36:48.360Z] + id -u
-[2026-07-27T04:36:48.360Z] + id -g
-[2026-07-27T04:36:48.360Z] + sudo chown -R 0:0 /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts
+[2026-08-01T13:18:13.582Z] + set -ex
+[2026-08-01T13:18:13.582Z] + ARTDIR=/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs
+[2026-08-01T13:18:13.582Z] + mkdir -p /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc
+[2026-08-01T13:18:13.582Z] + echo Build start time recorded is : 2026-08-01 13:17:06
+[2026-08-01T13:18:13.582Z] Build start time recorded is : 2026-08-01 13:17:06
+[2026-08-01T13:18:13.582Z] + sudo journalctl -u devstack@c-api.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:18.899Z] + sudo journalctl -u devstack@c-sch.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:21.458Z] + sudo journalctl -u devstack@c-vol.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:25.681Z] + sudo journalctl -u devstack@dstat.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:29.941Z] + sudo journalctl -u devstack@g-api.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:33.262Z] + sudo journalctl -u devstack@g-reg.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:35.822Z] + sudo journalctl -u devstack@keystone.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:39.135Z] + sudo journalctl -u devstack@q-agt.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:40.087Z] + sudo journalctl -u devstack@q-dhcp.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:41.486Z] + sudo journalctl -u devstack@q-l3.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:42.441Z] + sudo journalctl -u devstack@q-meta.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:44.374Z] + sudo journalctl -u devstack@q-svc.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:45.776Z] + sudo journalctl -u devstack@etcd.service --since 2026-08-01 13:17:06
+[2026-08-01T13:18:47.170Z] + sudo cp -r /etc/cinder /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-08-01T13:18:47.170Z] cp: cannot stat '/etc/cinder': No such file or directory
+[2026-08-01T13:18:47.170Z] + true
+[2026-08-01T13:18:47.170Z] + sudo cp -r /etc/glance /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-08-01T13:18:47.170Z] cp: cannot stat '/etc/glance': No such file or directory
+[2026-08-01T13:18:47.170Z] + true
+[2026-08-01T13:18:47.170Z] + sudo cp -r /etc/keystone /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-08-01T13:18:47.170Z] cp: cannot stat '/etc/keystone': No such file or directory
+[2026-08-01T13:18:47.170Z] + true
+[2026-08-01T13:18:47.170Z] + sudo cp -r /etc/neutron /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-08-01T13:18:47.170Z] cp: cannot stat '/etc/neutron': No such file or directory
+[2026-08-01T13:18:47.170Z] + true
+[2026-08-01T13:18:47.170Z] + sudo cp /opt/stack/tempest/etc/tempest.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest.conf
+[2026-08-01T13:18:47.170Z] cp: cannot stat '/opt/stack/tempest/etc/tempest.conf': No such file or directory
+[2026-08-01T13:18:47.170Z] + true
+[2026-08-01T13:18:47.170Z] + sudo cp /opt/stack/logs/tempest_results.log /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest_log.log
+[2026-08-01T13:18:47.170Z] cp: cannot stat '/opt/stack/logs/tempest_results.log': No such file or directory
+[2026-08-01T13:18:47.170Z] + true
+[2026-08-01T13:18:47.170Z] + [ -d /opt/stack/logs ]
+[2026-08-01T13:18:47.170Z] + sudo cp -r /opt/stack/logs /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs
+[2026-08-01T13:18:47.171Z] + sudo cp /opt/stack/devstack/local.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs/
+[2026-08-01T13:18:47.171Z] cp: cannot stat '/opt/stack/devstack/local.conf': No such file or directory
+[2026-08-01T13:18:47.171Z] + true
+[2026-08-01T13:18:47.171Z] + sudo find /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs -type f -exec sed -i -e s/****/******/g -e s/hpinvent/******/g -e s/admin/******/g {} +
+[2026-08-01T13:18:47.435Z] + id -u
+[2026-08-01T13:18:47.435Z] + id -g
+[2026-08-01T13:18:47.435Z] + sudo chown -R 0:0 /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts
 [8mha:////4NoEpvMEJju6iVSuh0lDRJj6/e6j4vMvHu4R0cZKgS3NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHtLqhnvgAAAA==[0m[Pipeline] }
 [8mha:////4FCCZAGYbSkpij8xkOTJPDkKuZeolTeao7eX6KcxGpcbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0RAJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g/VbDuWvgAAAA==[0m[Pipeline] // timeout
 [8mha:////4CyXN7RHmk3M/g4q5hzH1i9e+6m04D3P+gNviK1f6MP5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpKIKEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2Ccq6znXY+w/WNB6GvgAAAA==[0m[Pipeline] archiveArtifacts
-[2026-07-27T04:36:48.484Z] Archiving artifacts
+[2026-08-01T13:18:47.552Z] Archiving artifacts
 [8mha:////4Dnz+FUZUrpEsH1hG96KmxxbkY5DDpCVgetGz+VFoCNTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QSoSYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwRl02Tb7z7P6g0CxePfwgAAAA==[0m[Pipeline] script
 [8mha:////4KUgaAU5pj9oTQTx2CXZxCtJpmNOvxhahPDYZzidAiZGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] {
 [8mha:////4IJzQZGln/Ks61OS/nKpldy4U0uspqCpNYn1iZWR9SsrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7lC07jCAAAA[0m[Pipeline] node
-[2026-07-27T04:36:48.624Z] Running on [8mha:////4KgI8C9NtTFTiWJMi4Ya/M/IeZNpbjj2a3+sgFQdvHWSAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI
+[2026-08-01T13:18:47.674Z] Running on [8mha:////4KgI8C9NtTFTiWJMi4Ya/M/IeZNpbjj2a3+sgFQdvHWSAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI
 [8mha:////4BwbCnBNWL7Wb86WDfkhMpJmQEgr4TsFKPdnol7tTI6TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] {
 [8mha:////4DMLtEShJKJ4tGLtpDxcBNBLhjQpMVUgeniXbHYCTEjNAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pBJiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPCJq12sIAAAA=[0m[Pipeline] timeout
-[2026-07-27T04:36:48.697Z] Timeout set to expire in 15 min
+[2026-08-01T13:18:47.752Z] Timeout set to expire in 15 min
