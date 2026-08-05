@@ -15,8 +15,8 @@ auth_type = password
 [DEFAULT]
 volume_name_template = openstack-ci-%s
 iscsi_helper = tgtadm
-cinder_internal_tenant_user_id = 26c2b46f3d2643648fb8e07fbdee7ab0
-cinder_internal_tenant_project_id = a9258edfa22749b4bbdb6c33667e8d3d
+cinder_internal_tenant_user_id = 02ee32496242416db39bd23ec0a2dd52
+cinder_internal_tenant_project_id = 4063cfb8c04640ed9a601c07486c0fc8
 graceful_shutdown_timeout = 5
 glance_api_servers = http://10.132.239.242/image
 log_color = True
