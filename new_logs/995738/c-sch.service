@@ -1,1 +1,1 @@
--- No entries --
+Aug 07 20:35:32 ubuntu cinder-scheduler[1488094]: DEBUG cinder.scheduler.host_manager [None req-5a56899e-cba4-450f-bf47-daf2ebf30ffc None None] Received backup service update from ubuntu: {'backend_state': True, 'driver_name': 'cinder.backup.drivers.swift.SwiftBackupDriver', 'availability_zone': 'nova'} {{(pid=1488094) update_service_capabilities /opt/stack/cinder/cinder/scheduler/host_manager.py:598}}
