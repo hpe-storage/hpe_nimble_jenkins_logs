@@ -1,0 +1,1 @@
+Aug 08 18:03:21 ubuntu etcd[1421326]: {"level":"debug","ts":"2026-08-08T18:03:21.393877Z","caller":"etcdserver/server.go:1230","msg":"The member is active, skip checking leadership","latestTickTs":"2026-08-08T18:03:21.333160Z","now":"2026-08-08T18:03:21.393874Z"}
