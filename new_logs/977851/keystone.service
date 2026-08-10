@@ -1,1 +1,1 @@
-Aug 06 16:33:45 ubuntu devstack@keystone.service[1422801]: DEBUG dbcounter [-] [1422801] Writing DB stats keystone:SELECT=1 {{(pid=1422801) stat_writer /opt/stack/data/venv/lib/python3.12/site-packages/dbcounter.py:115}}
+Aug 10 20:50:23 ubuntu devstack@keystone.service[1422801]: DEBUG dbcounter [-] [1422801] Writing DB stats keystone:SELECT=17 {{(pid=1422801) stat_writer /opt/stack/data/venv/lib/python3.12/site-packages/dbcounter.py:115}}
