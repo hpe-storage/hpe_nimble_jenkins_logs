@@ -16,1407 +16,270 @@ Masking supported pattern matches of $SAN_PASSWORD or $SAN_LOGIN or $OPENSTACK_U
 [8mha:////4D3XLYaJA42D26oMSyiG1+sD44EzZCGBMSfwHCNmitbeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
 [8mha:////4NzPZX4fG43iqH1pb7mEGd4ubC2pAVuyZi/X6hl3pU2YAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (CI Pipeline)
 [8mha:////4BeYLUHkMWzv9DYSdcqc4Nsvbmd/4l62r6bpENzRy61uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] timeout
-[2026-07-28T04:15:54.668Z] Timeout set to expire in 2 hr 0 min
+[2026-08-12T09:39:06.589Z] Timeout set to expire in 2 hr 0 min
 [8mha:////4PskGxZlz620IDGVZjkiyLLQct6RKWaIZsDTS1WPt9sOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
 [8mha:////4GE73Z9uyHca7iJ66x6EXaM+AGx+9fiYCk3K3YFB84JsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
 [8mha:////4NeHfhgQTUn1WehLhuIfMRJwKZbskLBW+Us/EaTuVQ8fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Prepare Node)
 [8mha:////4P7YaZdh5EIdfdoa8CNnIbSiZjJ9+pNrnm1IU38V9sFmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] cleanWs
-[2026-07-28T04:15:54.879Z] [WS-CLEANUP] Deleting project workspace...
-[2026-07-28T04:15:54.879Z] [WS-CLEANUP] Deferred wipeout is used...
-[2026-07-28T04:15:54.896Z] [WS-CLEANUP] done
+[2026-08-12T09:39:06.802Z] [WS-CLEANUP] Deleting project workspace...
+[2026-08-12T09:39:06.802Z] [WS-CLEANUP] Deferred wipeout is used...
+[2026-08-12T09:39:06.818Z] [WS-CLEANUP] done
 [8mha:////4NH8iCzf7bpV+2Ri2rVdSQsOCT/mWZ3/OT0LXoM9yXE8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] sh
-[2026-07-28T04:15:55.247Z] + set -eux
-[2026-07-28T04:15:55.247Z] + id -u stack
-[2026-07-28T04:15:55.247Z] + echo stack ALL=(ALL) NOPASSWD:ALL
-[2026-07-28T04:15:55.247Z] + sudo tee /etc/sudoers.d/stack
-[2026-07-28T04:15:55.247Z] stack ALL=(ALL) NOPASSWD:ALL
-[2026-07-28T04:15:55.247Z] + BACKUP_DIR=/opt/stack/env-backup
-[2026-07-28T04:15:55.247Z] + sudo rm -rf /etc/environment
-[2026-07-28T04:15:55.247Z] + sudo rm -rf /etc/resolv.conf
-[2026-07-28T04:15:55.247Z] + sudo rm -rf /etc/needrestart/needrestart.conf
-[2026-07-28T04:15:55.514Z] + sudo wget --no-proxy -O /etc/needrestart/needrestart.conf http://10.132.239.244/nimble/needrestart.conf
-[2026-07-28T04:15:55.514Z] --2026-07-28 04:16:14--  http://10.132.239.244/nimble/needrestart.conf
-[2026-07-28T04:15:55.514Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-28T04:15:55.514Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-28T04:15:55.514Z] Length: 6011 (5.9K)
-[2026-07-28T04:15:55.514Z] Saving to: ‘/etc/needrestart/needrestart.conf’
-[2026-07-28T04:15:55.514Z] 
-[2026-07-28T04:15:55.514Z]      0K .....                                                 100%  144M=0s
-[2026-07-28T04:15:55.514Z] 
-[2026-07-28T04:15:55.515Z] 2026-07-28 04:16:14 (144 MB/s) - ‘/etc/needrestart/needrestart.conf’ saved [6011/6011]
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z] + sudo wget --no-proxy -O /etc/apt/apt.conf http://10.132.239.244/nimble/apt.conf
-[2026-07-28T04:15:55.515Z] --2026-07-28 04:16:14--  http://10.132.239.244/nimble/apt.conf
-[2026-07-28T04:15:55.515Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-28T04:15:55.515Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-28T04:15:55.515Z] Length: 338
-[2026-07-28T04:15:55.515Z] Saving to: ‘/etc/apt/apt.conf’
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z]      0K                                                       100% 18.4M=0s
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z] 2026-07-28 04:16:14 (18.4 MB/s) - ‘/etc/apt/apt.conf’ saved [338/338]
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z] + sudo wget --no-proxy -O /etc/resolv.conf http://10.132.239.244/nimble/resolv.conf
-[2026-07-28T04:15:55.515Z] --2026-07-28 04:16:14--  http://10.132.239.244/nimble/resolv.conf
-[2026-07-28T04:15:55.515Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-28T04:15:55.515Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-28T04:15:55.515Z] Length: 228
-[2026-07-28T04:15:55.515Z] Saving to: ‘/etc/resolv.conf’
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z]      0K                                                       100% 12.5M=0s
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z] 2026-07-28 04:16:14 (12.5 MB/s) - ‘/etc/resolv.conf’ saved [228/228]
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z] + sudo wget --no-proxy -O /etc/environment http://10.132.239.244/nimble/environment
-[2026-07-28T04:15:55.515Z] --2026-07-28 04:16:14--  http://10.132.239.244/nimble/environment
-[2026-07-28T04:15:55.515Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-28T04:15:55.515Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-28T04:15:55.515Z] Length: 806
-[2026-07-28T04:15:55.515Z] Saving to: ‘/etc/environment’
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z]      0K                                                       100% 41.9M=0s
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z] 2026-07-28 04:16:14 (41.9 MB/s) - ‘/etc/environment’ saved [806/806]
-[2026-07-28T04:15:55.515Z] 
-[2026-07-28T04:15:55.515Z] + sudo wget --no-proxy -O /etc/sudoers.d/ubuntu http://10.132.239.244/nimble/ubuntu
-[2026-07-28T04:15:55.782Z] --2026-07-28 04:16:14--  http://10.132.239.244/nimble/ubuntu
-[2026-07-28T04:15:55.782Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-28T04:15:55.782Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-28T04:15:55.782Z] Length: 32
-[2026-07-28T04:15:55.782Z] Saving to: ‘/etc/sudoers.d/ubuntu’
-[2026-07-28T04:15:55.782Z] 
-[2026-07-28T04:15:55.782Z]      0K                                                       100% 1.34M=0s
-[2026-07-28T04:15:55.782Z] 
-[2026-07-28T04:15:55.782Z] 2026-07-28 04:16:14 (1.34 MB/s) - ‘/etc/sudoers.d/ubuntu’ saved [32/32]
-[2026-07-28T04:15:55.782Z] 
-[2026-07-28T04:15:55.783Z] + sudo wget --no-proxy -O /etc/sudoers.d/stack http://10.132.239.244/nimble/stack
-[2026-07-28T04:15:55.783Z] --2026-07-28 04:16:14--  http://10.132.239.244/nimble/stack
-[2026-07-28T04:15:55.783Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-28T04:15:55.783Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-28T04:15:55.783Z] Length: 30
-[2026-07-28T04:15:55.783Z] Saving to: ‘/etc/sudoers.d/stack’
-[2026-07-28T04:15:55.783Z] 
-[2026-07-28T04:15:55.783Z]      0K                                                       100% 1.51M=0s
-[2026-07-28T04:15:55.783Z] 
-[2026-07-28T04:15:55.783Z] 2026-07-28 04:16:14 (1.51 MB/s) - ‘/etc/sudoers.d/stack’ saved [30/30]
-[2026-07-28T04:15:55.783Z] 
-[2026-07-28T04:15:55.783Z] + hostname -I
-[2026-07-28T04:15:55.783Z] + awk {print $1}
-[2026-07-28T04:15:55.783Z] + HOST_IP=10.132.239.242
-[2026-07-28T04:15:55.783Z] + hostname
-[2026-07-28T04:15:55.783Z] + HN=ubuntu
-[2026-07-28T04:15:55.783Z] + hostname -f
-[2026-07-28T04:15:55.783Z] + FQDN=localhost
-[2026-07-28T04:15:55.783Z] + . /etc/environment
-[2026-07-28T04:15:55.783Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-[2026-07-28T04:15:55.783Z] + export http_proxy=http://10.120.61.146:80
-[2026-07-28T04:15:55.783Z] + export https_proxy=http://10.120.61.146:443
-[2026-07-28T04:15:55.783Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.783Z] + export HTTP_PROXY=http://10.120.61.146:80
-[2026-07-28T04:15:55.783Z] + export HTTPS_PROXY=http://10.120.61.146:443
-[2026-07-28T04:15:55.783Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
-[2026-07-28T04:15:55.784Z] + NEW_NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.784Z] + sudo sed -i /^[[:space:]]*no_proxy=/Id; /^[[:space:]]*NO_PROXY=/Id /etc/environment
-[2026-07-28T04:15:55.784Z] + echo no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.784Z] + sudo tee -a /etc/environment
-[2026-07-28T04:15:55.784Z] no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.785Z] + echo NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.785Z] + sudo tee -a /etc/environment
-[2026-07-28T04:15:55.785Z] NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.785Z] + . /etc/environment
-[2026-07-28T04:15:55.785Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-[2026-07-28T04:15:55.785Z] + export http_proxy=http://10.120.61.146:80
-[2026-07-28T04:15:55.785Z] + export https_proxy=http://10.120.61.146:443
-[2026-07-28T04:15:55.785Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.785Z] + export HTTP_PROXY=http://10.120.61.146:80
-[2026-07-28T04:15:55.785Z] + export HTTPS_PROXY=http://10.120.61.146:443
-[2026-07-28T04:15:55.786Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
-[2026-07-28T04:15:55.786Z] + no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.786Z] + NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
-[2026-07-28T04:15:55.786Z] + sudo mkdir -p /opt/stack
-[2026-07-28T04:15:56.050Z] + sudo chown stack:stack /opt/stack
-[2026-07-28T04:15:56.050Z] + sudo mkdir -p /opt/stack/logs
-[2026-07-28T04:15:56.050Z] + sudo chown stack:stack /opt/stack/logs
-[2026-07-28T04:15:56.050Z] + sudo pip uninstall hpe-storage-flowkit-py -y --break-system-packages
-[2026-07-28T04:16:00.281Z] Found existing installation: hpe_storage_flowkit_py 0.9.3
-[2026-07-28T04:16:00.281Z] Uninstalling hpe_storage_flowkit_py-0.9.3:
-[2026-07-28T04:16:00.281Z]   Successfully uninstalled hpe_storage_flowkit_py-0.9.3
-[2026-07-28T04:16:00.281Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-[2026-07-28T04:16:00.281Z] + echo Installing latest hpe-storage-flowkit-py...
-[2026-07-28T04:16:00.281Z] Installing latest hpe-storage-flowkit-py...
-[2026-07-28T04:16:00.281Z] + sudo pip install hpe-storage-flowkit-py --break-system-packages
-[2026-07-28T04:16:02.838Z] Collecting hpe-storage-flowkit-py
-[2026-07-28T04:16:02.838Z]   Using cached hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl.metadata (5.7 kB)
-[2026-07-28T04:16:02.839Z] Using cached hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl (251 kB)
-[2026-07-28T04:16:04.235Z] Installing collected packages: hpe-storage-flowkit-py
-[2026-07-28T04:16:04.497Z] Successfully installed hpe-storage-flowkit-py-0.9.3
-[2026-07-28T04:16:04.497Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[2026-08-12T09:39:07.156Z] + set -eux
+[2026-08-12T09:39:07.156Z] + id -u stack
+[2026-08-12T09:39:07.156Z] + echo stack ALL=(ALL) NOPASSWD:ALL
+[2026-08-12T09:39:07.156Z] + sudo tee /etc/sudoers.d/stack
+[2026-08-12T09:39:07.157Z] stack ALL=(ALL) NOPASSWD:ALL
+[2026-08-12T09:39:07.157Z] + BACKUP_DIR=/opt/stack/env-backup
+[2026-08-12T09:39:07.157Z] + sudo rm -rf /etc/environment
+[2026-08-12T09:39:07.157Z] + sudo rm -rf /etc/resolv.conf
+[2026-08-12T09:39:07.157Z] + sudo rm -rf /etc/needrestart/needrestart.conf
+[2026-08-12T09:39:07.157Z] + sudo wget --no-proxy -O /etc/needrestart/needrestart.conf http://10.132.239.244/nimble/needrestart.conf
+[2026-08-12T09:39:07.157Z] --2026-08-12 09:39:30--  http://10.132.239.244/nimble/needrestart.conf
+[2026-08-12T09:39:07.157Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-12T09:39:07.157Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-12T09:39:07.157Z] Length: 6011 (5.9K)
+[2026-08-12T09:39:07.157Z] Saving to: ‘/etc/needrestart/needrestart.conf’
+[2026-08-12T09:39:07.157Z] 
+[2026-08-12T09:39:07.157Z]      0K .....                                                 100%  135M=0s
+[2026-08-12T09:39:07.157Z] 
+[2026-08-12T09:39:07.157Z] 2026-08-12 09:39:30 (135 MB/s) - ‘/etc/needrestart/needrestart.conf’ saved [6011/6011]
+[2026-08-12T09:39:07.157Z] 
+[2026-08-12T09:39:07.157Z] + sudo wget --no-proxy -O /etc/apt/apt.conf http://10.132.239.244/nimble/apt.conf
+[2026-08-12T09:39:07.425Z] --2026-08-12 09:39:30--  http://10.132.239.244/nimble/apt.conf
+[2026-08-12T09:39:07.425Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-12T09:39:07.425Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-12T09:39:07.426Z] Length: 338
+[2026-08-12T09:39:07.426Z] Saving to: ‘/etc/apt/apt.conf’
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z]      0K                                                       100% 18.6M=0s
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] 2026-08-12 09:39:30 (18.6 MB/s) - ‘/etc/apt/apt.conf’ saved [338/338]
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] + sudo wget --no-proxy -O /etc/resolv.conf http://10.132.239.244/nimble/resolv.conf
+[2026-08-12T09:39:07.426Z] --2026-08-12 09:39:30--  http://10.132.239.244/nimble/resolv.conf
+[2026-08-12T09:39:07.426Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-12T09:39:07.426Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-12T09:39:07.426Z] Length: 228
+[2026-08-12T09:39:07.426Z] Saving to: ‘/etc/resolv.conf’
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z]      0K                                                       100% 12.2M=0s
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] 2026-08-12 09:39:30 (12.2 MB/s) - ‘/etc/resolv.conf’ saved [228/228]
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] + sudo wget --no-proxy -O /etc/environment http://10.132.239.244/nimble/environment
+[2026-08-12T09:39:07.426Z] --2026-08-12 09:39:31--  http://10.132.239.244/nimble/environment
+[2026-08-12T09:39:07.426Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-12T09:39:07.426Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-12T09:39:07.426Z] Length: 806
+[2026-08-12T09:39:07.426Z] Saving to: ‘/etc/environment’
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z]      0K                                                       100% 42.3M=0s
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] 2026-08-12 09:39:31 (42.3 MB/s) - ‘/etc/environment’ saved [806/806]
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] + sudo wget --no-proxy -O /etc/sudoers.d/ubuntu http://10.132.239.244/nimble/ubuntu
+[2026-08-12T09:39:07.426Z] --2026-08-12 09:39:31--  http://10.132.239.244/nimble/ubuntu
+[2026-08-12T09:39:07.426Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-12T09:39:07.426Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-12T09:39:07.426Z] Length: 32
+[2026-08-12T09:39:07.426Z] Saving to: ‘/etc/sudoers.d/ubuntu’
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z]      0K                                                       100% 1.74M=0s
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] 2026-08-12 09:39:31 (1.74 MB/s) - ‘/etc/sudoers.d/ubuntu’ saved [32/32]
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] + sudo wget --no-proxy -O /etc/sudoers.d/stack http://10.132.239.244/nimble/stack
+[2026-08-12T09:39:07.426Z] --2026-08-12 09:39:31--  http://10.132.239.244/nimble/stack
+[2026-08-12T09:39:07.426Z] Connecting to 10.132.239.244:80... connected.
+[2026-08-12T09:39:07.426Z] HTTP request sent, awaiting response... 200 OK
+[2026-08-12T09:39:07.426Z] Length: 30
+[2026-08-12T09:39:07.426Z] Saving to: ‘/etc/sudoers.d/stack’
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z]      0K                                                       100% 1.58M=0s
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.426Z] 2026-08-12 09:39:31 (1.58 MB/s) - ‘/etc/sudoers.d/stack’ saved [30/30]
+[2026-08-12T09:39:07.426Z] 
+[2026-08-12T09:39:07.427Z] + hostname -I
+[2026-08-12T09:39:07.427Z] + awk {print $1}
+[2026-08-12T09:39:07.427Z] + HOST_IP=10.132.239.242
+[2026-08-12T09:39:07.427Z] + hostname
+[2026-08-12T09:39:07.427Z] + HN=ubuntu
+[2026-08-12T09:39:07.427Z] + hostname -f
+[2026-08-12T09:39:07.427Z] + FQDN=localhost
+[2026-08-12T09:39:07.427Z] + . /etc/environment
+[2026-08-12T09:39:07.427Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[2026-08-12T09:39:07.427Z] + export http_proxy=http://10.120.61.146:80
+[2026-08-12T09:39:07.427Z] + export https_proxy=http://10.120.61.146:443
+[2026-08-12T09:39:07.427Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.427Z] + export HTTP_PROXY=http://10.120.61.146:80
+[2026-08-12T09:39:07.427Z] + export HTTPS_PROXY=http://10.120.61.146:443
+[2026-08-12T09:39:07.427Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
+[2026-08-12T09:39:07.427Z] + NEW_NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.427Z] + sudo sed -i /^[[:space:]]*no_proxy=/Id; /^[[:space:]]*NO_PROXY=/Id /etc/environment
+[2026-08-12T09:39:07.698Z] + echo no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.698Z] + sudo tee -a /etc/environment
+[2026-08-12T09:39:07.698Z] no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.698Z] + echo NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.698Z] + sudo tee -a /etc/environment
+[2026-08-12T09:39:07.698Z] NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.698Z] + . /etc/environment
+[2026-08-12T09:39:07.699Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[2026-08-12T09:39:07.699Z] + export http_proxy=http://10.120.61.146:80
+[2026-08-12T09:39:07.699Z] + export https_proxy=http://10.120.61.146:443
+[2026-08-12T09:39:07.699Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.699Z] + export HTTP_PROXY=http://10.120.61.146:80
+[2026-08-12T09:39:07.699Z] + export HTTPS_PROXY=http://10.120.61.146:443
+[2026-08-12T09:39:07.699Z] + export NO_PROXY=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208
+[2026-08-12T09:39:07.699Z] + no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.700Z] + NO_PROXY=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140
+[2026-08-12T09:39:07.700Z] + sudo mkdir -p /opt/stack
+[2026-08-12T09:39:07.700Z] + sudo chown stack:stack /opt/stack
+[2026-08-12T09:39:07.700Z] + sudo mkdir -p /opt/stack/logs
+[2026-08-12T09:39:07.700Z] + sudo chown stack:stack /opt/stack/logs
+[2026-08-12T09:39:07.964Z] + sudo pip uninstall hpe-storage-flowkit-py -y --break-system-packages
+[2026-08-12T09:39:08.937Z] Found existing installation: hpe-storage-flowkit-py 0.9.4
+[2026-08-12T09:39:08.938Z] Uninstalling hpe-storage-flowkit-py-0.9.4:
+[2026-08-12T09:39:08.938Z]   Successfully uninstalled hpe-storage-flowkit-py-0.9.4
+[2026-08-12T09:39:08.938Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[2026-08-12T09:39:09.207Z] + echo Installing latest hpe-storage-flowkit-py...
+[2026-08-12T09:39:09.207Z] Installing latest hpe-storage-flowkit-py...
+[2026-08-12T09:39:09.207Z] + sudo pip install hpe-storage-flowkit-py --break-system-packages
+[2026-08-12T09:39:11.159Z] Collecting hpe-storage-flowkit-py
+[2026-08-12T09:39:11.159Z]   Using cached hpe_storage_flowkit_py-0.9.4-py3-none-any.whl.metadata (6.1 kB)
+[2026-08-12T09:39:11.159Z] Requirement already satisfied: paramiko in /usr/lib/python3/dist-packages (from hpe-storage-flowkit-py) (2.12.0)
+[2026-08-12T09:39:11.159Z] Requirement already satisfied: requests in /usr/lib/python3/dist-packages (from hpe-storage-flowkit-py) (2.31.0)
+[2026-08-12T09:39:11.159Z] Using cached hpe_storage_flowkit_py-0.9.4-py3-none-any.whl (247 kB)
+[2026-08-12T09:39:12.118Z] Installing collected packages: hpe-storage-flowkit-py
+[2026-08-12T09:39:12.383Z] Successfully installed hpe-storage-flowkit-py-0.9.4
+[2026-08-12T09:39:12.383Z] WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
 [8mha:////4H43pvPJTlc2p5DC1irvdX0xoNe2SsIXUgTRdltixJfcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGHKGa5vgAAAA==[0m[Pipeline] }
 [8mha:////4PJY3e0708+WzzFsY+9tZRYrYc0JNxYPDF/+48lOFs6cAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AG0yz0FvgAAAA==[0m[Pipeline] // stage
 [8mha:////4E+IrNtOTbqv1CVAZCVXemDVyzZngCsQSWaX77ZSa9gvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFwZZsawgAAAA==[0m[Pipeline] stage
 [8mha:////4MOtjK8giZ65gjdkKN7UyRUFGoem1d/wGghxsj1Hf7XhAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Checkout Repositories)
 [8mha:////4MMJutD1i2bb04Rw7AFCGC9N+YqaTIyhJtVZM2cRvKeiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
-[2026-07-28T04:16:04.965Z] + set -eux
-[2026-07-28T04:16:04.966Z] + cd /opt/stack
-[2026-07-28T04:16:04.966Z] + sudo -u stack git clone https://github.com/openstack/devstack
-[2026-07-28T04:16:05.230Z] Cloning into 'devstack'...
-[2026-07-28T04:16:15.350Z] + sudo -u stack chmod 777 /opt/stack/devstack/tools/outfilter.py
-[2026-07-28T04:16:15.350Z] + cd devstack
+[2026-08-12T09:39:12.885Z] + set -eux
+[2026-08-12T09:39:12.885Z] + cd /opt/stack
+[2026-08-12T09:39:12.885Z] + sudo -u stack git clone https://github.com/openstack/devstack
+[2026-08-12T09:39:12.885Z] fatal: destination path 'devstack' already exists and is not an empty directory.
 [8mha:////4BSK3/XEf/IDhMDTMd4SPEA+VspCj9ZEhahyUKmuiWR9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
 [8mha:////4JOnK8KZEYpPgI+0xUU0il/gAmXjOv0F0+kCfvrzRHwXAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // stage
 [8mha:////4Gi7XqZSrdXbyqlkkCMWPnzFPsS9u2cVakgfwyLwIL+MAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm/D9FZKwgAAAA==[0m[Pipeline] stage
 [8mha:////4KVq2huWkhANqg3BMcLVjaaKjNairVvGACnWjmiQy5QAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Validate Cherry-pick)
-[8mha:////4Dur/vfIT5s4t9dngkNLmyoQ/ZVQBE7qlsNZsCCuu+5aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
-[2026-07-28T04:16:15.835Z] + set -eux
-[2026-07-28T04:16:15.835Z] + mktemp -d
-[2026-07-28T04:16:15.835Z] + TMP_DIR=/tmp/tmp.aGMRNRVCcL
-[2026-07-28T04:16:15.835Z] + trap rm -rf /tmp/tmp.aGMRNRVCcL EXIT
-[2026-07-28T04:16:15.836Z] + git clone http://github.com/openstack/cinder.git /tmp/tmp.aGMRNRVCcL/cinder
-[2026-07-28T04:16:15.836Z] Cloning into '/tmp/tmp.aGMRNRVCcL/cinder'...
-[2026-07-28T04:16:16.410Z] warning: redirecting to https://github.com/openstack/cinder.git/
-[2026-07-28T04:17:38.262Z] + cd /tmp/tmp.aGMRNRVCcL/cinder
-[2026-07-28T04:17:38.263Z] + git config user.name hp-storage-blr-ci
-[2026-07-28T04:17:38.263Z] + git config user.email hp.cinder.blr.ci@groups.ext.hpe.com
-[2026-07-28T04:17:38.263Z] + PATCH_REF=refs/changes/15/988315/10
-[2026-07-28T04:17:38.263Z] + git fetch https://review.opendev.org/openstack/cinder refs/changes/15/988315/10
-[2026-07-28T04:17:38.263Z] From https://review.opendev.org/openstack/cinder
-[2026-07-28T04:17:38.263Z]  * branch                refs/changes/15/988315/10 -> FETCH_HEAD
-[2026-07-28T04:17:38.263Z] + git cherry-pick FETCH_HEAD
-[2026-07-28T04:17:38.263Z] [master 3381bcb42] Implement per-pool image-volume cache promotion
-[2026-07-28T04:17:38.263Z]  Author: Jayaanan Borra <jayaanand.borra@netapp.com>
-[2026-07-28T04:17:38.263Z]  Date: Tue May 12 13:48:36 2026 -0400
-[2026-07-28T04:17:38.263Z]  7 files changed, 783 insertions(+), 38 deletions(-)
-[2026-07-28T04:17:38.263Z]  create mode 100644 releasenotes/notes/per-pool-image-cache-promotion-f1f1a279680f9866.yaml
-[2026-07-28T04:17:38.263Z] + rm -rf /tmp/tmp.aGMRNRVCcL
+Stage "Validate Cherry-pick" skipped due to earlier failure(s)
+[8mha:////4Dur/vfIT5s4t9dngkNLmyoQ/ZVQBE7qlsNZsCCuu+5aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] getContext
 [8mha:////4ITYdKCY13aT9869P/CmwPZvghzkluxNnOV9FJzyKOqEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
 [8mha:////4L6i+Ux/Ihlt3DY1YedVTEUHz4dPA89B5xtlj2V59ubvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // stage
 [8mha:////4Ph5scYqpuWPWjiFCTupFeomLeUwKihPfp+eIt9Vcl7wAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQHEbuy8wgAAAA==[0m[Pipeline] stage
 [8mha:////4FxwGILGSDv5mXmsW/R+c4tVuHb+HxthZJYBt3W0rt/zAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Prepare local.conf)
-[8mha:////4OpKYwTFXpjKqyWPAmwWU0f1E/4Zp7YhdAEb1sRARalZAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
-[2026-07-28T04:17:38.744Z] + set -eux
-[2026-07-28T04:17:38.744Z] + hostname -I
-[2026-07-28T04:17:38.744Z] + awk {print $1}
-[2026-07-28T04:17:38.744Z] + HOST_IP=10.132.239.242
-[2026-07-28T04:17:38.744Z] + sudo -u stack wget --no-proxy http://10.132.239.244/nimble/local.conf -P /opt/stack/devstack/
-[2026-07-28T04:17:38.744Z] --2026-07-28 04:17:57--  http://10.132.239.244/nimble/local.conf
-[2026-07-28T04:17:38.744Z] Connecting to 10.132.239.244:80... connected.
-[2026-07-28T04:17:38.744Z] HTTP request sent, awaiting response... 200 OK
-[2026-07-28T04:17:38.744Z] Length: 3090 (3.0K)
-[2026-07-28T04:17:38.744Z] Saving to: ‘/opt/stack/devstack/local.conf’
-[2026-07-28T04:17:38.744Z] 
-[2026-07-28T04:17:38.744Z]      0K ...                                                   100%  148M=0s
-[2026-07-28T04:17:38.744Z] 
-[2026-07-28T04:17:38.745Z] 2026-07-28 04:17:57 (148 MB/s) - ‘/opt/stack/devstack/local.conf’ saved [3090/3090]
-[2026-07-28T04:17:38.745Z] 
-[2026-07-28T04:17:38.745Z] + sudo -u stack sed -i s/192.168.1.2/10.132.239.242/g /opt/stack/devstack/local.conf
-[2026-07-28T04:17:38.745Z] + export no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.132.239.55,10.201.5.82
-[2026-07-28T04:17:38.745Z] + python3 -c import sys; print("%d.%d" % sys.version_info[:2])
-[2026-07-28T04:17:38.745Z] + PY3=3.12
-[2026-07-28T04:17:38.745Z] + grep -q ^PYTHON3_VERSION= /opt/stack/devstack/local.conf
-[2026-07-28T04:17:38.745Z] + sudo -u stack sed -i s/^PYTHON3_VERSION=.*/PYTHON3_VERSION=3.12/ /opt/stack/devstack/local.conf
-[2026-07-28T04:17:38.745Z] + sudo -u stack sed -i s|SCREEN_LOGDIR=.*|SCREEN_LOGDIR=/opt/stack/logs|g /opt/stack/devstack/local.conf
-[2026-07-28T04:17:39.010Z] + sudo -u stack sed -i s|LOGFILE=.*|LOGFILE=/opt/stack/logs/stack.sh.log|g /opt/stack/devstack/local.conf
-[2026-07-28T04:17:39.010Z] + sudo -u stack sed -i s|IRONIC_VM_LOG_DIR=.*|IRONIC_VM_LOG_DIR=/opt/stack/logs/ironic-bm-logs|g /opt/stack/devstack/local.conf
+Stage "Prepare local.conf" skipped due to earlier failure(s)
+[8mha:////4OpKYwTFXpjKqyWPAmwWU0f1E/4Zp7YhdAEb1sRARalZAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] getContext
 [8mha:////4E0kXtbu7jRQVWmm07yIiptTPhWlDOHGhJECw78Q49gQAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
 [8mha:////4L0jvRfHGAWSkBd/KbiL346+6vRyLKA3YfSEv9eD5eSmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // stage
 [8mha:////4NuMS6o0YBarUU8coUI7X60cNp7UKCgQTq4vUX63FP0ZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCCEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm93/yHswgAAAA==[0m[Pipeline] stage
 [8mha:////4LnPeLSAkm+r32nIPeRJYFYKuWMXsJU/x0kbcEX0ox9HAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (Deploy DevStack)
-[8mha:////4IqgmOQnHEuFpksLblffM890bDHB+V2E58x6gUjgivH3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] timeout
-[2026-07-28T04:17:39.162Z] Timeout set to expire in 50 min
-[8mha:////4C19nS2ZHOq1HTEETy926kbR+5r4aZrI4d4i9JwVfqp/AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
-[8mha:////4GEH+4SWH5ROBT2gQInCW4ErwWbnpBQ53ZCAPQRlyNPEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBl2WGva+AAAA[0m[Pipeline] sh
-[2026-07-28T04:17:39.548Z] + set -ex
-[2026-07-28T04:17:39.548Z] + hostname -I
-[2026-07-28T04:17:39.548Z] + awk {print $1}
-[2026-07-28T04:17:39.548Z] + HOST_IP=10.132.239.242
-[2026-07-28T04:17:39.548Z] + export no_proxy=localhost,127.0.0.1,10.132.239.244,localhost,127.0.0.1,10.132.239.242
-[2026-07-28T04:17:39.548Z] + export TERM=xterm-256color
-[2026-07-28T04:17:39.548Z] + sudo -u stack bash -c 
-[2026-07-28T04:17:39.549Z]                         set -e
-[2026-07-28T04:17:39.549Z]                         . /etc/environment
-[2026-07-28T04:17:39.549Z]                         export http_proxy https_proxy HTTP_PROXY HTTPS_PROXY
-[2026-07-28T04:17:39.549Z]                         HOST_IP=$(hostname -I | cut -d" " -f1)
-[2026-07-28T04:17:39.549Z]                         export no_proxy="${no_proxy:+${no_proxy},}localhost,127.0.0.1,${HOST_IP}"
-[2026-07-28T04:17:39.549Z]                         export NO_PROXY="$no_proxy"
-[2026-07-28T04:17:39.549Z]                         export TERM=xterm-256color
-[2026-07-28T04:17:39.549Z]                         cd /opt/stack/devstack && ./stack.sh
-[2026-07-28T04:17:39.549Z]                     
-[2026-07-28T04:17:39.549Z] + unset GREP_OPTIONS
-[2026-07-28T04:17:39.549Z] + unset LANG
-[2026-07-28T04:17:39.549Z] + unset LANGUAGE
-[2026-07-28T04:17:39.549Z] + LC_ALL=en_US.utf8
-[2026-07-28T04:17:39.549Z] + export LC_ALL
-[2026-07-28T04:17:39.549Z] ++ env
-[2026-07-28T04:17:39.549Z] ++ grep -E '^OS_'
-[2026-07-28T04:17:39.549Z] ++ cut -d = -f 1
-[2026-07-28T04:17:39.549Z] + unset
-[2026-07-28T04:17:39.549Z] + umask 022
-[2026-07-28T04:17:39.549Z] + PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/sbin
-[2026-07-28T04:17:39.549Z] +++ dirname ./stack.sh
-[2026-07-28T04:17:39.549Z] ++ cd .
-[2026-07-28T04:17:39.549Z] ++ pwd
-[2026-07-28T04:17:39.549Z] + TOP_DIR=/opt/stack/devstack
-[2026-07-28T04:17:39.549Z] + NOUNSET=
-[2026-07-28T04:17:39.549Z] + [[ -n '' ]]
-[2026-07-28T04:17:39.549Z] ++ date +%s
-[2026-07-28T04:17:39.549Z] + DEVSTACK_START_TIME=1785212278
-[2026-07-28T04:17:39.549Z] + [[ -r /opt/stack/devstack/.stackenv ]]
-[2026-07-28T04:17:39.549Z] + FILES=/opt/stack/devstack/files
-[2026-07-28T04:17:39.549Z] + '[' '!' -d /opt/stack/devstack/files ']'
-[2026-07-28T04:17:39.549Z] + '[' '!' -d /opt/stack/devstack/inc ']'
-[2026-07-28T04:17:39.549Z] + '[' '!' -d /opt/stack/devstack/lib ']'
-[2026-07-28T04:17:39.549Z] + [[ '' == \y ]]
-[2026-07-28T04:17:39.549Z] + [[ 1001 -eq 0 ]]
-[2026-07-28T04:17:39.549Z] + [[ -n '' ]]
-[2026-07-28T04:17:39.549Z] + [[ -e /opt/stack/.no-devstack ]]
-[2026-07-28T04:17:39.549Z] + LAST_SPINNER_PID=
-[2026-07-28T04:17:39.549Z] + source /opt/stack/devstack/functions
-[2026-07-28T04:17:39.549Z] ++ [[ -z '' ]]
-[2026-07-28T04:17:39.549Z] ++ declare -r -g _DEVSTACK_FUNCTIONS=1
-[2026-07-28T04:17:39.549Z] ++++ dirname /opt/stack/devstack/functions
-[2026-07-28T04:17:39.549Z] +++ cd /opt/stack/devstack
-[2026-07-28T04:17:39.549Z] +++ pwd
-[2026-07-28T04:17:39.549Z] ++ FUNC_DIR=/opt/stack/devstack
-[2026-07-28T04:17:39.550Z] ++ source /opt/stack/devstack/functions-common
-[2026-07-28T04:17:39.550Z] ++++ set +o
-[2026-07-28T04:17:39.550Z] ++++ grep xtrace
-[2026-07-28T04:17:39.550Z] +++ _XTRACE_FUNCTIONS_COMMON='set -o xtrace'
-[2026-07-28T04:17:39.550Z] +++ set +o xtrace
-[2026-07-28T04:17:39.550Z] ++ source /opt/stack/devstack/inc/ini-config
-[2026-07-28T04:17:39.550Z] ++++ set +o
-[2026-07-28T04:17:39.550Z] ++++ grep xtrace
-[2026-07-28T04:17:39.550Z] +++ INC_CONF_TRACE='set -o xtrace'
-[2026-07-28T04:17:39.550Z] +++ set +o xtrace
-[2026-07-28T04:17:39.550Z] ++ source /opt/stack/devstack/inc/meta-config
-[2026-07-28T04:17:39.550Z] ++++ set +o
-[2026-07-28T04:17:39.550Z] ++++ grep xtrace
-[2026-07-28T04:17:39.550Z] +++ _XTRACE_INC_META='set -o xtrace'
-[2026-07-28T04:17:39.550Z] +++ set +o xtrace
-[2026-07-28T04:17:39.550Z] ++ source /opt/stack/devstack/inc/python
-[2026-07-28T04:17:39.550Z] ++++ set +o
-[2026-07-28T04:17:39.550Z] ++++ grep xtrace
-[2026-07-28T04:17:39.550Z] +++ INC_PY_TRACE='set -o xtrace'
-[2026-07-28T04:17:39.550Z] +++ set +o xtrace
-[2026-07-28T04:17:39.550Z] ++ source /opt/stack/devstack/inc/rootwrap
-[2026-07-28T04:17:39.550Z] ++++ set +o
-[2026-07-28T04:17:39.550Z] ++++ grep xtrace
-[2026-07-28T04:17:39.550Z] +++ INC_ROOT_TRACE='set -o xtrace'
-[2026-07-28T04:17:39.550Z] +++ set +o xtrace
-[2026-07-28T04:17:39.550Z] ++ source /opt/stack/devstack/inc/async
-[2026-07-28T04:17:39.550Z] ++++ trueorfalse True DEVSTACK_PARALLEL
-[2026-07-28T04:17:39.550Z] ++++ local xtrace
-[2026-07-28T04:17:39.550Z] +++++ set +o
-[2026-07-28T04:17:39.550Z] +++++ grep xtrace
-[2026-07-28T04:17:39.550Z] ++++ xtrace='set -o xtrace'
-[2026-07-28T04:17:39.550Z] ++++ set +o xtrace
-[2026-07-28T04:17:39.550Z] +++ DEVSTACK_PARALLEL=True
-[2026-07-28T04:17:39.550Z] +++ _ASYNC_BG_TIME=0
-[2026-07-28T04:17:39.550Z] +++ set +o
-[2026-07-28T04:17:39.550Z] +++ grep xtrace
-[2026-07-28T04:17:39.550Z] ++ _XTRACE_FUNCTIONS='set -o xtrace'
-[2026-07-28T04:17:39.550Z] ++ set +o xtrace
-[2026-07-28T04:17:39.550Z] + source /opt/stack/devstack/lib/stack
-[2026-07-28T04:17:39.550Z] + GetDistro
-[2026-07-28T04:17:39.550Z] + GetOSVersion
-[2026-07-28T04:17:39.550Z] + source /etc/os-release
-[2026-07-28T04:17:39.550Z] ++ PRETTY_NAME='Ubuntu 24.04.2 LTS'
-[2026-07-28T04:17:39.550Z] ++ NAME=Ubuntu
-[2026-07-28T04:17:39.550Z] ++ VERSION_ID=24.04
-[2026-07-28T04:17:39.550Z] ++ VERSION='24.04.2 LTS (Noble Numbat)'
-[2026-07-28T04:17:39.550Z] ++ VERSION_CODENAME=noble
-[2026-07-28T04:17:39.550Z] ++ ID=ubuntu
-[2026-07-28T04:17:39.550Z] ++ ID_LIKE=debian
-[2026-07-28T04:17:39.550Z] ++ HOME_URL=https://www.ubuntu.com/
-[2026-07-28T04:17:39.550Z] ++ SUPPORT_URL=https://help.ubuntu.com/
-[2026-07-28T04:17:39.550Z] ++ BUG_REPORT_URL=https://bugs.launchpad.net/ubuntu/
-[2026-07-28T04:17:39.550Z] ++ PRIVACY_POLICY_URL=https://www.ubuntu.com/legal/terms-and-policies/privacy-policy
-[2026-07-28T04:17:39.550Z] ++ UBUNTU_CODENAME=noble
-[2026-07-28T04:17:39.550Z] ++ LOGO=ubuntu-logo
-[2026-07-28T04:17:39.550Z] + [[ ubuntu =~ (almalinux|centos|rocky|rhel) ]]
-[2026-07-28T04:17:39.550Z] + _ensure_lsb_release
-[2026-07-28T04:17:39.551Z] ++ command -v lsb_release
-[2026-07-28T04:17:39.551Z] + [[ -x /usr/bin/lsb_release ]]
-[2026-07-28T04:17:39.551Z] + return
-[2026-07-28T04:17:39.551Z] ++ lsb_release -r -s
-[2026-07-28T04:17:39.551Z] + os_RELEASE=24.04
-[2026-07-28T04:17:39.551Z] ++ lsb_release -c -s
-[2026-07-28T04:17:39.815Z] + os_CODENAME=noble
-[2026-07-28T04:17:39.815Z] ++ lsb_release -i -s
-[2026-07-28T04:17:39.815Z] + os_VENDOR=Ubuntu
-[2026-07-28T04:17:39.815Z] + [[ Ubuntu =~ (Debian|Ubuntu) ]]
-[2026-07-28T04:17:39.815Z] + os_PACKAGE=deb
-[2026-07-28T04:17:39.815Z] + typeset -xr os_VENDOR
-[2026-07-28T04:17:39.815Z] + typeset -xr os_RELEASE
-[2026-07-28T04:17:39.815Z] + typeset -xr os_PACKAGE
-[2026-07-28T04:17:39.815Z] + typeset -xr os_CODENAME
-[2026-07-28T04:17:39.815Z] + [[ Ubuntu =~ (Ubuntu) ]]
-[2026-07-28T04:17:39.815Z] + DISTRO=noble
-[2026-07-28T04:17:39.815Z] + typeset -xr DISTRO
-[2026-07-28T04:17:39.815Z] + rm -f /opt/stack/devstack/.localrc.auto
-[2026-07-28T04:17:39.815Z] + extract_localrc_section /opt/stack/devstack/local.conf /opt/stack/devstack/localrc /opt/stack/devstack/.localrc.auto
-[2026-07-28T04:17:39.815Z] + local configfile=/opt/stack/devstack/local.conf
-[2026-07-28T04:17:39.815Z] + local localrcfile=/opt/stack/devstack/localrc
-[2026-07-28T04:17:39.815Z] + local localautofile=/opt/stack/devstack/.localrc.auto
-[2026-07-28T04:17:39.815Z] + [[ -r /opt/stack/devstack/local.conf ]]
-[2026-07-28T04:17:39.815Z] ++ get_meta_section_files /opt/stack/devstack/local.conf local
-[2026-07-28T04:17:39.815Z] ++ local file=/opt/stack/devstack/local.conf
-[2026-07-28T04:17:39.815Z] ++ local matchgroup=local
-[2026-07-28T04:17:39.815Z] ++ [[ -r /opt/stack/devstack/local.conf ]]
-[2026-07-28T04:17:39.815Z] ++ awk -v matchgroup=local '
-[2026-07-28T04:17:39.815Z]         /^\[\[.+\|.*\]\]/ {
-[2026-07-28T04:17:39.815Z]             gsub("[][]", "", $1);
-[2026-07-28T04:17:39.815Z]             split($1, a, "|");
-[2026-07-28T04:17:39.816Z]             if (a[1] == matchgroup)
-[2026-07-28T04:17:39.816Z]                 print a[2]
-[2026-07-28T04:17:39.816Z]         }
-[2026-07-28T04:17:39.816Z]     ' /opt/stack/devstack/local.conf
-[2026-07-28T04:17:39.816Z] + LRC=localrc
-[2026-07-28T04:17:39.816Z] + for lfile in $LRC
-[2026-07-28T04:17:39.816Z] + [[ localrc == \l\o\c\a\l\r\c ]]
-[2026-07-28T04:17:39.816Z] + [[ -r /opt/stack/devstack/localrc ]]
-[2026-07-28T04:17:39.816Z] + echo '# Generated file, do not edit'
-[2026-07-28T04:17:39.816Z] + get_meta_section /opt/stack/devstack/local.conf local localrc
-[2026-07-28T04:17:39.816Z] + local file=/opt/stack/devstack/local.conf
-[2026-07-28T04:17:39.816Z] + local matchgroup=local
-[2026-07-28T04:17:39.816Z] + local configfile=localrc
-[2026-07-28T04:17:39.816Z] + [[ -r /opt/stack/devstack/local.conf ]]
-[2026-07-28T04:17:39.816Z] + [[ -z localrc ]]
-[2026-07-28T04:17:39.816Z] + awk -v matchgroup=local -v configfile=localrc '
-[2026-07-28T04:17:39.816Z]         BEGIN { group = "" }
-[2026-07-28T04:17:39.816Z]         /^\[\[.+\|.*\]\]/ {
-[2026-07-28T04:17:39.816Z]             gsub("[][]", "", $1);
-[2026-07-28T04:17:39.816Z]             split($1, a, "|");
-[2026-07-28T04:17:39.816Z]             if (a[1] == matchgroup && a[2] == configfile) {
-[2026-07-28T04:17:39.816Z]                 group=a[1]
-[2026-07-28T04:17:39.816Z]             } else {
-[2026-07-28T04:17:39.816Z]                 group=""
-[2026-07-28T04:17:39.816Z]             }
-[2026-07-28T04:17:39.816Z]             next
-[2026-07-28T04:17:39.816Z]         }
-[2026-07-28T04:17:39.816Z]         {
-[2026-07-28T04:17:39.816Z]             if (group != "")
-[2026-07-28T04:17:39.816Z]                 print $0
-[2026-07-28T04:17:39.816Z]         }
-[2026-07-28T04:17:39.816Z]     ' /opt/stack/devstack/local.conf
-[2026-07-28T04:17:39.816Z] + [[ ! -r /opt/stack/devstack/stackrc ]]
-[2026-07-28T04:17:39.816Z] + source /opt/stack/devstack/stackrc
-[2026-07-28T04:17:39.816Z] ++ [[ -z '' ]]
-[2026-07-28T04:17:39.816Z] ++ declare -r -g _DEVSTACK_STACKRC=1
-[2026-07-28T04:17:39.816Z] ++++ dirname /opt/stack/devstack/stackrc
-[2026-07-28T04:17:39.816Z] +++ cd /opt/stack/devstack
-[2026-07-28T04:17:39.816Z] +++ pwd
-[2026-07-28T04:17:39.816Z] ++ RC_DIR=/opt/stack/devstack
-[2026-07-28T04:17:39.816Z] ++ source /opt/stack/devstack/functions
-[2026-07-28T04:17:39.816Z] +++ [[ -z 1 ]]
-[2026-07-28T04:17:39.816Z] +++ return 0
-[2026-07-28T04:17:39.816Z] ++ TARGET_BRANCH=master
-[2026-07-28T04:17:39.816Z] ++ TRAILING_TARGET_BRANCH=master
-[2026-07-28T04:17:39.816Z] ++ BRANCHLESS_TARGET_BRANCH=master
-[2026-07-28T04:17:39.816Z] ++ DEST=/opt/stack
-[2026-07-28T04:17:39.816Z] ++ DATA_DIR=/opt/stack/data
-[2026-07-28T04:17:39.816Z] ++ SERVICE_DIR=/opt/stack/status
-[2026-07-28T04:17:39.816Z] ++ SUBUNIT_OUTPUT=/opt/stack/devstack.subunit
-[2026-07-28T04:17:39.816Z] ++ [[ 1001 -eq 0 ]]
-[2026-07-28T04:17:39.816Z] +++ whoami
-[2026-07-28T04:17:39.816Z] ++ STACK_USER=stack
-[2026-07-28T04:17:39.816Z] ++ REGION_NAME=RegionOne
-[2026-07-28T04:17:39.817Z] ++ KEYSTONE_REGION_NAME=RegionOne
-[2026-07-28T04:17:39.817Z] ++ isset ENABLED_SERVICES
-[2026-07-28T04:17:39.817Z] ++ [[ -v ENABLED_SERVICES ]]
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES=key
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES+=,n-api,n-cpu,n-cond,n-sch,n-novnc,n-api-meta
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES+=,placement-api,placement-client
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES+=,g-api
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES+=,c-sch,c-api,c-vol
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES+=,ovn-controller,ovn-northd,ovs-vswitchd,ovsdb-server
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES+=,q-svc,q-ovn-agent
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES+=,horizon
-[2026-07-28T04:17:39.817Z] ++ ENABLED_SERVICES+=,rabbit,tempest,mysql,etcd3,dstat
-[2026-07-28T04:17:39.817Z] ++ ENABLE_HTTPD_MOD_WSGI_SERVICES=True
-[2026-07-28T04:17:39.817Z] ++ NOVA_ENABLED_APIS=osapi_compute,metadata
-[2026-07-28T04:17:39.817Z] ++ [[ -f /opt/stack/devstack/localrc ]]
-[2026-07-28T04:17:39.817Z] ++ [[ -f /opt/stack/devstack/.localrc.auto ]]
-[2026-07-28T04:17:39.817Z] ++ source /opt/stack/devstack/.localrc.auto
-[2026-07-28T04:17:39.817Z] +++ ****=hpinvent
-[2026-07-28T04:17:39.817Z] +++ DATABASE_PASSWORD=hpinvent
-[2026-07-28T04:17:39.817Z] +++ RABBIT_PASSWORD=hpinvent
-[2026-07-28T04:17:39.817Z] +++ SERVICE_PASSWORD=hpinvent
-[2026-07-28T04:17:39.817Z] +++ SERVICE_TOKEN=hpinvent
-[2026-07-28T04:17:39.817Z] +++ SWIFT_HASH=hpinvent
-[2026-07-28T04:17:39.817Z] +++ SWIFT_TEMPURL_KEY=hpinvent
-[2026-07-28T04:17:39.817Z] +++ GIT_BASE=http://github.com
-[2026-07-28T04:17:39.817Z] +++ disable_service n-net
-[2026-07-28T04:17:39.817Z] +++ local xtrace
-[2026-07-28T04:17:39.817Z] ++++ set +o
-[2026-07-28T04:17:39.817Z] ++++ grep xtrace
-[2026-07-28T04:17:39.817Z] +++ xtrace='set -o xtrace'
-[2026-07-28T04:17:39.817Z] +++ set +o xtrace
-[2026-07-28T04:17:39.817Z] +++ disable_service horizon
-[2026-07-28T04:17:39.817Z] +++ local xtrace
-[2026-07-28T04:17:39.817Z] ++++ set +o
-[2026-07-28T04:17:39.817Z] ++++ grep xtrace
-[2026-07-28T04:17:39.817Z] +++ xtrace='set -o xtrace'
-[2026-07-28T04:17:39.817Z] +++ set +o xtrace
-[2026-07-28T04:17:40.090Z] +++ disable_service heat h-api h-api-cfn h-api-cw
-[2026-07-28T04:17:40.090Z] +++ local xtrace
-[2026-07-28T04:17:40.090Z] ++++ set +o
-[2026-07-28T04:17:40.090Z] ++++ grep xtrace
-[2026-07-28T04:17:40.090Z] +++ xtrace='set -o xtrace'
-[2026-07-28T04:17:40.090Z] +++ set +o xtrace
-[2026-07-28T04:17:40.090Z] +++ enable_service cinder c-sch c-api c-vol c-bak
-[2026-07-28T04:17:40.090Z] +++ local xtrace
-[2026-07-28T04:17:40.090Z] ++++ set +o
-[2026-07-28T04:17:40.090Z] ++++ grep xtrace
-[2026-07-28T04:17:40.090Z] +++ xtrace='set -o xtrace'
-[2026-07-28T04:17:40.090Z] +++ set +o xtrace
-[2026-07-28T04:17:40.090Z] +++ enable_service s-proxy s-object s-container s-account
-[2026-07-28T04:17:40.090Z] +++ local xtrace
-[2026-07-28T04:17:40.358Z] ++++ set +o
-[2026-07-28T04:17:40.358Z] ++++ grep xtrace
-[2026-07-28T04:17:40.358Z] +++ xtrace='set -o xtrace'
-[2026-07-28T04:17:40.358Z] +++ set +o xtrace
-[2026-07-28T04:17:40.359Z] +++ SWIFT_START_ALL_SERVICES=True
-[2026-07-28T04:17:40.359Z] +++ SWIFT_REPLICAS=1
-[2026-07-28T04:17:40.359Z] +++ SYSLOG=False
-[2026-07-28T04:17:40.359Z] +++ SCREEN_LOGDIR=/opt/stack/logs
-[2026-07-28T04:17:40.359Z] +++ IRONIC_VM_LOG_DIR=/opt/stack/logs/ironic-bm-logs
-[2026-07-28T04:17:40.359Z] +++ LOGFILE=/opt/stack/logs/stack.sh.log
-[2026-07-28T04:17:40.359Z] +++ VERBOSE=True
-[2026-07-28T04:17:40.359Z] +++ ETCD_DOWNLOAD_URL=https://github.com/coreos/etcd/releases/download/
-[2026-07-28T04:17:40.359Z] +++ DOWNLOAD_DEFAULT_IMAGES=False
-[2026-07-28T04:17:40.359Z] +++ IMAGE_URLS=https://download.cirros-cloud.net/0.5.1/cirros-0.5.1-x86_64-disk.img
-[2026-07-28T04:17:40.359Z] +++ USE_PYTHON3=True
-[2026-07-28T04:17:40.359Z] +++ PYTHON3_VERSION=3.12
-[2026-07-28T04:17:40.359Z] +++ USE_SUBNETPOOL=False
-[2026-07-28T04:17:40.359Z] +++ IP_VERSION=4
-[2026-07-28T04:17:40.359Z] +++ SWIFT_ENABLE_TEMPURLS=True
-[2026-07-28T04:17:40.359Z] +++ SWIFT_LOOPBACK_DISK_SIZE_DEFAULT=15G
-[2026-07-28T04:17:40.359Z] +++ FORCE=yes
-[2026-07-28T04:17:40.359Z] +++ LOG_COLOR=True
-[2026-07-28T04:17:40.359Z] +++ HOST_IP=10.132.239.242
-[2026-07-28T04:17:40.359Z] ++ CELLSV2_SETUP=superconductor
-[2026-07-28T04:17:40.359Z] ++ HORIZON_APACHE_ROOT=/dashboard
-[2026-07-28T04:17:40.359Z] +++ trueorfalse False USER_UNITS
-[2026-07-28T04:17:40.359Z] +++ local xtrace
-[2026-07-28T04:17:40.359Z] ++++ set +o
-[2026-07-28T04:17:40.359Z] ++++ grep xtrace
-[2026-07-28T04:17:40.359Z] +++ xtrace='set -o xtrace'
-[2026-07-28T04:17:40.359Z] +++ set +o xtrace
-[2026-07-28T04:17:40.359Z] ++ USER_UNITS=False
-[2026-07-28T04:17:40.359Z] ++ [[ False == \T\r\u\e ]]
-[2026-07-28T04:17:40.359Z] ++ SYSTEMD_DIR=/etc/systemd/system
-[2026-07-28T04:17:40.359Z] ++ SYSTEMCTL='sudo systemctl'
-[2026-07-28T04:17:40.359Z] ++ [[ -r /opt/stack/devstack/.localrc.password ]]
-[2026-07-28T04:17:40.359Z] +++ _get_python_version python3
-[2026-07-28T04:17:40.359Z] +++ local interp=python3
-[2026-07-28T04:17:40.359Z] +++ local version
-[2026-07-28T04:17:40.359Z] ++++ which python3
-[2026-07-28T04:17:40.359Z] +++ [[ -x /usr/bin/python3 ]]
-[2026-07-28T04:17:40.359Z] ++++ python3 -c 'import sys; print("%s.%s" % sys.version_info[0:2])'
-[2026-07-28T04:17:40.359Z] +++ version=3.12
-[2026-07-28T04:17:40.359Z] +++ echo 3.12
-[2026-07-28T04:17:40.359Z] ++ _DEFAULT_PYTHON3_VERSION=3.12
-[2026-07-28T04:17:40.359Z] ++ export PYTHON3_VERSION=3.12
-[2026-07-28T04:17:40.359Z] ++ PYTHON3_VERSION=3.12
-[2026-07-28T04:17:40.359Z] ++ export 'VIRTUALENV_CMD=python3.12 -m venv'
-[2026-07-28T04:17:40.359Z] ++ VIRTUALENV_CMD='python3.12 -m venv'
-[2026-07-28T04:17:40.359Z] ++ '[' -t 1 ']'
-[2026-07-28T04:17:40.359Z] ++ _LOG_COLOR_DEFAULT=False
-[2026-07-28T04:17:40.359Z] +++ trueorfalse False LOG_COLOR
-[2026-07-28T04:17:40.360Z] +++ local xtrace
-[2026-07-28T04:17:40.360Z] ++++ set +o
-[2026-07-28T04:17:40.360Z] ++++ grep xtrace
-[2026-07-28T04:17:40.360Z] +++ xtrace='set -o xtrace'
-[2026-07-28T04:17:40.360Z] +++ set +o xtrace
-[2026-07-28T04:17:40.360Z] ++ LOG_COLOR=True
-[2026-07-28T04:17:40.360Z] ++ [[ True == \T\r\u\e ]]
-[2026-07-28T04:17:40.360Z] ++ TPUT_T=
-[2026-07-28T04:17:40.360Z] ++ '[' xterm-256color ']'
-[2026-07-28T04:17:40.360Z] ++ export 'PS4=+\[$(tput  setaf 242)\]$(short_source)\[$(tput  sgr0)\] '
-[2026-07-28T04:17:40.360Z] ++ PS4='+\[$(tput  setaf 242)\]$(short_source)\[$(tput  sgr0)\] '
-[2026-07-28T04:17:40.637Z] +++[38;5;242mstackrc:source:168                       (B[m trueorfalse True ENFORCE_NEW_DEFAULTS
-[2026-07-28T04:17:40.637Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:40.637Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:40.637Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:40.637Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:40.637Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:40.637Z] ++[38;5;242mstackrc:source:168                       (B[m ENFORCE_NEW_DEFAULTS=True
-[2026-07-28T04:17:40.637Z] ++[38;5;242mstackrc:source:169                       (B[m [[ -n '' ]]
-[2026-07-28T04:17:40.637Z] ++[38;5;242mstackrc:source:178                       (B[m DEVSTACK_VENV=/opt/stack/data/venv
-[2026-07-28T04:17:40.637Z] ++[38;5;242mstackrc:source:184                       (B[m [[ Ubuntu =~ (CentOSStream|Rocky) ]]
-[2026-07-28T04:17:40.637Z] +++[38;5;242mstackrc:source:187                       (B[m trueorfalse True GLOBAL_VENV
-[2026-07-28T04:17:40.909Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:40.909Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:40.909Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:40.909Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:40.909Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:40.909Z] ++[38;5;242mstackrc:source:187                       (B[m GLOBAL_VENV=True
-[2026-07-28T04:17:40.909Z] +++[38;5;242mstackrc:source:194                       (B[m trueorfalse False USE_VENV
-[2026-07-28T04:17:40.909Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:40.909Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:40.909Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:40.910Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:40.910Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:41.175Z] ++[38;5;242mstackrc:source:194                       (B[m USE_VENV=False
-[2026-07-28T04:17:41.175Z] ++[38;5;242mstackrc:source:199                       (B[m ADDITIONAL_VENV_PACKAGES=
-[2026-07-28T04:17:41.175Z] +++[38;5;242mstackrc:source:203                       (B[m trueorfalse False DATABASE_QUERY_LOGGING
-[2026-07-28T04:17:41.176Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:41.176Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:41.176Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:41.176Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:41.176Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:41.176Z] ++[38;5;242mstackrc:source:203                       (B[m DATABASE_QUERY_LOGGING=False
-[2026-07-28T04:17:41.176Z] +++[38;5;242mstackrc:source:207                       (B[m trueorfalse True MYSQL_GATHER_PERFORMANCE
-[2026-07-28T04:17:41.176Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:41.176Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:41.176Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:41.439Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:41.439Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:41.439Z] ++[38;5;242mstackrc:source:207                       (B[m MYSQL_GATHER_PERFORMANCE=True
-[2026-07-28T04:17:41.439Z] +++[38;5;242mstackrc:source:212                       (B[m trueorfalse True MYSQL_REDUCE_MEMORY
-[2026-07-28T04:17:41.439Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:41.439Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:41.439Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:41.439Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:41.439Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:41.439Z] ++[38;5;242mstackrc:source:212                       (B[m MYSQL_REDUCE_MEMORY=True
-[2026-07-28T04:17:41.439Z] ++[38;5;242mstackrc:source:223                       (B[m GIT_TIMEOUT=0
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:229                       (B[m WSGI_MODE=uwsgi
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:230                       (B[m [[ uwsgi != \u\w\s\g\i ]]
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:238                       (B[m GIT_BASE=http://github.com
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:241                       (B[m REQUIREMENTS_DIR=/opt/stack/requirements
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:259                       (B[m DEVSTACK_SERIES=2026.2
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:268                       (B[m CINDER_REPO=http://github.com/openstack/cinder.git
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:269                       (B[m CINDER_BRANCH=master
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:272                       (B[m GLANCE_REPO=http://github.com/openstack/glance.git
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:273                       (B[m GLANCE_BRANCH=master
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:276                       (B[m HORIZON_REPO=http://github.com/openstack/horizon.git
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:277                       (B[m HORIZON_BRANCH=master
-[2026-07-28T04:17:41.702Z] ++[38;5;242mstackrc:source:280                       (B[m KEYSTONE_REPO=http://github.com/openstack/keystone.git
-[2026-07-28T04:17:41.971Z] ++[38;5;242mstackrc:source:281                       (B[m KEYSTONE_BRANCH=master
-[2026-07-28T04:17:41.971Z] ++[38;5;242mstackrc:source:284                       (B[m NEUTRON_REPO=http://github.com/openstack/neutron.git
-[2026-07-28T04:17:41.971Z] ++[38;5;242mstackrc:source:285                       (B[m NEUTRON_BRANCH=master
-[2026-07-28T04:17:41.971Z] ++[38;5;242mstackrc:source:288                       (B[m NOVA_REPO=http://github.com/openstack/nova.git
-[2026-07-28T04:17:41.971Z] ++[38;5;242mstackrc:source:289                       (B[m NOVA_BRANCH=master
-[2026-07-28T04:17:41.971Z] ++[38;5;242mstackrc:source:292                       (B[m SWIFT_REPO=http://github.com/openstack/swift.git
-[2026-07-28T04:17:41.971Z] ++[38;5;242mstackrc:source:293                       (B[m SWIFT_BRANCH=master
-[2026-07-28T04:17:41.971Z] ++[38;5;242mstackrc:source:296                       (B[m PLACEMENT_REPO=http://github.com/openstack/placement.git
-[2026-07-28T04:17:41.972Z] ++[38;5;242mstackrc:source:297                       (B[m PLACEMENT_BRANCH=master
-[2026-07-28T04:17:41.972Z] ++[38;5;242mstackrc:source:306                       (B[m REQUIREMENTS_REPO=http://github.com/openstack/requirements.git
-[2026-07-28T04:17:41.972Z] ++[38;5;242mstackrc:source:307                       (B[m REQUIREMENTS_BRANCH=master
-[2026-07-28T04:17:42.240Z] ++[38;5;242mstackrc:source:310                       (B[m TEMPEST_REPO=http://github.com/openstack/tempest.git
-[2026-07-28T04:17:42.240Z] ++[38;5;242mstackrc:source:311                       (B[m TEMPEST_BRANCH=master
-[2026-07-28T04:17:42.240Z] ++[38;5;242mstackrc:source:312                       (B[m TEMPEST_VENV_UPPER_CONSTRAINTS=master
-[2026-07-28T04:17:42.240Z] ++[38;5;242mstackrc:source:314                       (B[m OSTESTIMAGES_REPO=http://github.com/openstack/os-test-images.git
-[2026-07-28T04:17:42.240Z] ++[38;5;242mstackrc:source:315                       (B[m OSTESTIMAGES_BRANCH=master
-[2026-07-28T04:17:42.241Z] ++[38;5;242mstackrc:source:316                       (B[m OSTESTIMAGES_DIR=/opt/stack/os-test-images
-[2026-07-28T04:17:42.241Z] ++[38;5;242mstackrc:source:326                       (B[m GITREPO["python-cinderclient"]=http://github.com/openstack/python-cinderclient.git
-[2026-07-28T04:17:42.241Z] ++[38;5;242mstackrc:source:327                       (B[m GITBRANCH["python-cinderclient"]=master
-[2026-07-28T04:17:42.241Z] ++[38;5;242mstackrc:source:330                       (B[m GITREPO["python-brick-cinderclient-ext"]=http://github.com/openstack/python-brick-cinderclient-ext.git
-[2026-07-28T04:17:42.241Z] ++[38;5;242mstackrc:source:331                       (B[m GITBRANCH["python-brick-cinderclient-ext"]=master
-[2026-07-28T04:17:42.241Z] ++[38;5;242mstackrc:source:334                       (B[m GITREPO["python-barbicanclient"]=http://github.com/openstack/python-barbicanclient.git
-[2026-07-28T04:17:42.511Z] ++[38;5;242mstackrc:source:335                       (B[m GITBRANCH["python-barbicanclient"]=master
-[2026-07-28T04:17:42.511Z] ++[38;5;242mstackrc:source:336                       (B[m GITDIR["python-barbicanclient"]=/opt/stack/python-barbicanclient
-[2026-07-28T04:17:42.511Z] ++[38;5;242mstackrc:source:339                       (B[m GITREPO["python-glanceclient"]=http://github.com/openstack/python-glanceclient.git
-[2026-07-28T04:17:42.511Z] ++[38;5;242mstackrc:source:340                       (B[m GITBRANCH["python-glanceclient"]=master
-[2026-07-28T04:17:42.511Z] ++[38;5;242mstackrc:source:343                       (B[m GITREPO["python-ironicclient"]=http://github.com/openstack/python-ironicclient.git
-[2026-07-28T04:17:42.511Z] ++[38;5;242mstackrc:source:344                       (B[m GITBRANCH["python-ironicclient"]=master
-[2026-07-28T04:17:42.512Z] ++[38;5;242mstackrc:source:346                       (B[m GITDIR["python-ironicclient"]=/opt/stack/python-ironicclient
-[2026-07-28T04:17:42.512Z] ++[38;5;242mstackrc:source:349                       (B[m GITREPO["keystoneauth"]=http://github.com/openstack/keystoneauth.git
-[2026-07-28T04:17:42.512Z] ++[38;5;242mstackrc:source:350                       (B[m GITBRANCH["keystoneauth"]=master
-[2026-07-28T04:17:42.512Z] ++[38;5;242mstackrc:source:353                       (B[m GITREPO["python-keystoneclient"]=http://github.com/openstack/python-keystoneclient.git
-[2026-07-28T04:17:42.512Z] ++[38;5;242mstackrc:source:354                       (B[m GITBRANCH["python-keystoneclient"]=master
-[2026-07-28T04:17:42.512Z] ++[38;5;242mstackrc:source:357                       (B[m GITREPO["python-neutronclient"]=http://github.com/openstack/python-neutronclient.git
-[2026-07-28T04:17:42.512Z] ++[38;5;242mstackrc:source:358                       (B[m GITBRANCH["python-neutronclient"]=master
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:361                       (B[m GITREPO["python-novaclient"]=http://github.com/openstack/python-novaclient.git
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:362                       (B[m GITBRANCH["python-novaclient"]=master
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:365                       (B[m GITREPO["python-swiftclient"]=http://github.com/openstack/python-swiftclient.git
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:366                       (B[m GITBRANCH["python-swiftclient"]=master
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:369                       (B[m GITREPO["python-openstackclient"]=http://github.com/openstack/python-openstackclient.git
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:370                       (B[m GITBRANCH["python-openstackclient"]=master
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:372                       (B[m GITDIR["python-openstackclient"]=/opt/stack/python-openstackclient
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:375                       (B[m GITREPO["osc-placement"]=http://github.com/openstack/osc-placement.git
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:376                       (B[m GITBRANCH["osc-placement"]=master
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:387                       (B[m GITREPO["castellan"]=http://github.com/openstack/castellan.git
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:388                       (B[m GITBRANCH["castellan"]=master
-[2026-07-28T04:17:42.776Z] ++[38;5;242mstackrc:source:391                       (B[m GITREPO["cliff"]=http://github.com/openstack/cliff.git
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:392                       (B[m GITBRANCH["cliff"]=master
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:395                       (B[m GITREPO["futurist"]=http://github.com/openstack/futurist.git
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:396                       (B[m GITBRANCH["futurist"]=master
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:399                       (B[m GITREPO["debtcollector"]=http://github.com/openstack/debtcollector.git
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:400                       (B[m GITBRANCH["debtcollector"]=master
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:403                       (B[m GITREPO["etcd3gw"]=http://github.com/openstack/etcd3gw.git
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:404                       (B[m GITBRANCH["etcd3gw"]=master
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:407                       (B[m GITREPO["automaton"]=http://github.com/openstack/automaton.git
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:408                       (B[m GITBRANCH["automaton"]=master
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:411                       (B[m GITREPO["oslo.cache"]=http://github.com/openstack/oslo.cache.git
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:412                       (B[m GITBRANCH["oslo.cache"]=master
-[2026-07-28T04:17:43.063Z] ++[38;5;242mstackrc:source:415                       (B[m GITREPO["oslo.concurrency"]=http://github.com/openstack/oslo.concurrency.git
-[2026-07-28T04:17:43.064Z] ++[38;5;242mstackrc:source:416                       (B[m GITBRANCH["oslo.concurrency"]=master
-[2026-07-28T04:17:43.327Z] ++[38;5;242mstackrc:source:419                       (B[m GITREPO["oslo.config"]=http://github.com/openstack/oslo.config.git
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:420                       (B[m GITBRANCH["oslo.config"]=master
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:423                       (B[m GITREPO["oslo.context"]=http://github.com/openstack/oslo.context.git
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:424                       (B[m GITBRANCH["oslo.context"]=master
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:427                       (B[m GITREPO["oslo.db"]=http://github.com/openstack/oslo.db.git
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:428                       (B[m GITBRANCH["oslo.db"]=master
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:431                       (B[m GITREPO["oslo.i18n"]=http://github.com/openstack/oslo.i18n.git
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:432                       (B[m GITBRANCH["oslo.i18n"]=master
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:435                       (B[m GITREPO["oslo.limit"]=http://github.com/openstack/oslo.limit.git
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:436                       (B[m GITBRANCH["oslo.limit"]=master
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:439                       (B[m GITREPO["oslo.log"]=http://github.com/openstack/oslo.log.git
-[2026-07-28T04:17:43.328Z] ++[38;5;242mstackrc:source:440                       (B[m GITBRANCH["oslo.log"]=master
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:443                       (B[m GITREPO["oslo.messaging"]=http://github.com/openstack/oslo.messaging.git
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:444                       (B[m GITBRANCH["oslo.messaging"]=master
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:447                       (B[m GITREPO["oslo.middleware"]=http://github.com/openstack/oslo.middleware.git
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:448                       (B[m GITBRANCH["oslo.middleware"]=master
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:451                       (B[m GITREPO["oslo.policy"]=http://github.com/openstack/oslo.policy.git
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:452                       (B[m GITBRANCH["oslo.policy"]=master
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:455                       (B[m GITREPO["oslo.privsep"]=http://github.com/openstack/oslo.privsep.git
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:456                       (B[m GITBRANCH["oslo.privsep"]=master
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:459                       (B[m GITREPO["oslo.reports"]=http://github.com/openstack/oslo.reports.git
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:460                       (B[m GITBRANCH["oslo.reports"]=master
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:463                       (B[m GITREPO["oslo.rootwrap"]=http://github.com/openstack/oslo.rootwrap.git
-[2026-07-28T04:17:43.593Z] ++[38;5;242mstackrc:source:464                       (B[m GITBRANCH["oslo.rootwrap"]=master
-[2026-07-28T04:17:43.862Z] ++[38;5;242mstackrc:source:467                       (B[m GITREPO["oslo.serialization"]=http://github.com/openstack/oslo.serialization.git
-[2026-07-28T04:17:43.862Z] ++[38;5;242mstackrc:source:468                       (B[m GITBRANCH["oslo.serialization"]=master
-[2026-07-28T04:17:43.862Z] ++[38;5;242mstackrc:source:471                       (B[m GITREPO["oslo.service"]=http://github.com/openstack/oslo.service.git
-[2026-07-28T04:17:43.862Z] ++[38;5;242mstackrc:source:472                       (B[m GITBRANCH["oslo.service"]=master
-[2026-07-28T04:17:43.862Z] ++[38;5;242mstackrc:source:475                       (B[m GITREPO["oslo.utils"]=http://github.com/openstack/oslo.utils.git
-[2026-07-28T04:17:43.862Z] ++[38;5;242mstackrc:source:476                       (B[m GITBRANCH["oslo.utils"]=master
-[2026-07-28T04:17:43.862Z] ++[38;5;242mstackrc:source:479                       (B[m GITREPO["oslo.versionedobjects"]=http://github.com/openstack/oslo.versionedobjects.git
-[2026-07-28T04:17:43.862Z] ++[38;5;242mstackrc:source:480                       (B[m GITBRANCH["oslo.versionedobjects"]=master
-[2026-07-28T04:17:43.863Z] ++[38;5;242mstackrc:source:483                       (B[m GITREPO["oslo.vmware"]=http://github.com/openstack/oslo.vmware.git
-[2026-07-28T04:17:43.863Z] ++[38;5;242mstackrc:source:484                       (B[m GITBRANCH["oslo.vmware"]=master
-[2026-07-28T04:17:43.863Z] ++[38;5;242mstackrc:source:487                       (B[m GITREPO["osprofiler"]=http://github.com/openstack/osprofiler.git
-[2026-07-28T04:17:43.863Z] ++[38;5;242mstackrc:source:488                       (B[m GITBRANCH["osprofiler"]=master
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:491                       (B[m GITREPO["pycadf"]=http://github.com/openstack/pycadf.git
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:492                       (B[m GITBRANCH["pycadf"]=master
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:495                       (B[m GITREPO["stevedore"]=http://github.com/openstack/stevedore.git
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:496                       (B[m GITBRANCH["stevedore"]=master
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:499                       (B[m GITREPO["taskflow"]=http://github.com/openstack/taskflow.git
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:500                       (B[m GITBRANCH["taskflow"]=master
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:503                       (B[m GITREPO["tooz"]=http://github.com/openstack/tooz.git
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:504                       (B[m GITBRANCH["tooz"]=master
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:507                       (B[m GITREPO["pbr"]=http://github.com/openstack/pbr.git
-[2026-07-28T04:17:44.156Z] ++[38;5;242mstackrc:source:508                       (B[m GITBRANCH["pbr"]=master
-[2026-07-28T04:17:44.157Z] ++[38;5;242mstackrc:source:518                       (B[m GITREPO["cursive"]=http://github.com/openstack/cursive.git
-[2026-07-28T04:17:44.157Z] ++[38;5;242mstackrc:source:519                       (B[m GITBRANCH["cursive"]=master
-[2026-07-28T04:17:44.157Z] ++[38;5;242mstackrc:source:522                       (B[m GITREPO["glance_store"]=http://github.com/openstack/glance_store.git
-[2026-07-28T04:17:44.444Z] ++[38;5;242mstackrc:source:523                       (B[m GITBRANCH["glance_store"]=master
-[2026-07-28T04:17:44.444Z] ++[38;5;242mstackrc:source:526                       (B[m GITREPO["keystonemiddleware"]=http://github.com/openstack/keystonemiddleware.git
-[2026-07-28T04:17:44.444Z] ++[38;5;242mstackrc:source:527                       (B[m GITBRANCH["keystonemiddleware"]=master
-[2026-07-28T04:17:44.444Z] ++[38;5;242mstackrc:source:530                       (B[m GITREPO["ceilometermiddleware"]=http://github.com/openstack/ceilometermiddleware.git
-[2026-07-28T04:17:44.444Z] ++[38;5;242mstackrc:source:531                       (B[m GITBRANCH["ceilometermiddleware"]=master
-[2026-07-28T04:17:44.444Z] ++[38;5;242mstackrc:source:532                       (B[m GITDIR["ceilometermiddleware"]=/opt/stack/ceilometermiddleware
-[2026-07-28T04:17:44.445Z] ++[38;5;242mstackrc:source:535                       (B[m GITREPO["openstacksdk"]=http://github.com/openstack/openstacksdk.git
-[2026-07-28T04:17:44.445Z] ++[38;5;242mstackrc:source:536                       (B[m GITBRANCH["openstacksdk"]=master
-[2026-07-28T04:17:44.445Z] ++[38;5;242mstackrc:source:539                       (B[m GITREPO["os-brick"]=http://github.com/openstack/os-brick.git
-[2026-07-28T04:17:44.445Z] ++[38;5;242mstackrc:source:540                       (B[m GITBRANCH["os-brick"]=master
-[2026-07-28T04:17:44.445Z] ++[38;5;242mstackrc:source:543                       (B[m GITREPO["os-client-config"]=http://github.com/openstack/os-client-config.git
-[2026-07-28T04:17:44.445Z] ++[38;5;242mstackrc:source:544                       (B[m GITBRANCH["os-client-config"]=master
-[2026-07-28T04:17:44.445Z] ++[38;5;242mstackrc:source:545                       (B[m GITDIR["os-client-config"]=/opt/stack/os-client-config
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:548                       (B[m GITREPO["os-vif"]=http://github.com/openstack/os-vif.git
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:549                       (B[m GITBRANCH["os-vif"]=master
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:552                       (B[m GITREPO["osc-lib"]=http://github.com/openstack/osc-lib.git
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:553                       (B[m GITBRANCH["osc-lib"]=master
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:556                       (B[m GITREPO["ironic-lib"]=http://github.com/openstack/ironic-lib.git
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:557                       (B[m GITBRANCH["ironic-lib"]=master
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:559                       (B[m GITDIR["ironic-lib"]=/opt/stack/ironic-lib
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:562                       (B[m GITREPO["diskimage-builder"]=http://github.com/openstack/diskimage-builder.git
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:563                       (B[m GITBRANCH["diskimage-builder"]=master
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:564                       (B[m GITDIR["diskimage-builder"]=/opt/stack/diskimage-builder
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:567                       (B[m GITREPO["neutron-lib"]=http://github.com/openstack/neutron-lib.git
-[2026-07-28T04:17:44.715Z] ++[38;5;242mstackrc:source:568                       (B[m GITBRANCH["neutron-lib"]=master
-[2026-07-28T04:17:44.990Z] ++[38;5;242mstackrc:source:569                       (B[m GITDIR["neutron-lib"]=/opt/stack/neutron-lib
-[2026-07-28T04:17:44.990Z] ++[38;5;242mstackrc:source:572                       (B[m GITREPO["os-resource-classes"]=http://github.com/openstack/os-resource-classes.git
-[2026-07-28T04:17:44.990Z] ++[38;5;242mstackrc:source:573                       (B[m GITBRANCH["os-resource-classes"]=master
-[2026-07-28T04:17:44.990Z] ++[38;5;242mstackrc:source:576                       (B[m GITREPO["os-traits"]=http://github.com/openstack/os-traits.git
-[2026-07-28T04:17:44.990Z] ++[38;5;242mstackrc:source:577                       (B[m GITBRANCH["os-traits"]=master
-[2026-07-28T04:17:44.990Z] ++[38;5;242mstackrc:source:580                       (B[m GITREPO["ovsdbapp"]=http://github.com/openstack/ovsdbapp.git
-[2026-07-28T04:17:44.991Z] ++[38;5;242mstackrc:source:581                       (B[m GITBRANCH["ovsdbapp"]=master
-[2026-07-28T04:17:44.991Z] ++[38;5;242mstackrc:source:582                       (B[m GITDIR["ovsdbapp"]=/opt/stack/ovsdbapp
-[2026-07-28T04:17:44.991Z] ++[38;5;242mstackrc:source:585                       (B[m GITREPO["os-ken"]=http://github.com/openstack/os-ken.git
-[2026-07-28T04:17:44.991Z] ++[38;5;242mstackrc:source:586                       (B[m GITBRANCH["os-ken"]=master
-[2026-07-28T04:17:44.991Z] ++[38;5;242mstackrc:source:587                       (B[m GITDIR["os-ken"]=/opt/stack/os-ken
-[2026-07-28T04:17:44.991Z] ++[38;5;242mstackrc:source:599                       (B[m IRONIC_PYTHON_AGENT_REPO=http://github.com/openstack/ironic-python-agent.git
-[2026-07-28T04:17:45.290Z] ++[38;5;242mstackrc:source:600                       (B[m IRONIC_PYTHON_AGENT_BRANCH=master
-[2026-07-28T04:17:45.290Z] ++[38;5;242mstackrc:source:603                       (B[m NOVNC_REPO=https://github.com/novnc/novnc.git
-[2026-07-28T04:17:45.290Z] ++[38;5;242mstackrc:source:604                       (B[m NOVNC_BRANCH=v1.3.0
-[2026-07-28T04:17:45.290Z] ++[38;5;242mstackrc:source:607                       (B[m SPICE_REPO=http://anongit.freedesktop.org/git/spice/spice-html5.git
-[2026-07-28T04:17:45.290Z] ++[38;5;242mstackrc:source:608                       (B[m SPICE_BRANCH=master
-[2026-07-28T04:17:45.290Z] +++[38;5;242mstackrc:source:614                       (B[m trueorfalse False ENABLE_VOLUME_MULTIATTACH
-[2026-07-28T04:17:45.290Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:45.290Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:45.290Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:45.290Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:45.290Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:45.291Z] ++[38;5;242mstackrc:source:614                       (B[m ENABLE_VOLUME_MULTIATTACH=False
-[2026-07-28T04:17:45.291Z] ++[38;5;242mstackrc:source:619                       (B[m DEFAULT_VIRT_DRIVER=libvirt
-[2026-07-28T04:17:45.291Z] ++[38;5;242mstackrc:source:620                       (B[m VIRT_DRIVER=libvirt
-[2026-07-28T04:17:45.559Z] ++[38;5;242mstackrc:source:621                       (B[m case "$VIRT_DRIVER" in
-[2026-07-28T04:17:45.560Z] ++[38;5;242mstackrc:source:623                       (B[m LIBVIRT_TYPE=kvm
-[2026-07-28T04:17:45.560Z] ++[38;5;242mstackrc:source:624                       (B[m LIBVIRT_CPU_MODE=custom
-[2026-07-28T04:17:45.560Z] ++[38;5;242mstackrc:source:625                       (B[m LIBVIRT_CPU_MODEL=Nehalem
-[2026-07-28T04:17:45.560Z] ++[38;5;242mstackrc:source:627                       (B[m [[ -z Ubuntu ]]
-[2026-07-28T04:17:45.560Z] ++[38;5;242mstackrc:source:631                       (B[m [[ Ubuntu =~ (Debian|Ubuntu) ]]
-[2026-07-28T04:17:45.560Z] ++[38;5;242mstackrc:source:632                       (B[m LIBVIRT_GROUP=libvirt
-[2026-07-28T04:17:45.560Z] ++[38;5;242mstackrc:source:671                       (B[m CIRROS_VERSION=0.6.3
-[2026-07-28T04:17:45.560Z] +++[38;5;242mstackrc:source:672                       (B[m uname -m
-[2026-07-28T04:17:45.560Z] ++[38;5;242mstackrc:source:672                       (B[m CIRROS_ARCH=x86_64
-[2026-07-28T04:17:45.560Z] +++[38;5;242mstackrc:source:677                       (B[m trueorfalse True DOWNLOAD_DEFAULT_IMAGES
-[2026-07-28T04:17:45.560Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:45.829Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:45.829Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:45.829Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:45.829Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:45.829Z] ++[38;5;242mstackrc:source:677                       (B[m DOWNLOAD_DEFAULT_IMAGES=False
-[2026-07-28T04:17:45.829Z] ++[38;5;242mstackrc:source:678                       (B[m [[ False == \T\r\u\e ]]
-[2026-07-28T04:17:45.829Z] ++[38;5;242mstackrc:source:714                       (B[m EXTRA_CACHE_URLS=
-[2026-07-28T04:17:45.830Z] ++[38;5;242mstackrc:source:717                       (B[m ETCD_VERSION=v3.5.21
-[2026-07-28T04:17:45.830Z] ++[38;5;242mstackrc:source:718                       (B[m ETCD_SHA256_AMD64=adddda4b06718e68671ffabff2f8cee48488ba61ad82900e639d108f2148501c
-[2026-07-28T04:17:45.830Z] ++[38;5;242mstackrc:source:719                       (B[m ETCD_SHA256_ARM64=95bf6918623a097c0385b96f139d90248614485e781ec9bee4768dbb6c79c53f
-[2026-07-28T04:17:45.830Z] ++[38;5;242mstackrc:source:720                       (B[m ETCD_SHA256_PPC64=6fb6ecb3d1b331eb177dc610a8efad3aceb1f836d6aeb439ba0bfac5d5c2a38c
-[2026-07-28T04:17:45.830Z] ++[38;5;242mstackrc:source:721                       (B[m ETCD_SHA256_S390X=a211a83961ba8a7e94f7d6343ad769e699db21a715ba4f3b68cf31ea28f9c951
-[2026-07-28T04:17:45.830Z] ++[38;5;242mstackrc:source:723                       (B[m is_arch x86_64
-[2026-07-28T04:17:46.096Z] +++[38;5;242mfunctions-common:is_arch:519             (B[m uname -m
-[2026-07-28T04:17:46.096Z] ++[38;5;242mfunctions-common:is_arch:519             (B[m [[ x86_64 == \x\8\6\_\6\4 ]]
-[2026-07-28T04:17:46.096Z] ++[38;5;242mstackrc:source:724                       (B[m ETCD_ARCH=amd64
-[2026-07-28T04:17:46.096Z] ++[38;5;242mstackrc:source:725                       (B[m ETCD_SHA256=adddda4b06718e68671ffabff2f8cee48488ba61ad82900e639d108f2148501c
-[2026-07-28T04:17:46.096Z] ++[38;5;242mstackrc:source:738                       (B[m ETCD_PORT=2379
-[2026-07-28T04:17:46.096Z] ++[38;5;242mstackrc:source:739                       (B[m ETCD_PEER_PORT=2380
-[2026-07-28T04:17:46.096Z] ++[38;5;242mstackrc:source:740                       (B[m ETCD_DOWNLOAD_URL=https://github.com/coreos/etcd/releases/download/
-[2026-07-28T04:17:46.096Z] ++[38;5;242mstackrc:source:741                       (B[m ETCD_NAME=etcd-v3.5.21-linux-amd64
-[2026-07-28T04:17:46.097Z] ++[38;5;242mstackrc:source:742                       (B[m ETCD_DOWNLOAD_FILE=etcd-v3.5.21-linux-amd64.tar.gz
-[2026-07-28T04:17:46.097Z] ++[38;5;242mstackrc:source:743                       (B[m ETCD_DOWNLOAD_LOCATION=https://github.com/coreos/etcd/releases/download//v3.5.21/etcd-v3.5.21-linux-amd64.tar.gz
-[2026-07-28T04:17:46.097Z] ++[38;5;242mstackrc:source:745                       (B[m EXTRA_CACHE_URLS+=,https://github.com/coreos/etcd/releases/download//v3.5.21/etcd-v3.5.21-linux-amd64.tar.gz
-[2026-07-28T04:17:46.401Z] ++[38;5;242mstackrc:source:748                       (B[m CACHE_BACKEND=dogpile.cache.memcached
-[2026-07-28T04:17:46.401Z] ++[38;5;242mstackrc:source:749                       (B[m MEMCACHE_SERVERS=localhost:11211
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:752                       (B[m for image_url in ${IMAGE_URLS//,/ }
-[2026-07-28T04:17:46.402Z] +++[38;5;242mstackrc:source:753                       (B[m echo https://download.cirros-cloud.net/0.5.1/cirros-0.5.1-x86_64-disk.img
-[2026-07-28T04:17:46.402Z] +++[38;5;242mstackrc:source:753                       (B[m grep -o -F https://download.cirros-cloud.net/0.5.1/cirros-0.5.1-x86_64-disk.img
-[2026-07-28T04:17:46.402Z] +++[38;5;242mstackrc:source:753                       (B[m wc -l
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:753                       (B[m '[' 1 -gt 1 ']'
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:759                       (B[m VOLUME_BACKING_FILE_SIZE=30G
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:762                       (B[m VOLUME_NAME_PREFIX=volume-
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:763                       (B[m INSTANCE_NAME_PREFIX=instance-
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:766                       (B[m S3_SERVICE_PORT=3333
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:769                       (B[m PRIVATE_NETWORK_NAME=private
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:770                       (B[m PUBLIC_NETWORK_NAME=public
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:772                       (B[m PUBLIC_INTERFACE=
-[2026-07-28T04:17:46.402Z] ++[38;5;242mstackrc:source:775                       (B[m SERVICE_PROTOCOL=http
-[2026-07-28T04:17:46.685Z] +++[38;5;242mstackrc:source:781                       (B[m nproc
-[2026-07-28T04:17:46.686Z] +++[38;5;242mstackrc:source:781                       (B[m nproc
-[2026-07-28T04:17:46.686Z] ++[38;5;242mstackrc:source:781                       (B[m API_WORKERS=2
-[2026-07-28T04:17:46.686Z] ++[38;5;242mstackrc:source:784                       (B[m SERVICE_TIMEOUT=60
-[2026-07-28T04:17:46.686Z] ++[38;5;242mstackrc:source:787                       (B[m NOVA_READY_TIMEOUT=60
-[2026-07-28T04:17:46.686Z] ++[38;5;242mstackrc:source:790                       (B[m SERVICE_GRACEFUL_SHUTDOWN_TIMEOUT=5
-[2026-07-28T04:17:46.686Z] ++[38;5;242mstackrc:source:793                       (B[m WORKER_TIMEOUT=80
-[2026-07-28T04:17:46.686Z] +++[38;5;242mstackrc:source:801                       (B[m trueorfalse False OFFLINE
-[2026-07-28T04:17:46.686Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:46.686Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:46.686Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:46.686Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:47.026Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:47.027Z] ++[38;5;242mstackrc:source:801                       (B[m OFFLINE=False
-[2026-07-28T04:17:47.027Z] +++[38;5;242mstackrc:source:806                       (B[m trueorfalse False ERROR_ON_CLONE
-[2026-07-28T04:17:47.027Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:47.027Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:47.027Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:47.027Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:47.027Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:47.027Z] ++[38;5;242mstackrc:source:806                       (B[m ERROR_ON_CLONE=False
-[2026-07-28T04:17:47.027Z] +++[38;5;242mstackrc:source:809                       (B[m trueorfalse True ENABLE_DEBUG_LOG_LEVEL
-[2026-07-28T04:17:47.027Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:47.027Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:47.027Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:47.299Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:47.299Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:47.299Z] ++[38;5;242mstackrc:source:809                       (B[m ENABLE_DEBUG_LOG_LEVEL=True
-[2026-07-28T04:17:47.299Z] ++[38;5;242mstackrc:source:815                       (B[m FLOATING_RANGE=172.24.4.0/24
-[2026-07-28T04:17:47.299Z] ++[38;5;242mstackrc:source:816                       (B[m IPV4_ADDRS_SAFE_TO_USE=10.0.0.0/22
-[2026-07-28T04:17:47.299Z] ++[38;5;242mstackrc:source:817                       (B[m FIXED_RANGE=10.0.0.0/22
-[2026-07-28T04:17:47.299Z] ++[38;5;242mstackrc:source:818                       (B[m HOST_IP_IFACE=
-[2026-07-28T04:17:47.299Z] ++[38;5;242mstackrc:source:819                       (B[m HOST_IP=10.132.239.242
-[2026-07-28T04:17:47.299Z] ++[38;5;242mstackrc:source:820                       (B[m HOST_IPV6=
-[2026-07-28T04:17:47.299Z] +++[38;5;242mstackrc:source:822                       (B[m get_default_host_ip 10.0.0.0/22 172.24.4.0/24 '' 10.132.239.242 inet
-[2026-07-28T04:17:47.300Z] +++[38;5;242mfunctions-common:get_default_host_ip:760 (B[m local fixed_range=10.0.0.0/22
-[2026-07-28T04:17:47.300Z] +++[38;5;242mfunctions-common:get_default_host_ip:761 (B[m local floating_range=172.24.4.0/24
-[2026-07-28T04:17:47.300Z] +++[38;5;242mfunctions-common:get_default_host_ip:762 (B[m local host_ip_iface=
-[2026-07-28T04:17:47.300Z] +++[38;5;242mfunctions-common:get_default_host_ip:763 (B[m local host_ip=10.132.239.242
-[2026-07-28T04:17:47.300Z] +++[38;5;242mfunctions-common:get_default_host_ip:764 (B[m local af=inet
-[2026-07-28T04:17:47.567Z] +++[38;5;242mfunctions-common:get_default_host_ip:767 (B[m '[' -z 10.132.239.242 -o 10.132.239.242 == dhcp ']'
-[2026-07-28T04:17:47.567Z] +++[38;5;242mfunctions-common:get_default_host_ip:791 (B[m echo 10.132.239.242
-[2026-07-28T04:17:47.567Z] ++[38;5;242mstackrc:source:822                       (B[m HOST_IP=10.132.239.242
-[2026-07-28T04:17:47.567Z] ++[38;5;242mstackrc:source:823                       (B[m '[' 10.132.239.242 == '' ']'
-[2026-07-28T04:17:47.567Z] +++[38;5;242mstackrc:source:827                       (B[m get_default_host_ip '' '' '' '' inet6
-[2026-07-28T04:17:47.567Z] +++[38;5;242mfunctions-common:get_default_host_ip:760 (B[m local fixed_range=
-[2026-07-28T04:17:47.567Z] +++[38;5;242mfunctions-common:get_default_host_ip:761 (B[m local floating_range=
-[2026-07-28T04:17:47.568Z] +++[38;5;242mfunctions-common:get_default_host_ip:762 (B[m local host_ip_iface=
-[2026-07-28T04:17:47.568Z] +++[38;5;242mfunctions-common:get_default_host_ip:763 (B[m local host_ip=
-[2026-07-28T04:17:47.568Z] +++[38;5;242mfunctions-common:get_default_host_ip:764 (B[m local af=inet6
-[2026-07-28T04:17:47.841Z] +++[38;5;242mfunctions-common:get_default_host_ip:767 (B[m '[' -z '' -o '' == dhcp ']'
-[2026-07-28T04:17:47.841Z] +++[38;5;242mfunctions-common:get_default_host_ip:768 (B[m host_ip=
-[2026-07-28T04:17:47.841Z] ++++[38;5;242mfunctions-common:get_default_host_ip:770 (B[m ip -f inet6 route list match default table all
-[2026-07-28T04:17:47.841Z] ++++[38;5;242mfunctions-common:get_default_host_ip:770 (B[m grep via
-[2026-07-28T04:17:47.841Z] ++++[38;5;242mfunctions-common:get_default_host_ip:770 (B[m head -1
-[2026-07-28T04:17:47.842Z] ++++[38;5;242mfunctions-common:get_default_host_ip:770 (B[m awk '/default/ {print $5}'
-[2026-07-28T04:17:47.842Z] +++[38;5;242mfunctions-common:get_default_host_ip:770 (B[m host_ip_iface=
-[2026-07-28T04:17:47.842Z] +++[38;5;242mfunctions-common:get_default_host_ip:771 (B[m local host_ips
-[2026-07-28T04:17:47.842Z] ++++[38;5;242mfunctions-common:get_default_host_ip:772 (B[m sed /temporary/d
-[2026-07-28T04:17:47.842Z] ++++[38;5;242mfunctions-common:get_default_host_ip:772 (B[m awk '/inet6/ {split($2,parts,"/");  print parts[1]}'
-[2026-07-28T04:17:47.842Z] ++++[38;5;242mfunctions-common:get_default_host_ip:772 (B[m LC_ALL=C
-[2026-07-28T04:17:47.842Z] ++++[38;5;242mfunctions-common:get_default_host_ip:772 (B[m ip -f inet6 addr show
-[2026-07-28T04:17:48.113Z] +++[38;5;242mfunctions-common:get_default_host_ip:772 (B[m host_ips='::1
-[2026-07-28T04:17:48.113Z] fe80::250:56ff:fea8:3f7c'
-[2026-07-28T04:17:48.113Z] +++[38;5;242mfunctions-common:get_default_host_ip:773 (B[m local ip
-[2026-07-28T04:17:48.113Z] +++[38;5;242mfunctions-common:get_default_host_ip:774 (B[m for ip in $host_ips
-[2026-07-28T04:17:48.113Z] +++[38;5;242mfunctions-common:get_default_host_ip:781 (B[m [[ inet6 == \i\n\e\t\6 ]]
-[2026-07-28T04:17:48.113Z] +++[38;5;242mfunctions-common:get_default_host_ip:782 (B[m host_ip=::1
-[2026-07-28T04:17:48.113Z] +++[38;5;242mfunctions-common:get_default_host_ip:783 (B[m break
-[2026-07-28T04:17:48.113Z] +++[38;5;242mfunctions-common:get_default_host_ip:791 (B[m echo ::1
-[2026-07-28T04:17:48.113Z] ++[38;5;242mstackrc:source:827                       (B[m HOST_IPV6=::1
-[2026-07-28T04:17:48.113Z] +++[38;5;242mstackrc:source:830                       (B[m trueorfalse True NEUTRON_PORT_SECURITY
-[2026-07-28T04:17:48.113Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:48.113Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:48.113Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:48.378Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:48.378Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:48.378Z] ++[38;5;242mstackrc:source:830                       (B[m NEUTRON_PORT_SECURITY=True
-[2026-07-28T04:17:48.378Z] ++[38;5;242mstackrc:source:835                       (B[m SERVICE_IP_VERSION=4
-[2026-07-28T04:17:48.378Z] ++[38;5;242mstackrc:source:841                       (B[m [[ 4 != \4 ]]
-[2026-07-28T04:17:48.378Z] ++[38;5;242mstackrc:source:845                       (B[m [[ 4 == 4 ]]
-[2026-07-28T04:17:48.378Z] ++[38;5;242mstackrc:source:846                       (B[m DEF_SERVICE_HOST=10.132.239.242
-[2026-07-28T04:17:48.378Z] ++[38;5;242mstackrc:source:847                       (B[m DEF_SERVICE_LOCAL_HOST=127.0.0.1
-[2026-07-28T04:17:48.378Z] ++[38;5;242mstackrc:source:848                       (B[m DEF_SERVICE_LISTEN_ADDRESS=0.0.0.0
-[2026-07-28T04:17:48.379Z] ++[38;5;242mstackrc:source:851                       (B[m [[ 4 == 6 ]]
-[2026-07-28T04:17:48.379Z] ++[38;5;242mstackrc:source:862                       (B[m SERVICE_LISTEN_ADDRESS=0.0.0.0
-[2026-07-28T04:17:48.379Z] ++[38;5;242mstackrc:source:866                       (B[m SERVICE_HOST=10.132.239.242
-[2026-07-28T04:17:48.646Z] ++[38;5;242mstackrc:source:868                       (B[m SERVICE_LOCAL_HOST=127.0.0.1
-[2026-07-28T04:17:48.646Z] ++[38;5;242mstackrc:source:872                       (B[m TUNNEL_IP_VERSION=4
-[2026-07-28T04:17:48.646Z] ++[38;5;242mstackrc:source:875                       (B[m [[ 4 != \4 ]]
-[2026-07-28T04:17:48.646Z] ++[38;5;242mstackrc:source:879                       (B[m [[ 4 == 4 ]]
-[2026-07-28T04:17:48.646Z] ++[38;5;242mstackrc:source:880                       (B[m DEF_TUNNEL_ENDPOINT_IP=10.132.239.242
-[2026-07-28T04:17:48.647Z] ++[38;5;242mstackrc:source:883                       (B[m [[ 4 == 6 ]]
-[2026-07-28T04:17:48.647Z] ++[38;5;242mstackrc:source:894                       (B[m TUNNEL_ENDPOINT_IP=10.132.239.242
-[2026-07-28T04:17:48.647Z] +++[38;5;242mstackrc:source:897                       (B[m trueorfalse False SYSLOG
-[2026-07-28T04:17:48.647Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:48.647Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:48.647Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:48.647Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:48.647Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:48.913Z] ++[38;5;242mstackrc:source:897                       (B[m SYSLOG=False
-[2026-07-28T04:17:48.913Z] ++[38;5;242mstackrc:source:898                       (B[m SYSLOG_HOST=10.132.239.242
-[2026-07-28T04:17:48.913Z] ++[38;5;242mstackrc:source:899                       (B[m SYSLOG_PORT=516
-[2026-07-28T04:17:48.913Z] ++[38;5;242mstackrc:source:903                       (B[m GIT_DEPTH=0
-[2026-07-28T04:17:48.914Z] +++[38;5;242mstackrc:source:907                       (B[m trueorfalse True RECREATE_KEYSTONE_DB
-[2026-07-28T04:17:48.914Z] +++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:48.914Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:48.914Z] ++++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:48.914Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:48.914Z] +++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:48.914Z] ++[38;5;242mstackrc:source:907                       (B[m RECREATE_KEYSTONE_DB=True
-[2026-07-28T04:17:49.194Z] ++[38;5;242mstackrc:source:919                       (B[m [[ -z '' ]]
-[2026-07-28T04:17:49.194Z] ++[38;5;242mstackrc:source:920                       (B[m default_logdir=/opt/stack/logs
-[2026-07-28T04:17:49.194Z] ++[38;5;242mstackrc:source:921                       (B[m [[ -z /opt/stack/logs/stack.sh.log ]]
-[2026-07-28T04:17:49.194Z] ++[38;5;242mstackrc:source:926                       (B[m LOGDIR=/opt/stack/logs
-[2026-07-28T04:17:49.194Z] ++[38;5;242mstackrc:source:927                       (B[m logfile=stack.sh.log
-[2026-07-28T04:17:49.195Z] ++[38;5;242mstackrc:source:928                       (B[m [[ -z /opt/stack/logs ]]
-[2026-07-28T04:17:49.195Z] ++[38;5;242mstackrc:source:928                       (B[m [[ /opt/stack/logs == \s\t\a\c\k\.\s\h\.\l\o\g ]]
-[2026-07-28T04:17:49.195Z] ++[38;5;242mstackrc:source:933                       (B[m unset default_logdir logfile
-[2026-07-28T04:17:49.195Z] ++[38;5;242mstackrc:source:939                       (B[m ULIMIT_NOFILE=2048
-[2026-07-28T04:17:49.195Z] +[38;5;242m./stack.sh:main:228                      (B[m write_devstack_version
-[2026-07-28T04:17:49.195Z] +[38;5;242mfunctions:write_devstack_version:876     (B[m cat -
-[2026-07-28T04:17:49.195Z] +[38;5;242mfunctions:write_devstack_version:876     (B[m sudo tee /etc/devstack-version
-[2026-07-28T04:17:49.195Z] ++[38;5;242mfunctions:write_devstack_version:876     (B[m git log '--format=%H %s %ci' -1
-[2026-07-28T04:17:49.461Z] +[38;5;242m./stack.sh:main:232                      (B[m SUPPORTED_DISTROS='trixie|bookworm|noble|resolute|rhel9|rhel10'
-[2026-07-28T04:17:49.461Z] +[38;5;242m./stack.sh:main:234                      (B[m [[ ! noble =~ trixie|bookworm|noble|resolute|rhel9|rhel10 ]]
-[2026-07-28T04:17:49.461Z] +[38;5;242m./stack.sh:main:245                      (B[m export_proxy_variables
-[2026-07-28T04:17:49.461Z] +[38;5;242mfunctions-common:export_proxy_variables:2238 (B[m isset http_proxy
-[2026-07-28T04:17:49.461Z] +[38;5;242mfunctions-common:isset:266               (B[m [[ -v http_proxy ]]
-[2026-07-28T04:17:49.461Z] +[38;5;242mfunctions-common:export_proxy_variables:2239 (B[m export http_proxy=http://10.120.61.146:80
-[2026-07-28T04:17:49.461Z] +[38;5;242mfunctions-common:export_proxy_variables:2239 (B[m http_proxy=http://10.120.61.146:80
-[2026-07-28T04:17:49.461Z] +[38;5;242mfunctions-common:export_proxy_variables:2241 (B[m isset https_proxy
-[2026-07-28T04:17:49.461Z] +[38;5;242mfunctions-common:isset:266               (B[m [[ -v https_proxy ]]
-[2026-07-28T04:17:49.462Z] +[38;5;242mfunctions-common:export_proxy_variables:2242 (B[m export https_proxy=http://10.120.61.146:443
-[2026-07-28T04:17:49.728Z] +[38;5;242mfunctions-common:export_proxy_variables:2242 (B[m https_proxy=http://10.120.61.146:443
-[2026-07-28T04:17:49.728Z] +[38;5;242mfunctions-common:export_proxy_variables:2244 (B[m isset no_proxy
-[2026-07-28T04:17:49.728Z] +[38;5;242mfunctions-common:isset:266               (B[m [[ -v no_proxy ]]
-[2026-07-28T04:17:49.729Z] +[38;5;242mfunctions-common:export_proxy_variables:2245 (B[m export no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242
-[2026-07-28T04:17:49.729Z] +[38;5;242mfunctions-common:export_proxy_variables:2245 (B[m no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242
-[2026-07-28T04:17:49.729Z] +[38;5;242m./stack.sh:main:250                      (B[m disable_negated_services
-[2026-07-28T04:17:49.729Z] +[38;5;242mfunctions-common:disable_negated_services:1943 (B[m local xtrace
-[2026-07-28T04:17:49.729Z] ++[38;5;242mfunctions-common:disable_negated_services:1944 (B[m set +o
-[2026-07-28T04:17:49.729Z] ++[38;5;242mfunctions-common:disable_negated_services:1944 (B[m grep xtrace
-[2026-07-28T04:17:49.729Z] +[38;5;242mfunctions-common:disable_negated_services:1944 (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:49.729Z] +[38;5;242mfunctions-common:disable_negated_services:1945 (B[m set +o xtrace
-[2026-07-28T04:17:49.998Z] +[38;5;242m./stack.sh:main:257                      (B[m is_package_installed sudo
-[2026-07-28T04:17:49.998Z] +[38;5;242mfunctions-common:is_package_installed:1447 (B[m [[ -z sudo ]]
-[2026-07-28T04:17:49.998Z] +[38;5;242mfunctions-common:is_package_installed:1451 (B[m [[ -z deb ]]
-[2026-07-28T04:17:49.998Z] +[38;5;242mfunctions-common:is_package_installed:1455 (B[m [[ deb = \d\e\b ]]
-[2026-07-28T04:17:49.998Z] +[38;5;242mfunctions-common:is_package_installed:1456 (B[m dpkg -s sudo
-[2026-07-28T04:17:50.511Z] +[38;5;242m./stack.sh:main:260                      (B[m sudo grep -q '^#includedir.*/etc/sudoers.d' /etc/sudoers
-[2026-07-28T04:17:50.511Z] +[38;5;242m./stack.sh:main:264                      (B[m [[ -n '' ]]
-[2026-07-28T04:17:50.511Z] ++[38;5;242m./stack.sh:main:273                      (B[m mktemp
-[2026-07-28T04:17:50.511Z] +[38;5;242m./stack.sh:main:273                      (B[m TEMPFILE=/tmp/tmp.HbNhkJoNuW
-[2026-07-28T04:17:50.511Z] +[38;5;242m./stack.sh:main:274                      (B[m echo 'stack ALL=(root) NOPASSWD:ALL'
-[2026-07-28T04:17:50.512Z] +[38;5;242m./stack.sh:main:277                      (B[m echo 'Defaults:stack secure_path=/sbin:/usr/sbin:/usr/bin:/bin:/usr/local/sbin:/usr/local/bin'
-[2026-07-28T04:17:50.512Z] +[38;5;242m./stack.sh:main:279                      (B[m is_sudo_rs
-[2026-07-28T04:17:50.512Z] +[38;5;242mfunctions-common:is_sudo_rs:564          (B[m sudo --version
-[2026-07-28T04:17:50.512Z] +[38;5;242mfunctions-common:is_sudo_rs:564          (B[m grep -q '^sudo-rs '
-[2026-07-28T04:17:50.512Z] +[38;5;242m./stack.sh:main:280                      (B[m echo 'Defaults:stack !requiretty'
-[2026-07-28T04:17:50.512Z] +[38;5;242m./stack.sh:main:282                      (B[m chmod 0440 /tmp/tmp.HbNhkJoNuW
-[2026-07-28T04:17:50.512Z] +[38;5;242m./stack.sh:main:283                      (B[m sudo chown root:root /tmp/tmp.HbNhkJoNuW
-[2026-07-28T04:17:50.512Z] +[38;5;242m./stack.sh:main:284                      (B[m sudo mv /tmp/tmp.HbNhkJoNuW /etc/sudoers.d/50_stack_sh
-[2026-07-28T04:17:50.512Z] +[38;5;242m./stack.sh:main:290                      (B[m is_ubuntu
-[2026-07-28T04:17:50.512Z] +[38;5;242mfunctions-common:is_ubuntu:546           (B[m [[ -z deb ]]
-[2026-07-28T04:17:50.512Z] +[38;5;242mfunctions-common:is_ubuntu:549           (B[m '[' deb = deb ']'
-[2026-07-28T04:17:50.786Z] +[38;5;242m./stack.sh:main:291                      (B[m echo 'APT::Acquire::Retries "20";'
-[2026-07-28T04:17:50.786Z] +[38;5;242m./stack.sh:main:291                      (B[m sudo tee /etc/apt/apt.conf.d/80retry
-[2026-07-28T04:17:50.786Z] +[38;5;242m./stack.sh:main:332                      (B[m DEST=/opt/stack
-[2026-07-28T04:17:50.786Z] +[38;5;242m./stack.sh:main:337                      (B[m [[ ! -d /opt/stack ]]
-[2026-07-28T04:17:50.786Z] +[38;5;242m./stack.sh:main:344                      (B[m [[ -n /opt/stack/logs ]]
-[2026-07-28T04:17:50.786Z] +[38;5;242m./stack.sh:main:345                      (B[m sudo mkdir -p /opt/stack/logs
-[2026-07-28T04:17:50.786Z] +[38;5;242m./stack.sh:main:346                      (B[m safe_chown -R stack /opt/stack/logs
-[2026-07-28T04:17:50.786Z] +[38;5;242mfunctions-common:safe_chown:2321         (B[m _safe_permission_operation chown -R stack /opt/stack/logs
-[2026-07-28T04:17:50.786Z] +[38;5;242mfunctions-common:_safe_permission_operation:2146 (B[m local xtrace
-[2026-07-28T04:17:50.787Z] ++[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m grep xtrace
-[2026-07-28T04:17:50.787Z] ++[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m set +o
-[2026-07-28T04:17:51.066Z] +[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:51.066Z] +[38;5;242mfunctions-common:_safe_permission_operation:2148 (B[m set +o xtrace
-[2026-07-28T04:17:51.066Z] +[38;5;242mfunctions-common:_safe_permission_operation:2169 (B[m sudo chown -R stack /opt/stack/logs
-[2026-07-28T04:17:51.066Z] +[38;5;242m./stack.sh:main:347                      (B[m safe_chmod 0755 /opt/stack/logs
-[2026-07-28T04:17:51.067Z] +[38;5;242mfunctions-common:safe_chmod:2315         (B[m _safe_permission_operation chmod 0755 /opt/stack/logs
-[2026-07-28T04:17:51.067Z] +[38;5;242mfunctions-common:_safe_permission_operation:2146 (B[m local xtrace
-[2026-07-28T04:17:51.067Z] ++[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m set +o
-[2026-07-28T04:17:51.067Z] ++[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m grep xtrace
-[2026-07-28T04:17:51.067Z] +[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:51.067Z] +[38;5;242mfunctions-common:_safe_permission_operation:2148 (B[m set +o xtrace
-[2026-07-28T04:17:51.331Z] +[38;5;242mfunctions-common:_safe_permission_operation:2169 (B[m sudo chmod 0755 /opt/stack/logs
-[2026-07-28T04:17:51.332Z] +[38;5;242m./stack.sh:main:351                      (B[m DATA_DIR=/opt/stack/data
-[2026-07-28T04:17:51.332Z] +[38;5;242m./stack.sh:main:352                      (B[m [[ ! -d /opt/stack/data ]]
-[2026-07-28T04:17:51.332Z] +[38;5;242m./stack.sh:main:353                      (B[m sudo mkdir -p /opt/stack/data
-[2026-07-28T04:17:51.332Z] +[38;5;242m./stack.sh:main:354                      (B[m safe_chown -R stack /opt/stack/data
-[2026-07-28T04:17:51.332Z] +[38;5;242mfunctions-common:safe_chown:2321         (B[m _safe_permission_operation chown -R stack /opt/stack/data
-[2026-07-28T04:17:51.332Z] +[38;5;242mfunctions-common:_safe_permission_operation:2146 (B[m local xtrace
-[2026-07-28T04:17:51.602Z] ++[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m set +o
-[2026-07-28T04:17:51.602Z] ++[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m grep xtrace
-[2026-07-28T04:17:51.603Z] +[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:51.603Z] +[38;5;242mfunctions-common:_safe_permission_operation:2148 (B[m set +o xtrace
-[2026-07-28T04:17:51.603Z] +[38;5;242mfunctions-common:_safe_permission_operation:2169 (B[m sudo chown -R stack /opt/stack/data
-[2026-07-28T04:17:51.603Z] +[38;5;242m./stack.sh:main:355                      (B[m safe_chmod 0755 /opt/stack/data
-[2026-07-28T04:17:51.603Z] +[38;5;242mfunctions-common:safe_chmod:2315         (B[m _safe_permission_operation chmod 0755 /opt/stack/data
-[2026-07-28T04:17:51.603Z] +[38;5;242mfunctions-common:_safe_permission_operation:2146 (B[m local xtrace
-[2026-07-28T04:17:51.603Z] ++[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m set +o
-[2026-07-28T04:17:51.603Z] ++[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m grep xtrace
-[2026-07-28T04:17:51.873Z] +[38;5;242mfunctions-common:_safe_permission_operation:2147 (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:51.873Z] +[38;5;242mfunctions-common:_safe_permission_operation:2148 (B[m set +o xtrace
-[2026-07-28T04:17:51.874Z] +[38;5;242mfunctions-common:_safe_permission_operation:2169 (B[m sudo chmod 0755 /opt/stack/data
-[2026-07-28T04:17:51.874Z] +[38;5;242m./stack.sh:main:359                      (B[m async_init
-[2026-07-28T04:17:51.874Z] +[38;5;242minc/async:async_init:217                 (B[m local async_dir=/opt/stack/async
-[2026-07-28T04:17:51.874Z] +[38;5;242minc/async:async_init:220                 (B[m rm -Rf /opt/stack/async
-[2026-07-28T04:17:51.874Z] +[38;5;242minc/async:async_init:223                 (B[m mkdir -p /opt/stack/async
-[2026-07-28T04:17:51.874Z] ++[38;5;242m./stack.sh:main:364                      (B[m hostname -s
-[2026-07-28T04:17:51.874Z] +[38;5;242m./stack.sh:main:364                      (B[m LOCAL_HOSTNAME=ubuntu
-[2026-07-28T04:17:52.162Z] +[38;5;242m./stack.sh:main:365                      (B[m grep -Fqwe ubuntu /etc/hosts
-[2026-07-28T04:17:52.163Z] ++[38;5;242m./stack.sh:main:372                      (B[m trueorfalse False SKIP_EPEL_INSTALL
-[2026-07-28T04:17:52.163Z] ++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:52.163Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:52.163Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:52.163Z] ++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:52.163Z] ++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:52.163Z] +[38;5;242m./stack.sh:main:372                      (B[m SKIP_EPEL_INSTALL=False
-[2026-07-28T04:17:52.163Z] +[38;5;242m./stack.sh:main:374                      (B[m [[ noble == \r\h\e\l\9 ]]
-[2026-07-28T04:17:52.163Z] +[38;5;242m./stack.sh:main:388                      (B[m [[ noble == \r\h\e\l\1\0 ]]
-[2026-07-28T04:17:52.163Z] +[38;5;242m./stack.sh:main:393                      (B[m [[ noble == \o\p\e\n\E\u\l\e\r\-\2\2\.\0\3 ]]
-[2026-07-28T04:17:52.163Z] +[38;5;242m./stack.sh:main:410                      (B[m install_python
-[2026-07-28T04:17:52.651Z] +[38;5;242minc/python:install_python:482            (B[m install_python3
-[2026-07-28T04:17:52.651Z] +[38;5;242minc/python:install_python3:488           (B[m is_ubuntu
-[2026-07-28T04:17:52.651Z] +[38;5;242mfunctions-common:is_ubuntu:546           (B[m [[ -z deb ]]
-[2026-07-28T04:17:52.651Z] +[38;5;242mfunctions-common:is_ubuntu:549           (B[m '[' deb = deb ']'
-[2026-07-28T04:17:52.651Z] +[38;5;242minc/python:install_python3:489           (B[m apt_get install python3.12 python3.12-dev
-[2026-07-28T04:17:52.651Z] +[38;5;242mfunctions-common:apt_get:1194            (B[m local xtrace result
-[2026-07-28T04:17:52.651Z] ++[38;5;242mfunctions-common:apt_get:1195            (B[m set +o
-[2026-07-28T04:17:52.651Z] ++[38;5;242mfunctions-common:apt_get:1195            (B[m grep xtrace
-[2026-07-28T04:17:52.651Z] +[38;5;242mfunctions-common:apt_get:1195            (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:52.651Z] +[38;5;242mfunctions-common:apt_get:1196            (B[m set +o xtrace
-[2026-07-28T04:17:52.652Z] +[38;5;242mfunctions-common:apt_get:1207            (B[m sudo DEBIAN_FRONTEND=noninteractive http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242 apt-get --option Dpkg::Options::=--force-confold --assume-yes install python3.12 python3.12-dev
-[2026-07-28T04:17:53.180Z] Reading package lists...
-[2026-07-28T04:17:53.757Z] Building dependency tree...
-[2026-07-28T04:17:53.757Z] Reading state information...
-[2026-07-28T04:17:54.021Z] python3.12 is already the newest version (3.12.3-1ubuntu0.15).
-[2026-07-28T04:17:54.021Z] python3.12-dev is already the newest version (3.12.3-1ubuntu0.15).
-[2026-07-28T04:17:54.022Z] The following packages were automatically installed and are no longer required:
-[2026-07-28T04:17:54.022Z]   libcgi-fast-perl libcgi-pm-perl libclone-perl libencode-locale-perl
-[2026-07-28T04:17:54.022Z]   libevent-pthreads-2.1-7t64 libfcgi-bin libfcgi-perl libfcgi0t64
-[2026-07-28T04:17:54.022Z]   libhtml-parser-perl libhtml-tagset-perl libhtml-template-perl
-[2026-07-28T04:17:54.022Z]   libhttp-date-perl libhttp-message-perl libio-html-perl
-[2026-07-28T04:17:54.022Z]   liblwp-mediatypes-perl libmecab2 libprotobuf-lite32t64 libtimedate-perl
-[2026-07-28T04:17:54.022Z]   liburi-perl mecab-ipadic mecab-ipadic-utf8 mecab-utils
-[2026-07-28T04:17:54.022Z] Use 'sudo apt autoremove' to remove them.
-[2026-07-28T04:17:54.305Z] 0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
-[2026-07-28T04:17:54.305Z] +[38;5;242mfunctions-common:apt_get:1211            (B[m result=0
-[2026-07-28T04:17:54.305Z] +[38;5;242mfunctions-common:apt_get:1214            (B[m time_stop apt-get
-[2026-07-28T04:17:54.305Z] +[38;5;242mfunctions-common:time_stop:2420          (B[m local name
-[2026-07-28T04:17:54.305Z] +[38;5;242mfunctions-common:time_stop:2421          (B[m local end_time
-[2026-07-28T04:17:54.305Z] +[38;5;242mfunctions-common:time_stop:2422          (B[m local elapsed_time
-[2026-07-28T04:17:54.581Z] +[38;5;242mfunctions-common:time_stop:2423          (B[m local total
-[2026-07-28T04:17:54.581Z] +[38;5;242mfunctions-common:time_stop:2424          (B[m local start_time
-[2026-07-28T04:17:54.581Z] +[38;5;242mfunctions-common:time_stop:2426          (B[m name=apt-get
-[2026-07-28T04:17:54.581Z] +[38;5;242mfunctions-common:time_stop:2427          (B[m start_time=1785212291142
-[2026-07-28T04:17:54.581Z] +[38;5;242mfunctions-common:time_stop:2429          (B[m [[ -z 1785212291142 ]]
-[2026-07-28T04:17:54.582Z] ++[38;5;242mfunctions-common:time_stop:2432          (B[m date +%s%3N
-[2026-07-28T04:17:54.582Z] +[38;5;242mfunctions-common:time_stop:2432          (B[m end_time=1785212293183
-[2026-07-28T04:17:54.582Z] +[38;5;242mfunctions-common:time_stop:2433          (B[m elapsed_time=2041
-[2026-07-28T04:17:54.582Z] +[38;5;242mfunctions-common:time_stop:2434          (B[m total=0
-[2026-07-28T04:17:54.582Z] +[38;5;242mfunctions-common:time_stop:2436          (B[m _TIME_START[$name]=
-[2026-07-28T04:17:54.582Z] +[38;5;242mfunctions-common:time_stop:2437          (B[m _TIME_TOTAL[$name]=2041
-[2026-07-28T04:17:54.582Z] +[38;5;242mfunctions-common:apt_get:1215            (B[m return 0
-[2026-07-28T04:17:54.582Z] ++[38;5;242minc/python:install_python:483            (B[m which python3.12
-[2026-07-28T04:17:54.849Z] +[38;5;242minc/python:install_python:483            (B[m export PYTHON=/usr/bin/python3.12
-[2026-07-28T04:17:54.849Z] +[38;5;242minc/python:install_python:483            (B[m PYTHON=/usr/bin/python3.12
-[2026-07-28T04:17:54.849Z] ++[38;5;242m./stack.sh:main:417                      (B[m trueorfalse True VERBOSE
-[2026-07-28T04:17:54.849Z] ++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:54.849Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:54.849Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:54.849Z] ++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:54.849Z] ++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:54.849Z] +[38;5;242m./stack.sh:main:417                      (B[m VERBOSE=True
-[2026-07-28T04:17:54.849Z] ++[38;5;242m./stack.sh:main:418                      (B[m trueorfalse False VERBOSE
-[2026-07-28T04:17:54.849Z] ++[38;5;242mfunctions-common:trueorfalse:224         (B[m local xtrace
-[2026-07-28T04:17:55.112Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m set +o
-[2026-07-28T04:17:55.112Z] +++[38;5;242mfunctions-common:trueorfalse:225         (B[m grep xtrace
-[2026-07-28T04:17:55.112Z] ++[38;5;242mfunctions-common:trueorfalse:225         (B[m xtrace='set -o xtrace'
-[2026-07-28T04:17:55.112Z] ++[38;5;242mfunctions-common:trueorfalse:226         (B[m set +o xtrace
-[2026-07-28T04:17:55.112Z] +[38;5;242m./stack.sh:main:418                      (B[m VERBOSE_NO_TIMESTAMP=True
-[2026-07-28T04:17:55.112Z] +[38;5;242m./stack.sh:main:464                      (B[m TIMESTAMP_FORMAT=%F-%H%M%S
-[2026-07-28T04:17:55.112Z] +[38;5;242m./stack.sh:main:465                      (B[m LOGDAYS=7
-[2026-07-28T04:17:55.112Z] ++[38;5;242m./stack.sh:main:466                      (B[m date +%F-%H%M%S
-[2026-07-28T04:17:55.112Z] +[38;5;242m./stack.sh:main:466                      (B[m CURRENT_LOG_TIME=2026-07-28-041813
-[2026-07-28T04:17:55.112Z] +[38;5;242m./stack.sh:main:468                      (B[m [[ -n /opt/stack/logs/stack.sh.log ]]
-[2026-07-28T04:17:55.112Z] +[38;5;242m./stack.sh:main:471                      (B[m LOGFILE_DIR=/opt/stack/logs
-[2026-07-28T04:17:55.112Z] +[38;5;242m./stack.sh:main:472                      (B[m LOGFILE_NAME=stack.sh.log
-[2026-07-28T04:17:55.112Z] +[38;5;242m./stack.sh:main:473                      (B[m mkdir -p /opt/stack/logs
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:474                      (B[m find /opt/stack/logs -maxdepth 1 -name 'stack.sh.log.*' -mtime +7 -exec rm '{}' ';'
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:475                      (B[m LOGFILE=/opt/stack/logs/stack.sh.log.2026-07-28-041813
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:476                      (B[m SUMFILE=/opt/stack/logs/stack.sh.log.2026-07-28-041813.summary.2026-07-28-041813
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:482                      (B[m exec
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:483                      (B[m [[ True == \T\r\u\e ]]
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:484                      (B[m _of_args=-v
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:485                      (B[m [[ True == \T\r\u\e ]]
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:486                      (B[m _of_args='-v --no-timestamp'
-[2026-07-28T04:17:55.379Z] +[38;5;242m./stack.sh:main:489                      (B[m exec
-[2026-07-28T04:17:55.380Z] ++[38;5;242m./stack.sh:main:489                      (B[m /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /opt/stack/logs/stack.sh.log.2026-07-28-041813
-[2026-07-28T04:17:55.648Z] +[38;5;242m./stack.sh:main:491                      (B[m exec
-[2026-07-28T04:17:55.648Z] +[38;5;242m./stack.sh:main:499                      (B[m echo_summary 'stack.sh log /opt/stack/logs/stack.sh.log.2026-07-28-041813'
-[2026-07-28T04:17:55.648Z] ++[38;5;242m./stack.sh:main:491                      (B[m /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2026-07-28-041813.summary.2026-07-28-041813
-[2026-07-28T04:17:55.648Z] +[38;5;242m./stack.sh:echo_summary:444              (B[m [[ -t 3 ]]
-[2026-07-28T04:17:55.648Z] +[38;5;242m./stack.sh:echo_summary:450              (B[m echo -e stack.sh log /opt/stack/logs/stack.sh.log.2026-07-28-041813
-[2026-07-28T04:17:55.648Z] +[38;5;242m./stack.sh:main:501                      (B[m ln -sf /opt/stack/logs/stack.sh.log.2026-07-28-041813 /opt/stack/logs/stack.sh.log
-[2026-07-28T04:17:55.648Z] +[38;5;242m./stack.sh:main:502                      (B[m ln -sf /opt/stack/logs/stack.sh.log.2026-07-28-041813.summary.2026-07-28-041813 /opt/stack/logs/stack.sh.log.summary
-[2026-07-28T04:17:55.648Z] +[38;5;242m./stack.sh:main:517                      (B[m check_path_perm_sanity /opt/stack
-[2026-07-28T04:17:55.648Z] +[38;5;242mfunctions:check_path_perm_sanity:615     (B[m local real_path
-[2026-07-28T04:17:55.648Z] ++[38;5;242mfunctions:check_path_perm_sanity:616     (B[m readlink -f /opt/stack
-[2026-07-28T04:17:55.648Z] +[38;5;242mfunctions:check_path_perm_sanity:616     (B[m real_path=/opt/stack
-[2026-07-28T04:17:55.649Z] +[38;5;242mfunctions:check_path_perm_sanity:617     (B[m local rebuilt_path=
-[2026-07-28T04:17:55.649Z] ++[38;5;242mfunctions:check_path_perm_sanity:618     (B[m echo /opt/stack
-[2026-07-28T04:17:55.649Z] ++[38;5;242mfunctions:check_path_perm_sanity:618     (B[m tr / ' '
-[2026-07-28T04:17:55.916Z] +[38;5;242mfunctions:check_path_perm_sanity:618     (B[m for i in $(echo ${real_path} | tr "/" " ")
-[2026-07-28T04:17:55.916Z] +[38;5;242mfunctions:check_path_perm_sanity:619     (B[m rebuilt_path=/opt
-[2026-07-28T04:17:55.916Z] ++[38;5;242mfunctions:check_path_perm_sanity:621     (B[m stat -c %a /opt
-[2026-07-28T04:17:55.916Z] +[38;5;242mfunctions:check_path_perm_sanity:621     (B[m [[ 755 = 700 ]]
-[2026-07-28T04:17:55.916Z] +[38;5;242mfunctions:check_path_perm_sanity:618     (B[m for i in $(echo ${real_path} | tr "/" " ")
-[2026-07-28T04:17:55.916Z] +[38;5;242mfunctions:check_path_perm_sanity:619     (B[m rebuilt_path=/opt/stack
-[2026-07-28T04:17:55.916Z] ++[38;5;242mfunctions:check_path_perm_sanity:621     (B[m stat -c %a /opt/stack
-[2026-07-28T04:17:55.916Z] +[38;5;242mfunctions:check_path_perm_sanity:621     (B[m [[ 751 = 700 ]]
-[2026-07-28T04:17:55.916Z] +[38;5;242m./stack.sh:main:523                      (B[m trap exit_trap EXIT
-[2026-07-28T04:17:55.916Z] +[38;5;242m./stack.sh:main:564                      (B[m trap err_trap ERR
-[2026-07-28T04:17:55.916Z] +[38;5;242m./stack.sh:main:577                      (B[m set -o errexit
-[2026-07-28T04:17:56.186Z] +[38;5;242m./stack.sh:main:580                      (B[m uname -a
-[2026-07-28T04:17:56.186Z] Linux ubuntu 6.8.0-134-generic #134-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun 26 18:43:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
-[2026-07-28T04:17:56.186Z] +[38;5;242m./stack.sh:main:583                      (B[m SSL_BUNDLE_FILE=/opt/stack/data/ca-bundle.pem
-[2026-07-28T04:17:56.186Z] +[38;5;242m./stack.sh:main:584                      (B[m rm -f /opt/stack/data/ca-bundle.pem
-[2026-07-28T04:17:56.186Z] +[38;5;242m./stack.sh:main:587                      (B[m source /opt/stack/devstack/lib/database
-[2026-07-28T04:17:56.453Z] +[38;5;242m./stack.sh:main:588                      (B[m source /opt/stack/devstack/lib/rpc_backend
-[2026-07-28T04:17:56.453Z] +[38;5;242m./stack.sh:main:591                      (B[m source /opt/stack/devstack/lib/host
-[2026-07-28T04:17:56.453Z] +++[38;5;242mlib/host:source:12                       (B[m trueorfalse True ENABLE_KSM
-[2026-07-28T04:17:56.717Z] ++[38;5;242mlib/host:source:12                       (B[m ENABLE_KSM=True
-[2026-07-28T04:17:56.717Z] +++[38;5;242mlib/host:source:13                       (B[m trueorfalse True ENABLE_KSMTUNED
-[2026-07-28T04:17:56.717Z] ++[38;5;242mlib/host:source:13                       (B[m ENABLE_KSMTUNED=True
-[2026-07-28T04:17:56.717Z] +++[38;5;242mlib/host:source:56                       (B[m trueorfalse False ENABLE_ZSWAP
-[2026-07-28T04:17:56.985Z] ++[38;5;242mlib/host:source:56                       (B[m ENABLE_ZSWAP=False
-[2026-07-28T04:17:56.985Z] ++[38;5;242mlib/host:source:59                       (B[m ZSWAP_COMPRESSOR=lz4
-[2026-07-28T04:17:56.985Z] ++[38;5;242mlib/host:source:60                       (B[m ZSWAP_ZPOOL=zsmalloc
-[2026-07-28T04:17:56.985Z] +++[38;5;242mlib/host:source:82                       (B[m trueorfalse False ENABLE_SYSCTL_MEM_TUNING
-[2026-07-28T04:17:56.985Z] ++[38;5;242mlib/host:source:82                       (B[m ENABLE_SYSCTL_MEM_TUNING=False
-[2026-07-28T04:17:57.257Z] +++[38;5;242mlib/host:source:104                      (B[m trueorfalse False ENABLE_SYSCTL_NET_TUNING
-[2026-07-28T04:17:57.257Z] ++[38;5;242mlib/host:source:104                      (B[m ENABLE_SYSCTL_NET_TUNING=False
-[2026-07-28T04:17:57.257Z] +[38;5;242m./stack.sh:main:594                      (B[m tune_host
-[2026-07-28T04:17:57.257Z] +[38;5;242mlib/host:tune_host:125                   (B[m configure_host_mem
-[2026-07-28T04:17:57.257Z] +[38;5;242mlib/host:configure_host_mem:99           (B[m configure_zswap
-[2026-07-28T04:17:57.257Z] +[38;5;242mlib/host:configure_zswap:69              (B[m [[ False == \T\r\u\e ]]
-[2026-07-28T04:17:57.257Z] +[38;5;242mlib/host:configure_host_mem:100          (B[m configure_ksm
-[2026-07-28T04:17:57.525Z] +[38;5;242mlib/host:configure_ksm:39                (B[m [[ True == \T\r\u\e ]]
-[2026-07-28T04:17:57.525Z] +[38;5;242mlib/host:configure_ksm:40                (B[m install_package ksmtuned
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:install_package:1438    (B[m update_package_repo
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:update_package_repo:1412 (B[m NO_UPDATE_REPOS=False
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:update_package_repo:1413 (B[m REPOS_UPDATED=False
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:update_package_repo:1414 (B[m RETRY_UPDATE=False
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:update_package_repo:1416 (B[m [[ False = \T\r\u\e ]]
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:update_package_repo:1420 (B[m is_ubuntu
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:is_ubuntu:546           (B[m [[ -z deb ]]
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:is_ubuntu:549           (B[m '[' deb = deb ']'
-[2026-07-28T04:17:57.525Z] +[38;5;242mfunctions-common:update_package_repo:1421 (B[m apt_get_update
-[2026-07-28T04:17:57.791Z] +[38;5;242mfunctions-common:apt_get_update:1166     (B[m [[ False == \T\r\u\e ]]
-[2026-07-28T04:17:57.791Z] +[38;5;242mfunctions-common:apt_get_update:1171     (B[m [[ False = \T\r\u\e ]]
-[2026-07-28T04:17:57.791Z] +[38;5;242mfunctions-common:apt_get_update:1173     (B[m local sudo=sudo
-[2026-07-28T04:17:57.791Z] ++[38;5;242mfunctions-common:apt_get_update:1174     (B[m id -u
-[2026-07-28T04:17:57.791Z] +[38;5;242mfunctions-common:apt_get_update:1174     (B[m [[ 1001 = \0 ]]
-[2026-07-28T04:17:57.791Z] +[38;5;242mfunctions-common:apt_get_update:1177     (B[m time_start apt-get-update
-[2026-07-28T04:17:57.791Z] +[38;5;242mfunctions-common:time_start:2406         (B[m local name=apt-get-update
-[2026-07-28T04:17:57.791Z] +[38;5;242mfunctions-common:time_start:2407         (B[m local start_time=
-[2026-07-28T04:17:57.792Z] +[38;5;242mfunctions-common:time_start:2408         (B[m [[ -n '' ]]
-[2026-07-28T04:17:57.792Z] ++[38;5;242mfunctions-common:time_start:2411         (B[m date +%s%3N
-[2026-07-28T04:17:57.792Z] +[38;5;242mfunctions-common:time_start:2411         (B[m _TIME_START[$name]=1785212296509
-[2026-07-28T04:17:58.064Z] +[38;5;242mfunctions-common:apt_get_update:1179     (B[m local 'proxies=http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242 '
-[2026-07-28T04:17:58.064Z] +[38;5;242mfunctions-common:apt_get_update:1180     (B[m local 'update_cmd=sudo http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242  apt-get update'
-[2026-07-28T04:17:58.064Z] +[38;5;242mfunctions-common:apt_get_update:1181     (B[m timeout 300 sh -c 'while ! sudo http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242  apt-get update; do sleep 30; done'
-[2026-07-28T04:18:00.020Z] Hit:1 https://in.archive.ubuntu.com/ubuntu noble InRelease
-[2026-07-28T04:18:00.020Z] Get:2 https://in.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-[2026-07-28T04:18:00.989Z] Get:3 https://in.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-[2026-07-28T04:18:01.567Z] Get:4 https://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,154 kB]
-[2026-07-28T04:18:04.884Z] Get:5 https://in.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [278 kB]
-[2026-07-28T04:18:05.146Z] Get:6 https://in.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [180 kB]
-[2026-07-28T04:18:05.410Z] Get:7 https://in.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1,679 kB]
-[2026-07-28T04:18:08.723Z] Get:8 https://in.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [334 kB]
-[2026-07-28T04:18:09.299Z] Get:9 https://in.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [389 kB]
-[2026-07-28T04:18:10.243Z] Get:10 https://in.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-[2026-07-28T04:18:10.243Z] Get:11 https://in.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5,760 B]
-[2026-07-28T04:18:10.243Z] Get:12 https://in.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
-[2026-07-28T04:18:14.459Z] Get:13 https://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-[2026-07-28T04:18:24.476Z] Get:14 https://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [898 kB]
-[2026-07-28T04:18:42.627Z] Get:15 https://security.ubuntu.com/ubuntu noble-security/main Translation-en [198 kB]
-[2026-07-28T04:18:42.890Z] Get:16 https://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.3 kB]
-[2026-07-28T04:18:44.814Z] Get:17 https://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1,273 kB]
-[2026-07-28T04:18:54.846Z] Get:18 https://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [290 kB]
-[2026-07-28T04:18:55.801Z] Get:19 https://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1,199 kB]
-[2026-07-28T04:19:01.123Z] Get:20 https://security.ubuntu.com/ubuntu noble-security/universe Translation-en [239 kB]
-[2026-07-28T04:19:02.520Z] Get:21 https://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.2 kB]
-[2026-07-28T04:19:03.919Z] Get:22 https://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [10.6 kB]
-[2026-07-28T04:19:13.943Z] Fetched 8,641 kB in 1min 6s (132 kB/s)
-[2026-07-28T04:19:14.205Z] Reading package lists...
-[2026-07-28T04:19:14.476Z] +[38;5;242mfunctions-common:apt_get_update:1185     (B[m REPOS_UPDATED=True
-[2026-07-28T04:19:14.476Z] +[38;5;242mfunctions-common:apt_get_update:1187     (B[m time_stop apt-get-update
-[2026-07-28T04:19:14.477Z] +[38;5;242mfunctions-common:time_stop:2420          (B[m local name
-[2026-07-28T04:19:14.477Z] +[38;5;242mfunctions-common:time_stop:2421          (B[m local end_time
-[2026-07-28T04:19:14.477Z] +[38;5;242mfunctions-common:time_stop:2422          (B[m local elapsed_time
-[2026-07-28T04:19:14.477Z] +[38;5;242mfunctions-common:time_stop:2423          (B[m local total
-[2026-07-28T04:19:14.477Z] +[38;5;242mfunctions-common:time_stop:2424          (B[m local start_time
-[2026-07-28T04:19:14.477Z] +[38;5;242mfunctions-common:time_stop:2426          (B[m name=apt-get-update
-[2026-07-28T04:19:14.477Z] +[38;5;242mfunctions-common:time_stop:2427          (B[m start_time=1785212296509
-[2026-07-28T04:19:14.477Z] +[38;5;242mfunctions-common:time_stop:2429          (B[m [[ -z 1785212296509 ]]
-[2026-07-28T04:19:14.743Z] ++[38;5;242mfunctions-common:time_stop:2432          (B[m date +%s%3N
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:time_stop:2432          (B[m end_time=1785212373247
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:time_stop:2433          (B[m elapsed_time=76738
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:time_stop:2434          (B[m total=0
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:time_stop:2436          (B[m _TIME_START[$name]=
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:time_stop:2437          (B[m _TIME_TOTAL[$name]=76738
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:install_package:1439    (B[m real_install_package ksmtuned
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:real_install_package:1426 (B[m is_ubuntu
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:is_ubuntu:546           (B[m [[ -z deb ]]
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:is_ubuntu:549           (B[m '[' deb = deb ']'
-[2026-07-28T04:19:14.743Z] +[38;5;242mfunctions-common:real_install_package:1427 (B[m apt_get install ksmtuned
-[2026-07-28T04:19:15.008Z] +[38;5;242mfunctions-common:apt_get:1207            (B[m sudo DEBIAN_FRONTEND=noninteractive http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242 apt-get --option Dpkg::Options::=--force-confold --assume-yes install ksmtuned
-[2026-07-28T04:19:15.008Z] E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 538093 (unattended-upgr)
-[2026-07-28T04:19:15.008Z] E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
-[2026-07-28T04:19:15.008Z] +[38;5;242mfunctions-common:apt_get:1211            (B[m result=100
-[2026-07-28T04:19:15.008Z] +[38;5;242mfunctions-common:apt_get:1214            (B[m time_stop apt-get
-[2026-07-28T04:19:15.008Z] +[38;5;242mfunctions-common:time_stop:2420          (B[m local name
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2421          (B[m local end_time
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2422          (B[m local elapsed_time
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2423          (B[m local total
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2424          (B[m local start_time
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2426          (B[m name=apt-get
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2427          (B[m start_time=1785212373592
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2429          (B[m [[ -z 1785212373592 ]]
-[2026-07-28T04:19:15.271Z] ++[38;5;242mfunctions-common:time_stop:2432          (B[m date +%s%3N
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2432          (B[m end_time=1785212373957
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2433          (B[m elapsed_time=365
-[2026-07-28T04:19:15.271Z] +[38;5;242mfunctions-common:time_stop:2434          (B[m total=2041
-[2026-07-28T04:19:15.535Z] +[38;5;242mfunctions-common:time_stop:2436          (B[m _TIME_START[$name]=
-[2026-07-28T04:19:15.535Z] +[38;5;242mfunctions-common:time_stop:2437          (B[m _TIME_TOTAL[$name]=2406
-[2026-07-28T04:19:15.535Z] +[38;5;242mfunctions-common:apt_get:1215            (B[m return 100
-[2026-07-28T04:19:15.535Z] +[38;5;242mfunctions-common:install_package:1440    (B[m RETRY_UPDATE=True
-[2026-07-28T04:19:15.535Z] +[38;5;242mfunctions-common:install_package:1440    (B[m update_package_repo
-[2026-07-28T04:19:15.535Z] +[38;5;242mfunctions-common:update_package_repo:1412 (B[m NO_UPDATE_REPOS=False
-[2026-07-28T04:19:15.536Z] +[38;5;242mfunctions-common:update_package_repo:1413 (B[m REPOS_UPDATED=True
-[2026-07-28T04:19:15.536Z] +[38;5;242mfunctions-common:update_package_repo:1414 (B[m RETRY_UPDATE=True
-[2026-07-28T04:19:15.536Z] +[38;5;242mfunctions-common:update_package_repo:1416 (B[m [[ False = \T\r\u\e ]]
-[2026-07-28T04:19:15.536Z] +[38;5;242mfunctions-common:update_package_repo:1420 (B[m is_ubuntu
-[2026-07-28T04:19:15.536Z] +[38;5;242mfunctions-common:is_ubuntu:546           (B[m [[ -z deb ]]
-[2026-07-28T04:19:15.803Z] +[38;5;242mfunctions-common:is_ubuntu:549           (B[m '[' deb = deb ']'
-[2026-07-28T04:19:15.803Z] +[38;5;242mfunctions-common:update_package_repo:1421 (B[m apt_get_update
-[2026-07-28T04:19:15.803Z] +[38;5;242mfunctions-common:apt_get_update:1166     (B[m [[ True == \T\r\u\e ]]
-[2026-07-28T04:19:15.803Z] +[38;5;242mfunctions-common:apt_get_update:1166     (B[m [[ True != \T\r\u\e ]]
-[2026-07-28T04:19:15.803Z] +[38;5;242mfunctions-common:apt_get_update:1171     (B[m [[ False = \T\r\u\e ]]
-[2026-07-28T04:19:15.803Z] +[38;5;242mfunctions-common:apt_get_update:1173     (B[m local sudo=sudo
-[2026-07-28T04:19:15.803Z] ++[38;5;242mfunctions-common:apt_get_update:1174     (B[m id -u
-[2026-07-28T04:19:15.803Z] +[38;5;242mfunctions-common:apt_get_update:1174     (B[m [[ 1001 = \0 ]]
-[2026-07-28T04:19:15.803Z] +[38;5;242mfunctions-common:apt_get_update:1177     (B[m time_start apt-get-update
-[2026-07-28T04:19:15.804Z] +[38;5;242mfunctions-common:time_start:2406         (B[m local name=apt-get-update
-[2026-07-28T04:19:15.804Z] +[38;5;242mfunctions-common:time_start:2407         (B[m local start_time=
-[2026-07-28T04:19:15.804Z] +[38;5;242mfunctions-common:time_start:2408         (B[m [[ -n '' ]]
-[2026-07-28T04:19:16.068Z] ++[38;5;242mfunctions-common:time_start:2411         (B[m date +%s%3N
-[2026-07-28T04:19:16.068Z] +[38;5;242mfunctions-common:time_start:2411         (B[m _TIME_START[$name]=1785212374586
-[2026-07-28T04:19:16.068Z] +[38;5;242mfunctions-common:apt_get_update:1179     (B[m local 'proxies=http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242 '
-[2026-07-28T04:19:16.069Z] +[38;5;242mfunctions-common:apt_get_update:1180     (B[m local 'update_cmd=sudo http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242  apt-get update'
-[2026-07-28T04:19:16.069Z] +[38;5;242mfunctions-common:apt_get_update:1181     (B[m timeout 300 sh -c 'while ! sudo http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242  apt-get update; do sleep 30; done'
-[2026-07-28T04:19:17.461Z] Hit:1 https://security.ubuntu.com/ubuntu noble-security InRelease
-[2026-07-28T04:19:17.725Z] Hit:2 https://in.archive.ubuntu.com/ubuntu noble InRelease
-[2026-07-28T04:19:19.123Z] Hit:3 https://in.archive.ubuntu.com/ubuntu noble-updates InRelease
-[2026-07-28T04:19:20.515Z] Hit:4 https://in.archive.ubuntu.com/ubuntu noble-backports InRelease
-[2026-07-28T04:19:23.078Z] Reading package lists...
-[2026-07-28T04:19:23.078Z] +[38;5;242mfunctions-common:apt_get_update:1185     (B[m REPOS_UPDATED=True
-[2026-07-28T04:19:23.078Z] +[38;5;242mfunctions-common:apt_get_update:1187     (B[m time_stop apt-get-update
-[2026-07-28T04:19:23.341Z] +[38;5;242mfunctions-common:time_stop:2420          (B[m local name
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2421          (B[m local end_time
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2422          (B[m local elapsed_time
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2423          (B[m local total
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2424          (B[m local start_time
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2426          (B[m name=apt-get-update
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2427          (B[m start_time=1785212374586
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2429          (B[m [[ -z 1785212374586 ]]
-[2026-07-28T04:19:23.342Z] ++[38;5;242mfunctions-common:time_stop:2432          (B[m date +%s%3N
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2432          (B[m end_time=1785212382011
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2433          (B[m elapsed_time=7425
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2434          (B[m total=76738
-[2026-07-28T04:19:23.342Z] +[38;5;242mfunctions-common:time_stop:2436          (B[m _TIME_START[$name]=
-[2026-07-28T04:19:23.606Z] +[38;5;242mfunctions-common:time_stop:2437          (B[m _TIME_TOTAL[$name]=84163
-[2026-07-28T04:19:23.606Z] +[38;5;242mfunctions-common:install_package:1440    (B[m real_install_package ksmtuned
-[2026-07-28T04:19:23.606Z] +[38;5;242mfunctions-common:real_install_package:1426 (B[m is_ubuntu
-[2026-07-28T04:19:23.606Z] +[38;5;242mfunctions-common:is_ubuntu:546           (B[m [[ -z deb ]]
-[2026-07-28T04:19:23.606Z] +[38;5;242mfunctions-common:is_ubuntu:549           (B[m '[' deb = deb ']'
-[2026-07-28T04:19:23.606Z] +[38;5;242mfunctions-common:real_install_package:1427 (B[m apt_get install ksmtuned
-[2026-07-28T04:19:23.607Z] +[38;5;242mfunctions-common:apt_get:1207            (B[m sudo DEBIAN_FRONTEND=noninteractive http_proxy=http://10.120.61.146:80 https_proxy=http://10.120.61.146:443 no_proxy=localhost,127.0.0.1,10.132.239.242,ubuntu,localhost,10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,10.201.4.33,10.201.5.78,10.201.5.81,10.201.5.82,localhost,127.0.0.1,172.28.65.17,172.28.65.18,172.28.65.209,172.28.65.210,172.28.65.215,10.201.13.140,localhost,127.0.0.1,10.132.239.242 apt-get --option Dpkg::Options::=--force-confold --assume-yes install ksmtuned
-[2026-07-28T04:19:23.870Z] E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 538093 (unattended-upgr)
-[2026-07-28T04:19:23.870Z] E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
-[2026-07-28T04:19:23.870Z] +[38;5;242mfunctions-common:apt_get:1               (B[m exit_trap
-[2026-07-28T04:19:23.870Z] +[38;5;242m./stack.sh:exit_trap:525                 (B[m local r=100
-[2026-07-28T04:19:23.870Z] ++[38;5;242m./stack.sh:exit_trap:526                 (B[m jobs -p
-[2026-07-28T04:19:23.870Z] +[38;5;242m./stack.sh:exit_trap:526                 (B[m jobs=
-[2026-07-28T04:19:23.871Z] +[38;5;242m./stack.sh:exit_trap:529                 (B[m [[ -n '' ]]
-[2026-07-28T04:19:23.871Z] +[38;5;242m./stack.sh:exit_trap:535                 (B[m '[' -f '' ']'
-[2026-07-28T04:19:23.871Z] +[38;5;242m./stack.sh:exit_trap:540                 (B[m kill_spinner
-[2026-07-28T04:19:24.134Z] +[38;5;242m./stack.sh:kill_spinner:435              (B[m '[' '!' -z '' ']'
-[2026-07-28T04:19:24.134Z] +[38;5;242m./stack.sh:exit_trap:542                 (B[m [[ 100 -ne 0 ]]
-[2026-07-28T04:19:24.135Z] +[38;5;242m./stack.sh:exit_trap:543                 (B[m echo 'Error on exit'
-[2026-07-28T04:19:24.135Z] Error on exit
-[2026-07-28T04:19:24.135Z] +[38;5;242m./stack.sh:exit_trap:545                 (B[m type -p generate-subunit
-[2026-07-28T04:19:24.135Z] +[38;5;242m./stack.sh:exit_trap:548                 (B[m [[ -z /opt/stack/logs ]]
-[2026-07-28T04:19:24.135Z] +[38;5;242m./stack.sh:exit_trap:551                 (B[m /usr/bin/python3.12 /opt/stack/devstack/tools/worlddump.py -d /opt/stack/logs
-[2026-07-28T04:19:24.401Z] ovs-vsctl: unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
-[2026-07-28T04:19:24.681Z] ovs-vsctl: unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
-[2026-07-28T04:19:25.631Z] +[38;5;242m./stack.sh:exit_trap:560                 (B[m exit 100
-[8mha:////4PVBSFg6N8teCC3lNvk2n0ppCZmo54StPkqo2BAUj7k7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BlDdbXS+AAAA[0m[Pipeline] }
-[8mha:////4HyjwaCpO3RyEkN1dXtnNEzBvZS5YTjlRhOLOhATPxxaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAYhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGWIKyJvgAAAA==[0m[Pipeline] // timeout
-[8mha:////4B3jv8jkXLoAxS7rRFGdwqHjdy1oco7LnoIQJOvw6ErhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpSIGEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw+4IK7jvgAAAA==[0m[Pipeline] }
-[8mha:////4CU70UH7BcYO6CX95jioiTQ+WlDOXuONOgT+Ii9R/Qx3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+M7k24vgAAAA==[0m[Pipeline] // stage
-[8mha:////4Cb1J6UvDNWtKLHN01bvNbSZYujy6r59LkK+xtBQq8n5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSMCCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g1cEtriwgAAAA==[0m[Pipeline] stage
-[8mha:////4NByT2+QdMeeKqk9FMMh19WVDyGmYMTxxI8B5sa3tdsVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] { (Cherry-pick Cinder Patch)
+Stage "Deploy DevStack" skipped due to earlier failure(s)
+[8mha:////4DgnRLCs5slAtYjEE4I1jCEAFuk6b8Q3sRNPFWoO5QycAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] getContext
+[8mha:////4CEW7TIuTx/31h6mKeYygz/lPUlGJypdxFh19YbJepbKAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4BMb7YxHP1JcTx9daVn2ZA83f736jF4emEfsjeCcvpxQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // stage
+[8mha:////4AfYSX48u/SQijDNHzE0r4eC5DZzd4nVpCWWC75zaOAmAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQFKUEt5wgAAAA==[0m[Pipeline] stage
+[8mha:////4P1J7KY/SNwcKkLIk7DdhTLsgWX3E6w73hb1Q3OEBmXEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Cherry-pick Cinder Patch)
 Stage "Cherry-pick Cinder Patch" skipped due to earlier failure(s)
-[8mha:////4E7tKTZcpM9sEFzFjLJYCSnDa3JCotOq6ms+et8V2FHmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] getContext
-[8mha:////4EL9kkPj8qYrZZRAwLjeguJ/2dl7YxZg/gLFQ7/+KzD+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwuM6AvgAAAA==[0m[Pipeline] }
-[8mha:////4KPHLfgATOyaB7cF42v4ufbWQo8p6wRVTi2XVwN5xONYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHa0rF2vgAAAA==[0m[Pipeline] // stage
-[8mha:////4LJgi2b4bYKomOLnSXfJrtm1OuKbeHStWNytIcMf2YJtAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUHTohJtaoCycIaQhJo//bJKWdOBFX4w4EKjHhwbItWe/5gjIGOFIw3GnsLUZl+eAnkxOfKfRXTzN3dOGKMJLXvNVzS50+rbWlpGFVwWAjYKtReYoWTYKdcPIuKy/RVOcU8nYQwGw3wgMKkclJhvQtS4D9beoi4Y/zFwDLkIDVTbam/jzLN1ApqFnCAAAA[0m[Pipeline] stage
-[8mha:////4Ko013zW/tJeu3vAfE/T0nGXHpmFUCB5cCoaWuYmoUyMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (Prepare cinder.conf)
+[8mha:////4MUA+M46WSos3NVGnyF8/pXUNjHYyFonIQ2HWzD8e8cjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] getContext
+[8mha:////4ItKjSotyMzQG1agzl4HrkU64sXbtKh1Oe7cGncd4GrLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BlK8YfC+AAAA[0m[Pipeline] }
+[8mha:////4PPKmOEfqJIPzYC+E4aEkAokPCMy1LpSxYKk6eT23zbNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFq/vIBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BQxEUGyAMsmGHBiVLjlM+PnW9KlihRdI24RWIoRosnBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSCAG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm/5wYYpwgAAAA==[0m[Pipeline] stage
+[8mha:////4Bw1MkPP/XvqTdnGiz4+Ba0o6A9nx0Sd1/tgaBEzS3MfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] { (Prepare cinder.conf)
 Stage "Prepare cinder.conf" skipped due to earlier failure(s)
-[8mha:////4KAVod6s9afsn1IDhnyI7MYM3whjuKURK0NbmTodGV82AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN1+P256+AAAA[0m[Pipeline] getContext
-[8mha:////4OfCTpE8nA5DrxbWlsHPWY6FXDs+TbiY9HtDatQFU1d+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5RlVvO+AAAA[0m[Pipeline] }
-[8mha:////4H3hk8RB9cRgW2ZcfQeDZL89W7U66kXrD2VqdNXcaVl8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiilSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BovnA6G+AAAA[0m[Pipeline] // stage
-[8mha:////4Bz11KycqnG+nw0JPp4jEKDl7kN5vtE4Bkz6cv2GNPPDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDGVBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdma/edZvQHoGa1EwgAAAA==[0m[Pipeline] stage
-[8mha:////4APG+zXEKEjySjL5qlmyr7OIuX7hlArPm6YhYs5OpvxaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (Setup Volume Types)
+[8mha:////4IOkugxNmekVYWsARSgTYaoRIwqUTDfHc5tKEblOOQH1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] getContext
+[8mha:////4OMnUhhTyWXcvmmQDfZAH2ezwbpVRwDDExMyV4QLdGt/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4Jdrv0otZ5vAQJjXbEFSSXpafygnoIfv85krA2WzyjzUAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // stage
+[8mha:////4JTlJe4IjaE1YxtJMYjsFCsjnFS5v2jybQADURf2X2NBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIHVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdma/edZvQH+WzzfwgAAAA==[0m[Pipeline] stage
+[8mha:////4Bom66UtBnbZyGu+cXig5mGhSWBkrRqT7D5IlNWzj+d3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] { (Setup Volume Types)
 Stage "Setup Volume Types" skipped due to earlier failure(s)
-[8mha:////4EzhbxItsCHHwsNbf8PZBisA+dxgJ1gm8dM2wA04OLBfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] getContext
-[8mha:////4KQrOMC6EylWMlP56W1jnbX41ldvOpbLv0Z6YhQw165yAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8WCoj++AAAA[0m[Pipeline] }
-[8mha:////4J0PJMDMRiENSbzTXNYHQrnAtPe5GXzBbumcSiLCzq00AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQxpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPwb5Ql6+AAAA[0m[Pipeline] // stage
-[8mha:////4IeeokzNs8YegdCzUWw91j5bc45tV+OWX8il+2X/ySxpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHWBBTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsdtn2zedZvQHNM0BowgAAAA==[0m[Pipeline] stage
-[8mha:////4BUfhgmGR9bc7KW/n75pVbmUg5LEXw/3c/KHS+jpi8u5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] { (Wait for Cinder Services)
+[8mha:////4BwebQxfQNyFQwznSkyJv1bTfB0qXPyH5tc+q8dbiFlpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBiwS7Xe+AAAA[0m[Pipeline] getContext
+[8mha:////4AY/6ZaFqPQ6DWNP5qfYzQEqn6rivGEUcaG4VQkf2RlXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoFSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BqeGDU++AAAA[0m[Pipeline] }
+[8mha:////4KZY/ZYVO4B57sTK/5OabuxzyVIpTVij8DMwU6IchLgDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGfxJ6+vgAAAA==[0m[Pipeline] // stage
+[8mha:////4OgT7slfCJLvPqJED41CmS1rjoZUCbaCZjSgwyV5FETYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDBUDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsnW7D/P6g1NyvGPwgAAAA==[0m[Pipeline] stage
+[8mha:////4IJMZYJ7LP4kzbpYp7G/wQN1pSIl3eKPA6gA5rg1IOJdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (Wait for Cinder Services)
 Stage "Wait for Cinder Services" skipped due to earlier failure(s)
-[8mha:////4AyqU+WKb7Ic7a1A7ZrQdwUMbCIup2rctozZoMm2TXhbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHlNhISvgAAAA==[0m[Pipeline] getContext
-[8mha:////4FhsfigNHHxZ1NHK5DQLDt+TjmZc87W+KDzPZfIW32wqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHKLJPpvgAAAA==[0m[Pipeline] }
-[8mha:////4ItHiJuksmt1ddfCcePL8h68T2R8w0wIDR5QO2MuRVUIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN9Wuxru+AAAA[0m[Pipeline] // stage
-[8mha:////4PFUV7BwMCSLoGOR2m1OWj+JBahPtn2eFQvDEsbDIK/KAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDHRBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQF1A0V1wgAAAA==[0m[Pipeline] stage
-[8mha:////4L3jq2rFKU12jqw0zKLWl9SrVopGhgz91zQT+yNFn1EAAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] { (Run Smoke Tests)
+[8mha:////4JYBVql8ZAmwzys1Qzu3zC7puxhf9EJ8fUVV+84VzrPPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] getContext
+[8mha:////4HOlesA/qggV/MKCGw3dpXvV03x/nwuo6znuEoq1B+o2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8B1Pq5vgAAAA==[0m[Pipeline] }
+[8mha:////4ENkigZbSfpd3xn9JojERcOKTZKzGRBaGbe6FBOCotl4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw81GhnivgAAAA==[0m[Pipeline] // stage
+[8mha:////4GOj5vVMjqFo8ci3rl+FcUgINB7P3UW7WKPKs+ZJY9KJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXbbz/P6g1jQdTuwgAAAA==[0m[Pipeline] stage
+[8mha:////4Ar0WuebtWHH8Qw+XWw4saaFrupsdMBjligdD8tx3kCZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] { (Run Smoke Tests)
 Stage "Run Smoke Tests" skipped due to earlier failure(s)
-[8mha:////4OO02sRhbWt1zIp8cbIvRpSktE5tbppzhfcCnUwDWjHUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBonA3qO+AAAA[0m[Pipeline] getContext
-[8mha:////4I9aTH6QHL9xqp+NBv5f1d6KJB3IPMjzZF/7Qu7fDpSkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BpvLZyW+AAAA[0m[Pipeline] }
-[8mha:////4DiABtcejYpUe8FTlLPS7MtxXYP3nAMFW7eWwnE8UZ/LAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhCgWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP3GhGNO+AAAA[0m[Pipeline] // stage
-[8mha:////4Npz0T+TQJSel+5JAPuzHBN5adl/fSAWJiRHbhXg36S6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHRADYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8u2bz7P6g15ODfOwgAAAA==[0m[Pipeline] stage
-[8mha:////4PlsSdNR0S0YOW2TpPcTK1u5rWfE8x1Ac2/f8xh+nE8qAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] { (Run Tempest Tests)
+[8mha:////4DeqEXzQHMAdShfUk+fcpdmmRBSpIr/BiB4Q0TpVwZ5VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5arJPu+AAAA[0m[Pipeline] getContext
+[8mha:////4Gnd05lvLosHPy4OQNx5iI78KhrMo0f3sXFOaBR4kMSnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/nPyFW+AAAA[0m[Pipeline] }
+[8mha:////4H9WNqP0j2KUt+KILAOW9x51tzv6ZW80MC5vEKjH3DSLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUaRBVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N8GNW6S+AAAA[0m[Pipeline] // stage
+[8mha:////4AnADUpWtHm9sTr3lepQrZFlb6Gtd7U/bZ//kECr9HHAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7T/P6g3Q0Bm+wgAAAA==[0m[Pipeline] stage
+[8mha:////4ASLWm1as49qxDyPAVKgA8a6TKNtGvcW9Ut/yruwTc5zAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] { (Run Tempest Tests)
 Stage "Run Tempest Tests" skipped due to earlier failure(s)
-[8mha:////4J7KGWwZpyCMxLCu0fzW1Wx4XNtddJIJfZQbohFVD37pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFMXHrfvgAAAA==[0m[Pipeline] getContext
-[8mha:////4G+EhRe0Sl3lkU4iCSzI/1PTpmuRUx4OGx9oJ3pAeTGGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0/Fv9WvgAAAA==[0m[Pipeline] }
-[8mha:////4Ew5juffdiyu2gOeGHf6kJ0vendYrjopyRpYVL1Ee+A3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEglKoEvgAAAA==[0m[Pipeline] // stage
-[8mha:////4ArevHzqBltbKwiuF5/PDUrHYGUNmKMqIg0Jeu705yceAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rm2uw8RhQnTvgAAAA==[0m[Pipeline] }
-[8mha:////4OVZvTJ23aSLRAi67FbjiAtYkbgWPj02dU3zLOjRzmRNAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKQUiCqtlYYXmNgYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHg72mwVLsLHo3mrxw4jBcHU/Y8wU7pshOY6unlpVuFmw5aVhSlLASsNHUOY6WTIKt6OVDVk6Sqc4p5O8ooLTqDk8oRDYnGdIX5gC726gi08/zVwCz9wnKus61P3wAImZSb74AAAA=[0m[Pipeline] // timeout
-[8mha:////4A8xVPFlzm3OhSoVGwE7fCQhXQ6TZn7anQAsEKIWucpmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRAESSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i13X0AVEFgAL4AAAA=[0m[Pipeline] }
-[8mha:////4H7yZ9kl2UIdFFx1zyMLaXA8OL+srKlRKbwcee9WU533AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7m2uw9noju8vgAAAA==[0m[Pipeline] // stage
-[8mha:////4F9CsMiQM8OL7dqvveLoJlMfqnviYEgu7LxoXwFzxr9iAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUbkiIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpRNk22/+zyrN7fo+kPCAAAA[0m[Pipeline] stage
-[8mha:////4B4WhYR8KARCsWoCA+rsy4l7i5wUJziNiOljfyaLh2YuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUNiTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAUPegdTCAAAA[0m[Pipeline] { (Declarative: Post Actions)
-[8mha:////4OfcVYY2TRu6Xw2b/CAGMdhOS6oy0yeLWw+x+HW2oBPwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMCEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDy1zm5PCAAAA[0m[Pipeline] timeout
-[2026-07-28T04:19:27.014Z] Timeout set to expire in 30 min
-[8mha:////4Kdwv2OP/RH81GPBba+veaQLAPPpYajjpO/YX7hE0EsYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] {
-[8mha:////4LV8gK+70+o8EBoWHNQIWL/3mRrmL2IcYxv7HEw/YW+BAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGulDDkvgAAAA==[0m[Pipeline] sh
-[2026-07-28T04:19:27.358Z] + set -ex
-[2026-07-28T04:19:27.358Z] + ARTDIR=/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs
-[2026-07-28T04:19:27.358Z] + mkdir -p /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc
-[2026-07-28T04:19:27.358Z] + echo Build start time recorded is : 2026-07-28 04:16:12
-[2026-07-28T04:19:27.358Z] Build start time recorded is : 2026-07-28 04:16:12
-[2026-07-28T04:19:27.358Z] + sudo journalctl -u devstack@c-api.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:33.993Z] + sudo journalctl -u devstack@c-sch.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:35.915Z] + sudo journalctl -u devstack@c-vol.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:38.474Z] + sudo journalctl -u devstack@dstat.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:42.705Z] + sudo journalctl -u devstack@g-api.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:44.623Z] + sudo journalctl -u devstack@g-reg.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:46.014Z] + sudo journalctl -u devstack@keystone.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:49.380Z] + sudo journalctl -u devstack@q-agt.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:49.954Z] + sudo journalctl -u devstack@q-dhcp.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:50.903Z] + sudo journalctl -u devstack@q-l3.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:52.295Z] + sudo journalctl -u devstack@q-meta.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:53.242Z] + sudo journalctl -u devstack@q-svc.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:54.192Z] + sudo journalctl -u devstack@etcd.service --since 2026-07-28 04:16:12
-[2026-07-28T04:19:56.119Z] + sudo cp -r /etc/cinder /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
-[2026-07-28T04:19:56.119Z] cp: cannot stat '/etc/cinder': No such file or directory
-[2026-07-28T04:19:56.119Z] + true
-[2026-07-28T04:19:56.119Z] + sudo cp -r /etc/glance /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
-[2026-07-28T04:19:56.119Z] cp: cannot stat '/etc/glance': No such file or directory
-[2026-07-28T04:19:56.119Z] + true
-[2026-07-28T04:19:56.119Z] + sudo cp -r /etc/keystone /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
-[2026-07-28T04:19:56.120Z] cp: cannot stat '/etc/keystone': No such file or directory
-[2026-07-28T04:19:56.120Z] + true
-[2026-07-28T04:19:56.120Z] + sudo cp -r /etc/neutron /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
-[2026-07-28T04:19:56.120Z] cp: cannot stat '/etc/neutron': No such file or directory
-[2026-07-28T04:19:56.120Z] + true
-[2026-07-28T04:19:56.120Z] + sudo cp /opt/stack/tempest/etc/tempest.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest.conf
-[2026-07-28T04:19:56.120Z] cp: cannot stat '/opt/stack/tempest/etc/tempest.conf': No such file or directory
-[2026-07-28T04:19:56.120Z] + true
-[2026-07-28T04:19:56.120Z] + sudo cp /opt/stack/logs/tempest_results.log /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest_log.log
-[2026-07-28T04:19:56.120Z] cp: cannot stat '/opt/stack/logs/tempest_results.log': No such file or directory
-[2026-07-28T04:19:56.120Z] + true
-[2026-07-28T04:19:56.120Z] + [ -d /opt/stack/logs ]
-[2026-07-28T04:19:56.120Z] + sudo cp -r /opt/stack/logs /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs
-[2026-07-28T04:19:56.120Z] + sudo cp /opt/stack/devstack/local.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs/
-[2026-07-28T04:19:56.120Z] + sudo find /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs -type f -exec sed -i -e s/****/******/g -e s/hpinvent/******/g -e s/admin/******/g {} +
-[2026-07-28T04:19:56.120Z] + id -u
-[2026-07-28T04:19:56.120Z] + id -g
-[2026-07-28T04:19:56.120Z] + sudo chown -R 0:0 /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts
-[8mha:////4LkRBfG8VNJFP3cF1zYE1ekv4fkjNauc52gWkWHzLc5xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0qmXSbvgAAAA==[0m[Pipeline] }
-[8mha:////4Jf/2DowDfFrNbLAwZ2EU6Fr2MqTD/9jJnbRUOnU8WJHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0S2+dqvgAAAA==[0m[Pipeline] // timeout
-[8mha:////4HBYGLA8bUrV5kLsqMFZ+qC80h/R/qUmQr72R1X34WQiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN0TWgli+AAAA[0m[Pipeline] archiveArtifacts
-[2026-07-28T04:19:56.243Z] Archiving artifacts
-[8mha:////4OiPUUIm8MTvOFt0RwOgQhPGTJuXxeaJmvnJ23BcXlcgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUbJUQE2vUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hjIGOFEw3GnsLMbW8t6PZk48U+hunjJ3dOUtYSSveaNzQ0qf19pQ0rCqYLARsNXYeooWTYKdcPIhKy/RVJcU5u0ogFk1wBMKMZOTDOlbpgD7+6gi4Y/zFwBTn4DVh8Xq5Vl+AEtQADLCAAAA[0m[Pipeline] script
+[8mha:////4JUrAsty6Dm3w5NC3eQFNytOzoo0To59dFh0z8eo4FxLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] getContext
+[8mha:////4HTCRH4+a69LeeYbxV+y+WC+gQBNLe56gQJudFGPs0lvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF2jKA0vgAAAA==[0m[Pipeline] }
+[8mha:////4EW1OHmziX/usSJiOUd9xIOeV6alHqZC6G0vuwmOI/zpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFCQkNvvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CVXeijStg3yxR/n20Qp235dcBueinwzYZdx/e/B2EsmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8AB8eYSL4AAAA=[0m[Pipeline] }
+[8mha:////4DjgPPrIT66CAWMp1x2UvOAKJngPvURObTIxfB08UYy3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8ANCTD9L4AAAA=[0m[Pipeline] // timeout
+[8mha:////4JUJRjXsUF+uvuL1iQCOFy3D4HLeL8qjddZNOpkvoD04AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+13X0AL4Gid74AAAA=[0m[Pipeline] }
+[8mha:////4Dn/I8uS5sUvN6eocbxLJ1q1zIG5hxq+jaTckanI1bwqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+13X0AHGL5y74AAAA=[0m[Pipeline] // stage
+[8mha:////4OGYMnVtHFs2tGTmz8NXUBRr4S8XU3vSKGNYHxDabe3WAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUXWBATF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmz73edZvQFDe+tjwgAAAA==[0m[Pipeline] stage
+[8mha:////4Oy/lzxsB0RQ+U1qyKElxFawfm7CjswMZir/P9GAuGUHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4H/ToEZAsB268pNV5PeCoEHyh+QNzH/KT1680fMeRhQDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] timeout
+[2026-08-12T09:39:14.688Z] Timeout set to expire in 30 min
+[8mha:////4Np5p9AJPI89MU+wfB5hgdJADtiwmhsIr7UBSzqYKNoOAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+81LNBsIAAAA=[0m[Pipeline] {
+[8mha:////4LJdgXCMSftLAHfOXsa0d8AMx11wqwyXsXA1WLJXFVqIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPkgcDP2+AAAA[0m[Pipeline] sh
+[2026-08-12T09:39:15.039Z] + set -ex
+[2026-08-12T09:39:15.040Z] + ARTDIR=/home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs
+[2026-08-12T09:39:15.040Z] + mkdir -p /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc
+[2026-08-12T09:39:15.040Z] + echo Build start time recorded is : 2026-08-12 09:39:29
+[2026-08-12T09:39:15.040Z] Build start time recorded is : 2026-08-12 09:39:29
+[2026-08-12T09:39:15.040Z] + sudo journalctl -u devstack@c-api.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.040Z] + sudo journalctl -u devstack@c-sch.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.040Z] + sudo journalctl -u devstack@c-vol.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.313Z] + sudo journalctl -u devstack@dstat.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.313Z] + sudo journalctl -u devstack@g-api.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.579Z] + sudo journalctl -u devstack@g-reg.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.580Z] + sudo journalctl -u devstack@keystone.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.844Z] + sudo journalctl -u devstack@q-agt.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.844Z] + sudo journalctl -u devstack@q-dhcp.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:15.844Z] + sudo journalctl -u devstack@q-l3.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:16.111Z] + sudo journalctl -u devstack@q-meta.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:16.111Z] + sudo journalctl -u devstack@q-svc.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:16.111Z] + sudo journalctl -u devstack@etcd.service --since 2026-08-12 09:39:29
+[2026-08-12T09:39:16.378Z] + sudo cp -r /etc/cinder /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-08-12T09:39:16.379Z] + sudo cp -r /etc/glance /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-08-12T09:39:16.379Z] + sudo cp -r /etc/keystone /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-08-12T09:39:16.379Z] + sudo cp -r /etc/neutron /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/
+[2026-08-12T09:39:16.379Z] + sudo cp /opt/stack/tempest/etc/tempest.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest.conf
+[2026-08-12T09:39:16.379Z] + sudo cp /opt/stack/logs/tempest_results.log /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/etc/tempest_log.log
+[2026-08-12T09:39:16.650Z] cp: cannot stat '/opt/stack/logs/tempest_results.log': No such file or directory
+[2026-08-12T09:39:16.650Z] + true
+[2026-08-12T09:39:16.650Z] + [ -d /opt/stack/logs ]
+[2026-08-12T09:39:16.650Z] + sudo cp -r /opt/stack/logs /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs
+[2026-08-12T09:39:16.914Z] + sudo cp /opt/stack/devstack/local.conf /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs/devstack_logs/
+[2026-08-12T09:39:16.914Z] + sudo find /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts/logs -type f -exec sed -i -e s/****/******/g -e s/hpinvent/******/g -e s/admin/******/g {} +
+[2026-08-12T09:39:18.845Z] + id -u
+[2026-08-12T09:39:18.845Z] + id -g
+[2026-08-12T09:39:18.845Z] + sudo chown -R 0:0 /home/ci_user/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI/artifacts
+[8mha:////4NoEpvMEJju6iVSuh0lDRJj6/e6j4vMvHu4R0cZKgS3NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHtLqhnvgAAAA==[0m[Pipeline] }
+[8mha:////4FCCZAGYbSkpij8xkOTJPDkKuZeolTeao7eX6KcxGpcbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0RAJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g/VbDuWvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4CyXN7RHmk3M/g4q5hzH1i9e+6m04D3P+gNviK1f6MP5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpKIKEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2Ccq6znXY+w/WNB6GvgAAAA==[0m[Pipeline] archiveArtifacts
+[2026-08-12T09:39:18.964Z] Archiving artifacts
+[8mha:////4Dnz+FUZUrpEsH1hG96KmxxbkY5DDpCVgetGz+VFoCNTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QSoSYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwRl02Tb7z7P6g0CxePfwgAAAA==[0m[Pipeline] script
+[8mha:////4KUgaAU5pj9oTQTx2CXZxCtJpmNOvxhahPDYZzidAiZGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] {
+[8mha:////4IJzQZGln/Ks61OS/nKpldy4U0uspqCpNYn1iZWR9SsrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7lC07jCAAAA[0m[Pipeline] node
+[2026-08-12T09:39:26.449Z] Running on [8mha:////4KgI8C9NtTFTiWJMi4Ya/M/IeZNpbjj2a3+sgFQdvHWSAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI
+[8mha:////4BwbCnBNWL7Wb86WDfkhMpJmQEgr4TsFKPdnol7tTI6TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] {
+[8mha:////4DMLtEShJKJ4tGLtpDxcBNBLhjQpMVUgeniXbHYCTEjNAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pBJiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPCJq12sIAAAA=[0m[Pipeline] timeout
+[2026-08-12T09:39:26.530Z] Timeout set to expire in 15 min
 [8mha:////4HLcMCV14JjH9rWOuygwteW6u6VWKcYLvDws1O3CBofpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LUJMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBa70RgsIAAAA=[0m[Pipeline] {
-[8mha:////4Kz5KBMXjrmVoTZdnruWTNR+KwMyQGrtmIgIZ+5ORfTeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUkQoxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLfZGt2n2f1Btc458LCAAAA[0m[Pipeline] node
-[2026-07-28T04:19:56.364Z] Running on [8mha:////4KgI8C9NtTFTiWJMi4Ya/M/IeZNpbjj2a3+sgFQdvHWSAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Nimble_CI/Openstack_Nimble_ISCSI_CI
-[8mha:////4M94wimIwXPn52AL0hKV05sQlXFQlMiNGRCxzyD/bfN6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] {
-[8mha:////4JbBhOKlqKOVmzKJ6TNo7Bl5uFtfdk2ZbKK7eiDdABP/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] timeout
-[2026-07-28T04:19:56.440Z] Timeout set to expire in 15 min
+[8mha:////4OGqAtapyYe3C6/6Rw+vgrT61O5dHwzY4isC+kjRPHt/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCSYSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMPsE5aHOVe/9B9Nk7iW+AAAA[0m[Pipeline] sh
+[2026-08-12T09:39:26.845Z] + set -e
+[2026-08-12T09:39:26.845Z] + CHANGE=988315
+[2026-08-12T09:39:26.845Z] + PATCHSET=12
+[2026-08-12T09:39:26.845Z] + INCOMING_DIR=/var/lib/jenkins/ci-logs/incoming_logs
+[2026-08-12T09:39:26.845Z] + TAR_NAME=988315_12_nimble.tar
+[2026-08-12T09:39:26.845Z] + ARTDIR=/var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs
+[2026-08-12T09:39:26.845Z] + TMPCTL=/tmp/ci-publish-nimble-292
+[2026-08-12T09:39:26.846Z] + mkdir -p /tmp/ci-publish-nimble-292/tmp/controller/logs
+[2026-08-12T09:39:26.847Z] + cp -r /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/c-api.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/c-sch.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/c-vol.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/devstack_logs /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/dstat.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/etc /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/etcd.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/g-api.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/g-reg.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/keystone.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/q-agt.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/q-dhcp.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/q-l3.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/q-meta.service /var/lib/jenkins/jobs/Nimble_CI/jobs/Openstack_Nimble_ISCSI_CI/builds/292/archive/artifacts/logs/q-svc.service /tmp/ci-publish-nimble-292/tmp/controller/logs/
